@@ -1,0 +1,11 @@
+/* Classe = "UILabel"; text = "Solde quotidien"; ObjectID = "EKc-FY-5bl"; */
+"EKc-FY-5bl.text" = "Solde quotidien";
+
+/* Classe = "UILabel"; text = "Transactions quotidiennes"; ObjectID = "IDI-Z7-Qit"; */
+"IDI-Z7-Qit.text" = "Transactions quotidiennes";
+
+/* Classe = "UILabel"; text = "Aujourd'hui"; ObjectID = "ZSg-CY-q7h"; */
+"ZSg-CY-q7h.text" = "Aujourd'hui";
+
+/* Classe = "UILabel"; text = "Valeurs cumulées"; ObjectID = "pu1-75-Tdt"; */
+"pu1-75-Tdt.text" = "Valeurs cumulées";

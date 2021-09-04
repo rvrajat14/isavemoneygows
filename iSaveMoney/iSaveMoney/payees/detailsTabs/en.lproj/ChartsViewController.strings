@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Daily Transactions"; ObjectID = "15Q-Ae-hbr"; */
+"15Q-Ae-hbr.text" = "Daily Transactions";
+
+/* Class = "UILabel"; text = "Daily Balance"; ObjectID = "MvG-cW-hdL"; */
+"MvG-cW-hdL.text" = "Daily Balance";
+
+/* Class = "UILabel"; text = "Transaction Value"; ObjectID = "bfX-ID-d59"; */
+"bfX-ID-d59.text" = "Transaction Value";
+
+/* Class = "UILabel"; text = "Balance Value"; ObjectID = "u2W-97-gDf"; */
+"u2W-97-gDf.text" = "Balance Value";

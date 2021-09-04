@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "HM4-cu-QpM"; */
+"HM4-cu-QpM.text" = "Title";
+
+/* Class = "UILabel"; text = "Budget Spend"; ObjectID = "JcZ-vA-Fxq"; */
+"JcZ-vA-Fxq.text" = "Budget Spend";
+
+/* Class = "UILabel"; text = "1,000.50"; ObjectID = "T26-oq-xk0"; */
+"T26-oq-xk0.text" = "1,000.50";
+
+/* Class = "UILabel"; text = "Actual Spend"; ObjectID = "Tso-lh-OGA"; */
+"Tso-lh-OGA.text" = "Actual Spend";
+
+/* Class = "UILabel"; text = "Remaining"; ObjectID = "X4K-mu-bFG"; */
+"X4K-mu-bFG.text" = "Remaining";
+
+/* Class = "UILabel"; text = "190.55"; ObjectID = "gbx-bA-ezs"; */
+"gbx-bA-ezs.text" = "190.55";
+
+/* Class = "UILabel"; text = "120.00"; ObjectID = "vOx-vg-FSj"; */
+"vOx-vg-FSj.text" = "120.00";

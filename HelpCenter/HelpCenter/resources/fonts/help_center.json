@@ -1,0 +1,334 @@
+[
+  {
+    "sectionId": "10101",
+    "title": "101 budget with Simp app",
+    "subsections": [
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "The first step to creating a budget is deciding what date range you want it to cover. If you don't know that is fine you can still create one to start with for example create for you current month then make an update as you progress.For instance, you may get paid on the 10th of the month and want it to run over this period.Or you may want it to run the begining of the month to the end."
+          },
+          {
+            "type": "list-number",
+            "display-value": [
+              "Choose the budget's range by setting a start and end date, then tap 'NEXT'",
+              "Add your income and expense categories, tapping on them to add amounts. If you need to add more categories, tap the '+' add button infront of the 'Income' or 'Expense' category. You may not yet know what category or income you want to add to you budget and that is total fine just move move to the next step since you can add you incomee and categories as you progress with your budget",
+              "Press on the blue 'DONE' button located at the bottom-right coner to save you budget",
+              "You will be taken to your newly created budget dashboard where you can start add/edit incomes, category, expenses"
+            ]
+          },
+          {
+            "type": "flat-text",
+            "display-value": "Once you hit done, you'll be taken to the budget's overview screen."
+          },
+          {
+            "type": "video-youtub",
+            "display-value": "Take a look at this youtube video for guidance.",
+            "open-link": "https://www.youtube.com/watch?v=rzgYVQ7S5jo&t=16s"
+          }
+        ],
+        "subtitle": "Creating your first budget"
+      },
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "The fastest and easier way to create your next budget is by cloning your current budget to create you next budget."
+          },
+          {
+            "type": "flat-text",
+            "display-value": "While cloning budget, you can choose to rollover remaining from categories to your next budget. That will be usefull in the case you would likeyour budget to track cumulative saving over the time."
+          },
+          {
+            "type": "title-level2",
+            "display-value": "This are step for cloning a budget"
+          },
+          {
+            "type": "list-number",
+            "display-value": [
+              "From the dashboard press on the 'I want to...' button located in the bottom menu at the far right",
+              "In the action-sheet, Press on 'Clone to create next budget'",
+              "Select a begin and end date",
+              "(Optional) The checkbox 'Include income' will include you next the next budget",
+              "(Optional) The checkbox 'Include expenses transactions' will copy all the expenses transaction from you current budget to the next budget",
+              "(Optional) The checkbox 'Rollover remaining for categories' will add the remaining from previous month budgeted categies to you next month budgeted category",
+              "(Optional) The checkbox  'Rollover Saving/deficit' will take you saving from previous category and create an income entry in your next budget",
+              "By default all your categories are include, you can select and edit categories by Pressing the blue link link with s pencil at the bottom",
+              "Press on 'SAVE' at the top-right to create you budget"
+            ]
+          },
+          {
+            "type": "flat-text",
+            "display-value": "You can reach out to us it you have more question."
+          }
+        ],
+        "subtitle": "Clone to create your next budget"
+      },
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "To add expenses you can either press on the plus '+' icon next to the category title or use the '+ expense' button located in the bottom menu bar."
+          },
+          {
+            "type": "flat-text",
+            "display-value": "When adding an expense, you'll need to enter in the key information of the transaction.The app's built-in calculator lets you add, subtract, multiply or divide as needed."
+          },
+          {
+            "type": "list-bullet",
+            "display-value": [
+              "Press on the category input to seclect a category",
+              "Enter a description. Optional and not entering it will save with the category name.",
+              "Enter an amount spent. Optional the default save value will be zero",
+              "Don't forget to hit 'Save' in the top-right"
+            ]
+          },
+          { "type": "title-level2", "display-value": "Recuring transaction" },
+          {
+            "type": "flat-text",
+            "display-value": "If your tranaction is a recurring transaction that is periodic by day(s), week(s), or month(s),You can check \"This transaction is recurring\" checkbox to make it recurring. Note that your recurringtransactions will not appear in your budget before the next due date of the recurring transaction."
+          }
+        ],
+        "subtitle": "Add expense"
+      },
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "To record an income using the '+ Income' button located in the menu bar at the bottom of the dashboard screen."
+          },
+          {
+            "type": "flat-text",
+            "display-value": "Below are steps on how to add income:"
+          },
+          {
+            "type": "list-number",
+            "display-value": [
+              "Enter a description for your income. Example: Salary, Wage, Sale...",
+              "Inter the Amount whitch is the amount you received",
+              "Date (Preset): by default the current date and time of your device is set.",
+              "Payer (Optional): a person or organization that gives someone money that is due for work done, goods received, or a debt incurred.",
+              "Account (Optional): This can be to account where you payment have been deposit"
+            ]
+          },
+          { "type": "title-level2", "display-value": "Recuring transaction" },
+          {
+            "type": "flat-text",
+            "display-value": "If your tranaction is a recurring transaction that is periodic by day(s), week(s), or month(s),You can check \"This transaction is recurring\" checkbox to make it recurring. Note that your recurringtransactions will not appear in your budget before the next due date on the recurring transaction."
+          }
+        ],
+        "subtitle": "Add income"
+      }
+    ]
+  },
+  {
+    "sectionId": "10103",
+    "title": "FAQ - Budget",
+    "subsections": [
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "It is not possible to add transactions out of a budget date ranges."
+          },
+          {
+            "type": "title-level2",
+            "display-value": "you have three options to create your next budget:"
+          },
+          {
+            "type": "list-bullet",
+            "display-value": [
+              "You can clone your existing budget, access the clone option from the 'I want to...' button located at the bottom right.",
+              "You can expend your current budget date range, access the configure budget option from the 'I want to...' button located at the bottom right.",
+              "You can create a new budget from scratch for the next month, the \"Create budget\" button is located on the left menu"
+            ]
+          }
+        ],
+        "subtitle": "I'm not able to add next month transaction in my budget"
+      },
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "If you have transferred $10 from another category, that cannot be taken into consideration for the clone.The clone feature only take into consolidation the amount used to create your category or the updated value, which is the normal behavior.We can have multiples scenarios depending on the user case and it is not possible to handle all of them.This became really complicate and we had found this common point to implement for the majority of our users."
+          },
+          {
+            "type": "flat-text",
+            "display-value": "It became complicated when you start updating the values of the budgeted amount since we keep only one level memory."
+          },
+          {
+            "type": "title-level2",
+            "display-value": "Considere this senario:"
+          },
+          {
+            "type": "list-bullet",
+            "display-value": [
+              "If you create a budgeted category with $200 for January and have a remaining of $10",
+              "Rolling over for February will be $210 for total budgeted. If remain $40, then rolling over for March will have $240 for total budgeted",
+              "Let said in February you had updated the budgeted amount from $210 to $250 with a remaining of $40",
+              "Rolling over to March will have $290 because the memory has be temper with you update.",
+              "If you have made a transfer from another category, it will not affect the memory"
+            ]
+          }
+        ],
+        "subtitle": "Why rolling over remaining from category doesn't display the correct amount in my next month budget."
+      },
+      {
+        "content": [
+          {
+            "type": "title-level2",
+            "display-value": "Steps to add a category to your budget"
+          },
+          {
+            "type": "list-number",
+            "display-value": [
+              "From the dashboard screen, press on \"Add category\" button located in the bottom navigation menu to open the category form",
+              "Enter a name/description for your budget, you can enter up to 100 characters but the display will truncate to 50 characters on the dashboard display",
+              "Enter your budget limit for the category."
+            ]
+          },
+          {
+            "type": "flat-text",
+            "display-value": "The \"budgeted amount\" input is optional and leaving it to blank or zero will adjust your total budgeted will be ajusted dynamically based on the amount spent for the category"
+          }
+        ],
+        "subtitle": "How to add a category to a budget?"
+      },
+      {
+        "content": [
+          { "type": "title-level2", "display-value": "How to add an expense?" },
+          {
+            "type": "flat-text",
+            "display-value": "Use the \"Add expense\" button located at the bottom of the dashboard orUse the \"+\" icon located next to the category title."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sectionId": "10102",
+    "title": "How to use labels",
+    "subsections": [
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "You can use label to group your icomes and expenses. Labels can be used as categories for income and sub-categories for expenses."
+          },
+          {
+            "type": "title-level2",
+            "display-value": "Steps to create labels:"
+          },
+          {
+            "type": "list-number",
+            "display-value": [
+              "From the navigation drawer(left menu) open the menu \"Labels\" located in the Help & Tools section",
+              "Press on the '+' button located at the bottom-right to add a new label",
+              "Give a name to you label",
+              "You can choose a color for your label",
+              "Then press on 'SAVE' button"
+            ]
+          },
+          { "type": "title-level2", "display-value": "Steps to edit labels:" },
+          {
+            "type": "list-number",
+            "display-value": [
+              "From the navigation drawer(left menu) open the menu \"Labels\" located in the Help & Tools section",
+              "Press the label tile to open in edit mode",
+              "Update you label details.",
+              "Then press on 'SAVE' button"
+            ]
+          },
+          {
+            "type": "title-level2",
+            "display-value": "Steps to delete labels:"
+          },
+          {
+            "type": "list-number",
+            "display-value": [
+              "From the navigation drawer(left menu) open the menu \"Labels\" located in the Help & Tools section",
+              "Swipe left on the label you want to delete.",
+              "Press on 'DELETE'"
+            ]
+          },
+          {
+            "type": "video-youtub",
+            "display-value": "This is a short video on how to use labels.",
+            "open-link": "https://www.youtube.com/watch?v=Ubn7w4wI9vk"
+          }
+        ],
+        "subtitle": "Create, Edit and update labels"
+      },
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "On the dashboad, label can only be app to income, you cannot add label to a category."
+          },
+          {
+            "type": "title-level2",
+            "display-value": "Steps to add label to income:"
+          },
+          {
+            "type": "list-number",
+            "display-value": [
+              "Press on the label icon located at the right of the income title",
+              "From the dialog box, select the label to add the label"
+            ]
+          },
+          {
+            "type": "video-youtub",
+            "display-value": "This is a short video on how to use labels.",
+            "open-link": "https://www.youtube.com/watch?v=Ubn7w4wI9vk"
+          }
+        ],
+        "subtitle": "Add labels to your income"
+      },
+      {
+        "content": [
+          {
+            "type": "flat-text",
+            "display-value": "On the dashboad, label can only be app to income, you cannot add label to a category."
+          },
+          {
+            "type": "title-level2",
+            "display-value": "Steps to add label to expense:"
+          },
+          {
+            "type": "list-number",
+            "display-value": [
+              "From the dashboard, Press on the category title to voir expenses",
+              "Press on the label icon located at the right of the expense title",
+              "From the dialog box, select the label to add the label"
+            ]
+          },
+          {
+            "type": "video-youtub",
+            "display-value": "This is a short video on how to use labels.",
+            "open-link": "https://www.youtube.com/watch?v=Ubn7w4wI9vk"
+          }
+        ],
+        "subtitle": "Add labels to your expense"
+      },
+      {
+        "content": [
+          { "type": "title-level2", "display-value": "Steps to remove label:" },
+          {
+            "type": "list-number",
+            "display-value": [
+              "Press on the remove label icon located at the right of the income/expense title",
+              "From the dialog box, press on 'Remove from label' button"
+            ]
+          },
+          {
+            "type": "video-youtub",
+            "display-value": "This is a short video on how to use labels.",
+            "open-link": "https://www.youtube.com/watch?v=Ubn7w4wI9vk"
+          }
+        ],
+        "subtitle": "Remove label on income or expense"
+      }
+    ]
+  }
+]

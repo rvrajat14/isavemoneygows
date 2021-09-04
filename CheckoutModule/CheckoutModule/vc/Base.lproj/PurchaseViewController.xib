@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PurchaseViewController" customModule="CheckoutModule" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="CaT-Os-PdH" id="X2B-BB-tow"/>
+                <outlet property="buyButton" destination="QZw-UT-Cc6" id="tj8-jN-kZb"/>
+                <outlet property="lowCostSub" destination="Gfr-q2-EMb" id="GdY-Us-Hrr"/>
+                <outlet property="restorePurchase" destination="aFE-6O-aiF" id="dTT-4B-1oE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szm-He-eJK">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D79-3c-hi4">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="850"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaT-Os-PdH">
+                                    <rect key="frame" x="20" y="10" width="24" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="8Kq-CT-ScC"/>
+                                        <constraint firstAttribute="width" constant="24" id="vuZ-XC-0dN"/>
+                                    </constraints>
+                                    <state key="normal" image="back_icon"/>
+                                </button>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="premiumBadge" translatesAutoresizingMaskIntoConstraints="NO" id="r9k-ga-Bsv">
+                                    <rect key="frame" x="167.5" y="45" width="79" height="79"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premium Features" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eU1-9k-GUv" customClass="CoHeaderTwo" customModule="CheckoutModule" customModuleProvider="target">
+                                    <rect key="frame" x="10" y="144" width="394" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unlock them with an once time for life purchase" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Uk-rv-h8M" customClass="CoNormalCenterText" customModule="CheckoutModule" customModuleProvider="target">
+                                    <rect key="frame" x="10" y="185" width="394" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                            <color key="value" name="checkout_normal_txt_white"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tgs-8G-Gcf">
+                                    <rect key="frame" x="0.0" y="230.5" width="414" height="619.5"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZw-UT-Cc6" customClass="CoButtonOne" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="25" y="25" width="364" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="btu-MH-SBB"/>
+                                            </constraints>
+                                            <state key="normal" title="Buy"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfr-q2-EMb">
+                                            <rect key="frame" x="25" y="83" width="364" height="30"/>
+                                            <state key="normal" title="Try Low Cost Subscribtion">
+                                                <color key="titleColor" name="checkoutH4Green"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFE-6O-aiF" customClass="CoTransBtn" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="25" y="123" width="364" height="30"/>
+                                            <state key="normal" title="Restore Purchase"/>
+                                        </button>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yT-MH-Tne" customClass="CoBoxCard" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="25" y="170" width="364" height="100"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n5a-PI-b8u">
+                                                    <rect key="frame" x="10" y="8" width="84" height="84"/>
+                                                    <color key="backgroundColor" name="checkout_brown_bg"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="84" id="6u5-Nl-Sxs"/>
+                                                        <constraint firstAttribute="width" constant="84" id="Tb8-Ak-ecD"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unlimmited budgets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXb-LE-zUd" customClass="CoHeaderFourBrown" customModule="CheckoutModule" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="8" width="250" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unlock the unlimited number of budgets creation" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cg1-9h-chp" customClass="CoNormalText" customModule="CheckoutModule" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="34" width="250" height="41"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="attach_receipt" translatesAutoresizingMaskIntoConstraints="NO" id="P1E-KS-sqR">
+                                                    <rect key="frame" x="29.5" y="-44" width="45" height="188"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="45" id="P2o-VU-s0m"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="BXb-LE-zUd" firstAttribute="top" secondItem="8yT-MH-Tne" secondAttribute="top" constant="8" id="8DG-bf-2aZ"/>
+                                                <constraint firstItem="P1E-KS-sqR" firstAttribute="centerY" secondItem="n5a-PI-b8u" secondAttribute="centerY" id="Cgg-Xq-ZES"/>
+                                                <constraint firstAttribute="trailing" secondItem="cg1-9h-chp" secondAttribute="trailing" constant="10" id="KyM-di-ypO"/>
+                                                <constraint firstItem="P1E-KS-sqR" firstAttribute="centerX" secondItem="n5a-PI-b8u" secondAttribute="centerX" id="LLT-po-fKu"/>
+                                                <constraint firstAttribute="height" constant="100" id="PdC-s9-pgZ"/>
+                                                <constraint firstItem="BXb-LE-zUd" firstAttribute="leading" secondItem="n5a-PI-b8u" secondAttribute="trailing" constant="10" id="SPE-oV-nhi"/>
+                                                <constraint firstAttribute="trailing" secondItem="BXb-LE-zUd" secondAttribute="trailing" constant="10" id="ULB-sP-1t6"/>
+                                                <constraint firstItem="cg1-9h-chp" firstAttribute="leading" secondItem="n5a-PI-b8u" secondAttribute="trailing" constant="10" id="Zdb-jM-uZ1"/>
+                                                <constraint firstItem="n5a-PI-b8u" firstAttribute="leading" secondItem="8yT-MH-Tne" secondAttribute="leading" constant="10" id="lBU-Ez-hYy"/>
+                                                <constraint firstItem="n5a-PI-b8u" firstAttribute="centerY" secondItem="8yT-MH-Tne" secondAttribute="centerY" id="lxI-Gy-OCB"/>
+                                                <constraint firstItem="cg1-9h-chp" firstAttribute="top" secondItem="BXb-LE-zUd" secondAttribute="bottom" constant="5" id="wiG-K4-P9f"/>
+                                                <constraint firstAttribute="trailing" secondItem="BXb-LE-zUd" secondAttribute="trailing" constant="10" id="z4S-w8-FW8"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5DN-kR-GPe" customClass="CoBoxCard" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="25" y="290" width="364" height="100"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VU5-Oq-dBH">
+                                                    <rect key="frame" x="10" y="8" width="84" height="84"/>
+                                                    <color key="backgroundColor" name="checkout_blue_bg"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="84" id="1wu-x0-PG4"/>
+                                                        <constraint firstAttribute="height" constant="84" id="c2i-cu-unq"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Export to file" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUK-JF-myw" customClass="CoHeaderFourBlue" customModule="CheckoutModule" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="8" width="250" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Export your budget to a CSV, MS Excel or PDF Formated Files" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8J-h8-odF" customClass="CoNormalText" customModule="CheckoutModule" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="34" width="250" height="41"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="export_docs" translatesAutoresizingMaskIntoConstraints="NO" id="Sch-MD-vzP">
+                                                    <rect key="frame" x="32" y="-31" width="40" height="162"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="7IH-mD-eys"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="Q8J-h8-odF" firstAttribute="leading" secondItem="VU5-Oq-dBH" secondAttribute="trailing" constant="10" id="7Nd-8g-pGu"/>
+                                                <constraint firstItem="Sch-MD-vzP" firstAttribute="centerX" secondItem="VU5-Oq-dBH" secondAttribute="centerX" id="7w4-uN-8QF"/>
+                                                <constraint firstAttribute="trailing" secondItem="Q8J-h8-odF" secondAttribute="trailing" constant="10" id="Abi-dh-wqA"/>
+                                                <constraint firstAttribute="trailing" secondItem="PUK-JF-myw" secondAttribute="trailing" constant="10" id="IRt-5w-Rgl"/>
+                                                <constraint firstItem="Sch-MD-vzP" firstAttribute="centerY" secondItem="VU5-Oq-dBH" secondAttribute="centerY" id="KA8-KC-bJh"/>
+                                                <constraint firstItem="VU5-Oq-dBH" firstAttribute="centerY" secondItem="5DN-kR-GPe" secondAttribute="centerY" id="KoA-1H-7QL"/>
+                                                <constraint firstItem="Q8J-h8-odF" firstAttribute="top" secondItem="PUK-JF-myw" secondAttribute="bottom" constant="5" id="Sp2-wL-ni3"/>
+                                                <constraint firstAttribute="trailing" secondItem="PUK-JF-myw" secondAttribute="trailing" constant="10" id="WHL-Hd-vjN"/>
+                                                <constraint firstItem="PUK-JF-myw" firstAttribute="top" secondItem="5DN-kR-GPe" secondAttribute="top" constant="8" id="WrX-m1-COB"/>
+                                                <constraint firstItem="PUK-JF-myw" firstAttribute="leading" secondItem="VU5-Oq-dBH" secondAttribute="trailing" constant="10" id="drv-LI-kav"/>
+                                                <constraint firstAttribute="height" constant="100" id="pOI-OR-VXd"/>
+                                                <constraint firstItem="VU5-Oq-dBH" firstAttribute="leading" secondItem="5DN-kR-GPe" secondAttribute="leading" constant="10" id="pfa-hX-bnO"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cF-E6-On3" customClass="CoBoxCard" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="25" y="410" width="364" height="100"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P1c-CS-Cyr">
+                                                    <rect key="frame" x="10" y="8" width="84" height="84"/>
+                                                    <color key="backgroundColor" name="checkout_green_bg"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="84" id="cPG-DB-HX4"/>
+                                                        <constraint firstAttribute="width" constant="84" id="nwt-JA-bm5"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Backup &amp; Restore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZA9-vU-3Bw" customClass="CoHeaderFourGreen" customModule="CheckoutModule" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="8" width="250" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Backup and restore your data to the cloud. Access the backup at any time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSz-vQ-4hg" customClass="CoNormalText" customModule="CheckoutModule" customModuleProvider="target">
+                                                    <rect key="frame" x="104" y="34" width="250" height="61"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud_backup" translatesAutoresizingMaskIntoConstraints="NO" id="Rel-x1-1Lo">
+                                                    <rect key="frame" x="32" y="-43" width="40" height="186"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="q4v-1u-vkc"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="Rel-x1-1Lo" firstAttribute="centerX" secondItem="P1c-CS-Cyr" secondAttribute="centerX" id="0ii-aE-YGI"/>
+                                                <constraint firstItem="zSz-vQ-4hg" firstAttribute="top" secondItem="ZA9-vU-3Bw" secondAttribute="bottom" constant="5" id="7f6-Jr-Ffm"/>
+                                                <constraint firstItem="P1c-CS-Cyr" firstAttribute="centerY" secondItem="4cF-E6-On3" secondAttribute="centerY" id="7jH-8U-sWk"/>
+                                                <constraint firstAttribute="trailing" secondItem="zSz-vQ-4hg" secondAttribute="trailing" constant="10" id="AwX-At-ts5"/>
+                                                <constraint firstItem="P1c-CS-Cyr" firstAttribute="leading" secondItem="4cF-E6-On3" secondAttribute="leading" constant="10" id="F6g-L4-dFA"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZA9-vU-3Bw" secondAttribute="trailing" constant="10" id="HHF-T1-QdJ"/>
+                                                <constraint firstAttribute="height" constant="100" id="Lkj-Bf-z3R"/>
+                                                <constraint firstItem="ZA9-vU-3Bw" firstAttribute="top" secondItem="4cF-E6-On3" secondAttribute="top" constant="8" id="NUm-zy-pJa"/>
+                                                <constraint firstItem="zSz-vQ-4hg" firstAttribute="leading" secondItem="P1c-CS-Cyr" secondAttribute="trailing" constant="10" id="O8p-5D-pgJ"/>
+                                                <constraint firstItem="ZA9-vU-3Bw" firstAttribute="leading" secondItem="P1c-CS-Cyr" secondAttribute="trailing" constant="10" id="mD8-2k-w54"/>
+                                                <constraint firstItem="Rel-x1-1Lo" firstAttribute="centerY" secondItem="P1c-CS-Cyr" secondAttribute="centerY" id="ts3-iw-gcx"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZA9-vU-3Bw" secondAttribute="trailing" constant="10" id="uUu-Tn-Akz"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" name="checkoutRoundCornerbg"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="aFE-6O-aiF" secondAttribute="trailing" constant="25" id="4vG-vu-diP"/>
+                                        <constraint firstItem="5DN-kR-GPe" firstAttribute="leading" secondItem="tgs-8G-Gcf" secondAttribute="leading" constant="25" id="B1r-XO-OvT"/>
+                                        <constraint firstAttribute="trailing" secondItem="Gfr-q2-EMb" secondAttribute="trailing" constant="25" id="D7a-QL-kYX"/>
+                                        <constraint firstItem="Gfr-q2-EMb" firstAttribute="leading" secondItem="tgs-8G-Gcf" secondAttribute="leading" constant="25" id="E7m-Fu-rqQ"/>
+                                        <constraint firstItem="4cF-E6-On3" firstAttribute="leading" secondItem="tgs-8G-Gcf" secondAttribute="leading" constant="25" id="EQi-AZ-Wdh"/>
+                                        <constraint firstItem="4cF-E6-On3" firstAttribute="top" secondItem="5DN-kR-GPe" secondAttribute="bottom" constant="20" id="FQc-J9-V2H"/>
+                                        <constraint firstAttribute="trailing" secondItem="4cF-E6-On3" secondAttribute="trailing" constant="25" id="JQY-0L-043"/>
+                                        <constraint firstItem="aFE-6O-aiF" firstAttribute="top" secondItem="QZw-UT-Cc6" secondAttribute="bottom" constant="50" id="Ko2-aF-1en"/>
+                                        <constraint firstAttribute="trailing" secondItem="8yT-MH-Tne" secondAttribute="trailing" constant="25" id="QHt-dF-YXe"/>
+                                        <constraint firstItem="5DN-kR-GPe" firstAttribute="top" secondItem="8yT-MH-Tne" secondAttribute="bottom" constant="20" id="WzL-Qx-Kkm"/>
+                                        <constraint firstAttribute="trailing" secondItem="5DN-kR-GPe" secondAttribute="trailing" constant="25" id="dek-uQ-yaH"/>
+                                        <constraint firstItem="8yT-MH-Tne" firstAttribute="leading" secondItem="tgs-8G-Gcf" secondAttribute="leading" constant="25" id="eeh-Lp-Ud6"/>
+                                        <constraint firstItem="8yT-MH-Tne" firstAttribute="top" secondItem="tgs-8G-Gcf" secondAttribute="top" constant="170" id="hez-4I-s8w"/>
+                                        <constraint firstItem="QZw-UT-Cc6" firstAttribute="leading" secondItem="tgs-8G-Gcf" secondAttribute="leading" constant="25" id="ivg-96-22J"/>
+                                        <constraint firstAttribute="trailing" secondItem="QZw-UT-Cc6" secondAttribute="trailing" constant="25" id="jvR-Bn-czc"/>
+                                        <constraint firstItem="QZw-UT-Cc6" firstAttribute="top" secondItem="tgs-8G-Gcf" secondAttribute="top" constant="25" id="lWn-Do-etb"/>
+                                        <constraint firstItem="Gfr-q2-EMb" firstAttribute="top" secondItem="QZw-UT-Cc6" secondAttribute="bottom" constant="10" id="s66-HX-v9H"/>
+                                        <constraint firstItem="aFE-6O-aiF" firstAttribute="leading" secondItem="tgs-8G-Gcf" secondAttribute="leading" constant="25" id="xM2-NI-Ey7"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="25"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" name="checkout_purchase_background"/>
+                            <constraints>
+                                <constraint firstItem="r9k-ga-Bsv" firstAttribute="top" secondItem="D79-3c-hi4" secondAttribute="top" constant="45" id="5UN-LP-Rz3"/>
+                                <constraint firstItem="CaT-Os-PdH" firstAttribute="leading" secondItem="D79-3c-hi4" secondAttribute="leading" constant="20" id="5W5-Uc-R2C"/>
+                                <constraint firstItem="3Uk-rv-h8M" firstAttribute="leading" secondItem="D79-3c-hi4" secondAttribute="leading" constant="10" id="7nb-ut-BKP"/>
+                                <constraint firstItem="r9k-ga-Bsv" firstAttribute="centerX" secondItem="D79-3c-hi4" secondAttribute="centerX" id="87W-Rg-iP2"/>
+                                <constraint firstAttribute="bottom" secondItem="tgs-8G-Gcf" secondAttribute="bottom" id="8rx-ag-dM1"/>
+                                <constraint firstItem="eU1-9k-GUv" firstAttribute="top" secondItem="r9k-ga-Bsv" secondAttribute="bottom" constant="20" id="9iu-zi-VvB"/>
+                                <constraint firstItem="CaT-Os-PdH" firstAttribute="top" secondItem="D79-3c-hi4" secondAttribute="top" constant="10" id="CWT-NK-fPT"/>
+                                <constraint firstAttribute="trailing" secondItem="3Uk-rv-h8M" secondAttribute="trailing" constant="10" id="I76-nE-Ui6"/>
+                                <constraint firstItem="3Uk-rv-h8M" firstAttribute="top" secondItem="eU1-9k-GUv" secondAttribute="bottom" constant="20" id="LPY-SR-QVJ"/>
+                                <constraint firstAttribute="trailing" secondItem="eU1-9k-GUv" secondAttribute="trailing" constant="10" id="Qkn-qq-0xK"/>
+                                <constraint firstAttribute="trailing" secondItem="tgs-8G-Gcf" secondAttribute="trailing" id="k2n-wC-u1e"/>
+                                <constraint firstAttribute="height" constant="850" id="vKe-Dc-2o8"/>
+                                <constraint firstItem="eU1-9k-GUv" firstAttribute="leading" secondItem="D79-3c-hi4" secondAttribute="leading" constant="10" id="wbn-oV-G4T"/>
+                                <constraint firstItem="tgs-8G-Gcf" firstAttribute="top" secondItem="3Uk-rv-h8M" secondAttribute="bottom" constant="25" id="xau-81-7nh"/>
+                                <constraint firstItem="tgs-8G-Gcf" firstAttribute="leading" secondItem="D79-3c-hi4" secondAttribute="leading" id="zah-uQ-cvE"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="D79-3c-hi4" firstAttribute="bottom" secondItem="w9m-9Q-atB" secondAttribute="bottom" id="D4z-6p-fD9"/>
+                        <constraint firstItem="D79-3c-hi4" firstAttribute="leading" secondItem="w9m-9Q-atB" secondAttribute="leading" id="KaD-Hl-8oF"/>
+                        <constraint firstItem="D79-3c-hi4" firstAttribute="top" secondItem="w9m-9Q-atB" secondAttribute="top" id="N5K-NC-7zi"/>
+                        <constraint firstItem="D79-3c-hi4" firstAttribute="trailing" secondItem="w9m-9Q-atB" secondAttribute="trailing" id="efO-Sr-vWN"/>
+                        <constraint firstItem="D79-3c-hi4" firstAttribute="width" secondItem="Xev-tx-SY9" secondAttribute="width" id="nYt-EQ-wID"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="w9m-9Q-atB"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="Xev-tx-SY9"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="checkout_purchase_background"/>
+            <constraints>
+                <constraint firstItem="szm-He-eJK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Cd8-lX-QdG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="szm-He-eJK" secondAttribute="trailing" id="DJo-KF-y8K"/>
+                <constraint firstItem="szm-He-eJK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="FL5-xv-GIT"/>
+                <constraint firstAttribute="bottom" secondItem="szm-He-eJK" secondAttribute="bottom" id="Up4-wV-oRn"/>
+            </constraints>
+            <point key="canvasLocation" x="-146.37681159420291" y="87.723214285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="attach_receipt" width="190" height="188"/>
+        <image name="back_icon" width="69" height="69"/>
+        <image name="cloud_backup" width="179" height="186"/>
+        <image name="export_docs" width="139" height="162"/>
+        <image name="premiumBadge" width="79" height="79"/>
+        <namedColor name="checkoutH4Green">
+            <color red="0.0080000003799796104" green="0.95300000905990601" blue="0.63099998235702515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="checkoutRoundCornerbg">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="checkout_blue_bg">
+            <color red="0.33300000429153442" green="0.40799999237060547" blue="0.79199999570846558" alpha="0.20000000298023224" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="checkout_brown_bg">
+            <color red="0.85900002717971802" green="0.52899998426437378" blue="0.3529999852180481" alpha="0.20000000298023224" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="checkout_green_bg">
+            <color red="0.0080000003799796104" green="0.95300000905990601" blue="0.63099998235702515" alpha="0.20000000298023224" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="checkout_normal_txt_white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="checkout_purchase_background">
+            <color red="0.33300000429153442" green="0.40799999237060547" blue="0.79199999570846558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Unlock them with an once time for life purchase"; ObjectID = "3Uk-rv-h8M"; */
+"3Uk-rv-h8M.text" = "Unlock them with a one-time life purchase";
+
+/* Class = "UILabel"; text = "Unlimmited budgets"; ObjectID = "BXb-LE-zUd"; */
+"BXb-LE-zUd.text" = "Unlimited budgets";
+
+/* Class = "UIButton"; normalTitle = "Try Low Cost Subscribtion"; ObjectID = "Gfr-q2-EMb"; */
+"Gfr-q2-EMb.normalTitle" = "Try Low-Cost Subscription";
+
+/* Class = "UILabel"; text = "Export to file"; ObjectID = "PUK-JF-myw"; */
+"PUK-JF-myw.text" = "Export to file";
+
+/* Class = "UILabel"; text = "Export your budget to a CSV, MS Excel or PDF Formated Files"; ObjectID = "Q8J-h8-odF"; */
+"Q8J-h8-odF.text" = "Export your budget to a CSV, MS Excel, or PDF Format Files";
+
+/* Class = "UIButton"; normalTitle = "Buy"; ObjectID = "QZw-UT-Cc6"; */
+"QZw-UT-Cc6.normalTitle" = "Buy";
+
+/* Class = "UILabel"; text = "Backup & Restore"; ObjectID = "ZA9-vU-3Bw"; */
+"ZA9-vU-3Bw.text" = "Backup & Restore";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchase"; ObjectID = "aFE-6O-aiF"; */
+"aFE-6O-aiF.normalTitle" = "Restore Purchase";
+
+/* Class = "UILabel"; text = "Unlock the unlimited number of budgets creation"; ObjectID = "cg1-9h-chp"; */
+"cg1-9h-chp.text" = "Unlock the unlimited number of budgets creation";
+
+/* Class = "UILabel"; text = "Premium Features"; ObjectID = "eU1-9k-GUv"; */
+"eU1-9k-GUv.text" = "Premium Features";
+
+/* Class = "UILabel"; text = "Backup and restore your data to the cloud. Access the backup at any time"; ObjectID = "zSz-vQ-4hg"; */
+"zSz-vQ-4hg.text" = "Backup and restore your data to the cloud. Access the backup at any time";

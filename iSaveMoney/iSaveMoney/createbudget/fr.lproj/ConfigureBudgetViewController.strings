@@ -1,0 +1,29 @@
+/* Classe = "UILabel"; text = "Dans cet écran, vous pouvez modifier la plage de dates de votre budget ou donner un nom à votre budget"; ObjectID = "8h7-po-zGg"; */
+"8h7-po-zGg.text" = "Dans cet écran, vous pouvez modifier la plage de dates de votre budget ou donner un nom à votre budget";
+
+/* Classe = "UILabel"; text = "Obligatoire"; ObjectID = "Dq6-l2-ZgX"; */
+"Dq6-l2-ZgX.text" = "Obligatoire";
+
+/* Classe = "UITextField"; placeholder = "sélectionner une date"; ObjectID = "Fgi-VX-eOB"; */
+"Fgi-VX-eOB.placeholder" = "sélectionnez une date";
+
+/* Classe = "UILabel"; text = "Nommez votre budget:"; ObjectID = "KKw-1C-jhd"; */
+"KKw-1C-jhd.text" = "Nommez votre budget:";
+
+/* Classe = "UILabel"; text = "Modifier la date de début:"; ObjectID = "Rbi-CP-m5M"; */
+"Rbi-CP-m5M.text" = "Modifier la date de début:";
+
+/* Classe = "UILabel"; text = "Plage de dates disponible"; ObjectID = "W97-pC-Mh9"; */
+"W97-pC-Mh9.text" = "Plage de dates disponible";
+
+/* Classe = "UILabel"; text = "Obligatoire"; ObjectID = "WEb-hs-Sat"; */
+"WEb-hs-Sat.text" = "Obligatoire";
+
+/* Classe = "UITextField"; placeholder = "Titre (facultatif)"; ObjectID = "fMU-SG-kOu"; */
+"fMU-SG-kOu.placeholder" = "Titre (facultatif)";
+
+/* Classe = "UILabel"; text = "Modifier la date de fin:"; ObjectID = "jsl-Oa-bxn"; */
+"jsl-Oa-bxn.text" = "Modifier la date de fin:";
+
+/* Classe = "UITextField"; placeholder = "Sélectionnez une date"; ObjectID = "nko-FC-JVd"; */
+"nko-FC-JVd.placeholder" = "Sélectionnez une date";

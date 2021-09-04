@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DaybookViewCell" customModule="iSaveMoney" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1d9-fY-Opp" customClass="NormalTextLabel" customModule="ISMLBase">
+                        <rect key="frame" x="10" y="10" width="300" height="16"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="XQP-lJ-5kc" customClass="SmallTextLabel" customModule="ISMLBase">
+                        <rect key="frame" x="10" y="31" width="150" height="46"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qd-IS-6hj" customClass="HeaderLevelFour" customModule="ISMLBase">
+                        <rect key="frame" x="160" y="31" width="150" height="16"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" systemColor="systemBlueColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="pageBgColor"/>
+                <constraints>
+                    <constraint firstItem="3qd-IS-6hj" firstAttribute="top" secondItem="1d9-fY-Opp" secondAttribute="bottom" constant="5" id="9i3-Jo-v84"/>
+                    <constraint firstItem="XQP-lJ-5kc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="BLq-7q-4hk"/>
+                    <constraint firstItem="3qd-IS-6hj" firstAttribute="leading" secondItem="XQP-lJ-5kc" secondAttribute="trailing" id="Hta-8w-neu"/>
+                    <constraint firstItem="XQP-lJ-5kc" firstAttribute="top" secondItem="1d9-fY-Opp" secondAttribute="bottom" constant="5" id="IRi-52-FDc"/>
+                    <constraint firstAttribute="trailing" secondItem="3qd-IS-6hj" secondAttribute="trailing" constant="10" id="Kda-gm-nB1"/>
+                    <constraint firstItem="1d9-fY-Opp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="bCB-0c-SbZ"/>
+                    <constraint firstItem="3qd-IS-6hj" firstAttribute="width" secondItem="XQP-lJ-5kc" secondAttribute="width" id="fqK-CT-24O"/>
+                    <constraint firstAttribute="bottom" secondItem="XQP-lJ-5kc" secondAttribute="bottom" constant="5" id="tGB-xQ-uvE"/>
+                    <constraint firstItem="1d9-fY-Opp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="x5F-ql-xdJ"/>
+                    <constraint firstAttribute="trailing" secondItem="1d9-fY-Opp" secondAttribute="trailing" constant="10" id="zD7-ao-DL1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="textTitle" destination="1d9-fY-Opp" id="3gF-vz-mSP"/>
+                <outlet property="txtAmount" destination="3qd-IS-6hj" id="8Zn-3L-A2y"/>
+                <outlet property="txtDate" destination="XQP-lJ-5kc" id="lkt-TN-rbB"/>
+            </connections>
+            <point key="canvasLocation" x="160.86956521739131" y="121.20535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="pageBgColor">
+            <color red="0.96899998188018799" green="0.97299998998641968" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

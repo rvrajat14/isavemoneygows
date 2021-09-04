@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrivacyViewController" customModule="iSaveMoney" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="95e-Gc-WC1">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DR-NT-KbM">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="2300"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dz-1Y-dMq">
+                                    <rect key="frame" x="10" y="25" width="394" height="2156.5"/>
+                                    <mutableString key="text">iSaveMoneyGo 
+
+Copyright (c) 2018 Digit Leaf, LLC
+
+IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.
+
+1. LICENSE
+
+By installing and/or using using iSaveMoneyGo ("Software") containing this software, you agree that this End User User License Agreement (EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.
+
+Your use of iSaveMoneyGo indicates your acceptance of this license agreement and warranty.
+
+Subject to the terms of this Agreement, Digit Leaf, LLC grants to you a limited, non-exclusive, non-transferable license, without right to sub-license, to use iSaveMoneyGo in accordance with this Agreement and any other written agreement with Digit Leaf, LLC. Digit Leaf, LLC does not transfer the title of iSaveMoneyGo to you; the license granted to you is not a sale. This agreement is a binding legal agreement between Digit Leaf, LLC and the purchasers or users of iSaveMoneyGo.
+
+If you do not agree to be bound by this agreement, remove iSaveMoneyGo from your device.
+
+2. DISTRIBUTION
+
+iSaveMoneyGo and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part except that you may make one copy for archive purposes only. 
+
+3. USER AGREEMENT
+
+3.1 Use
+
+Your license to use iSaveMoneyGo is limited to the number of licenses purchased by you. You shall not allow others to use, copy or evaluate copies of iSaveMoneyGo.
+
+3.2 Use Restrictions
+
+You shall use iSaveMoneyGo in compliance with all applicable laws and not for any unlawful purpose. 
+
+3.3 Copyright Restriction
+
+This Software contains copyrighted material, trade secrets and other proprietary material. You shall not, and shall not attempt to, modify, reverse engineer, disassemble or decompile iSaveMoneyGo 1. Nor can you create any derivative works or other works that are based upon or derived from iSaveMoneyGo in whole or in part.
+
+Digit Leaf, LLC's name, logo and graphics file that represents iSaveMoneyGo shall not be used in any way to promote products developed with iSaveMoneyGo. Digit Leaf, LLC retains sole and exclusive ownership of all right, title and interest in and to iSaveMoneyGo and all Intellectual Property rights relating thereto.
+
+Copyright law and international copyright treaty provisions protect all parts of iSaveMoneyGo, products and services. No program, code, part, image, audio sample, or text may be copied or used in any way by the user except as intended within the bounds of the single user program. All rights not expressly granted hereunder are reserved for Digit Leaf, LLC.
+
+3.4 Limitation of Responsibility
+
+You will indemnify, hold harmless, and defend Digit Leaf, LLC , its employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of Digit Leaf, LLC's Software.
+
+In no event (including, without limitation, in the event of negligence) will Digit Leaf, LLC , its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to this Agreement, iSaveMoneyGo or the use or inability to use iSaveMoneyGo or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.
+
+3.5 Warranties
+
+Except as expressly stated in writing, Digit Leaf, LLC makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.
+
+3.6 Governing Law
+
+This Agreement shall be governed by the law of the United States applicable therein. You hereby irrevocably attorn and submit to the non-exclusive jurisdiction of the courts of United States therefrom. If any provision shall be considered unlawful, void or otherwise unenforceable, then that provision shall be deemed severable from this License and not affect the validity and enforceability of any other provisions.
+
+3.7 Termination
+
+Any failure to comply with the terms and conditions of this Agreement will result in automatic and immediate termination of this license. Upon termination of this license granted herein for any reason, you agree to immediately cease use of iSaveMoneyGo and destroy all copies of iSaveMoneyGo supplied under this Agreement. 
+
+4. DISCLAIMER OF WARRANTY
+
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. THIS DISCLAIMER CONCERNS ALL FILES GENERATED AND EDITED BY iSaveMoneyGo AS WELL.
+
+5. CONSENT OF USE OF DATA
+
+You agree that Digit Leaf, LLC may collect and use information gathered in any manner as part of the product support services provided to you, if any, related to iSaveMoneyGo.Digit Leaf, LLC may also use this information to provide notices to you which may be of use or interest to you.
+iSaveMoneyGo is a cloud base application and your data are saved safely on our server. Please promptly contact our in case you find any thing that may compromise your data.</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="5dz-1Y-dMq" firstAttribute="leading" secondItem="0DR-NT-KbM" secondAttribute="leading" constant="10" id="TlV-Zq-gOR"/>
+                                <constraint firstAttribute="height" constant="2300" id="ddF-b1-hgj"/>
+                                <constraint firstAttribute="trailing" secondItem="5dz-1Y-dMq" secondAttribute="trailing" constant="10" id="lHT-18-71e"/>
+                                <constraint firstItem="5dz-1Y-dMq" firstAttribute="top" secondItem="0DR-NT-KbM" secondAttribute="top" constant="25" id="uUe-Dd-zGH"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="0DR-NT-KbM" firstAttribute="top" secondItem="wrj-bp-eYF" secondAttribute="top" id="69a-07-KqP"/>
+                        <constraint firstItem="0DR-NT-KbM" firstAttribute="width" secondItem="7zI-b8-lEi" secondAttribute="width" id="KHp-9T-mwy"/>
+                        <constraint firstItem="0DR-NT-KbM" firstAttribute="bottom" secondItem="wrj-bp-eYF" secondAttribute="bottom" id="Pxb-YV-bgM"/>
+                        <constraint firstItem="0DR-NT-KbM" firstAttribute="trailing" secondItem="wrj-bp-eYF" secondAttribute="trailing" id="Wlo-Vy-wlM"/>
+                        <constraint firstItem="0DR-NT-KbM" firstAttribute="leading" secondItem="wrj-bp-eYF" secondAttribute="leading" id="yok-7Y-jgd"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="wrj-bp-eYF"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="7zI-b8-lEi"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="95e-Gc-WC1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="7Jf-5z-NJ3"/>
+                <constraint firstItem="95e-Gc-WC1" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="7m5-ol-kdv"/>
+                <constraint firstItem="95e-Gc-WC1" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="Dq3-mk-4ug"/>
+                <constraint firstItem="95e-Gc-WC1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="awT-hb-sQs"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

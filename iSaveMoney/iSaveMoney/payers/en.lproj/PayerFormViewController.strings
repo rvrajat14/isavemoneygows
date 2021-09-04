@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "0na-s3-y8u"; */
+"0na-s3-y8u.text" = "Address";
+
+/* Class = "UILabel"; text = "Phone number"; ObjectID = "3OV-LE-jqz"; */
+"3OV-LE-jqz.text" = "Phone number";
+
+/* Class = "UITextField"; placeholder = "Other notes (optional)"; ObjectID = "9jf-i6-opi"; */
+"9jf-i6-opi.placeholder" = "Other notes (optional)";
+
+/* Class = "UILabel"; text = "Creation Date"; ObjectID = "Bfl-z9-zY6"; */
+"Bfl-z9-zY6.text" = "Creation Date";
+
+/* Class = "UILabel"; text = "Name or description"; ObjectID = "Gup-YM-kyr"; */
+"Gup-YM-kyr.text" = "Name or description";
+
+/* Class = "UILabel"; text = "Other notes"; ObjectID = "On3-75-psq"; */
+"On3-75-psq.text" = "Other notes";
+
+/* Class = "UITextField"; placeholder = "Description (required)"; ObjectID = "QNJ-74-kh2"; */
+"QNJ-74-kh2.placeholder" = "Description (required)";
+
+/* Class = "UITextField"; placeholder = "Address (optional)"; ObjectID = "T2j-S7-fvs"; */
+"T2j-S7-fvs.placeholder" = "Address (optional)";
+
+/* Class = "UILabel"; text = "Description error"; ObjectID = "Zys-ju-jPl"; */
+"Zys-ju-jPl.text" = "Description error";
+
+/* Class = "UITextField"; placeholder = "Telephone (optional)"; ObjectID = "oxd-pZ-8tx"; */
+"oxd-pZ-8tx.placeholder" = "Telephone (optional)";
+
+/* Class = "UITextField"; placeholder = "MM/DD/YYYY"; ObjectID = "p3D-Zi-d3h"; */
+"p3D-Zi-d3h.placeholder" = "MM/DD/YYYY";

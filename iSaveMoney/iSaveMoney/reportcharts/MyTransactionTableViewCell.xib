@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MyTransactionTableViewCell" customModule="iSaveMoney" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jw7-zu-Hh9" customClass="CircleTextUIView" customModule="ISMLBase">
+                        <rect key="frame" x="10" y="10" width="32" height="32"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="rpE-rl-egL"/>
+                            <constraint firstAttribute="height" constant="32" id="x0J-kc-4dc"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZ7-0R-Byc" customClass="NormalTextLabel" customModule="ISMLBase">
+                        <rect key="frame" x="52" y="5" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tix-lu-W9e" customClass="SmallTextLabel" customModule="ISMLBase">
+                        <rect key="frame" x="52" y="26" width="36" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_in" translatesAutoresizingMaskIntoConstraints="NO" id="Dk2-bH-085">
+                        <rect key="frame" x="298" y="27" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="9U7-rH-D8C"/>
+                            <constraint firstAttribute="width" constant="20" id="v1D-Kf-yZ9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZe-mY-gfn" customClass="NormalTextLabel" customModule="ISMLBase">
+                        <rect key="frame" x="260" y="26" width="35" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="pageBgColor"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="rZe-mY-gfn" secondAttribute="trailing" constant="25" id="49o-2n-R1R"/>
+                    <constraint firstAttribute="bottom" secondItem="rZe-mY-gfn" secondAttribute="bottom" constant="5" id="4RT-9O-D2s"/>
+                    <constraint firstItem="HZ7-0R-Byc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="5vR-DP-U0u"/>
+                    <constraint firstAttribute="trailing" secondItem="Dk2-bH-085" secondAttribute="trailing" constant="2" id="7Rr-Yv-NWs"/>
+                    <constraint firstItem="Tix-lu-W9e" firstAttribute="top" secondItem="HZ7-0R-Byc" secondAttribute="bottom" id="CS3-Nh-qYT"/>
+                    <constraint firstAttribute="bottom" secondItem="Dk2-bH-085" secondAttribute="bottom" constant="5" id="WW8-bH-5xB"/>
+                    <constraint firstItem="Tix-lu-W9e" firstAttribute="leading" secondItem="HZ7-0R-Byc" secondAttribute="leading" id="ffH-4I-RLf"/>
+                    <constraint firstItem="Jw7-zu-Hh9" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qSj-9k-FxH"/>
+                    <constraint firstAttribute="bottom" secondItem="Tix-lu-W9e" secondAttribute="bottom" constant="5" id="typ-Ru-30c"/>
+                    <constraint firstItem="Jw7-zu-Hh9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="wgY-c0-OEb"/>
+                    <constraint firstItem="HZ7-0R-Byc" firstAttribute="leading" secondItem="Jw7-zu-Hh9" secondAttribute="trailing" constant="10" id="zk5-TW-SfS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgIndicator" destination="Dk2-bH-085" id="Ybd-lz-V3c"/>
+                <outlet property="txtAmount" destination="rZe-mY-gfn" id="twn-xH-BCE"/>
+                <outlet property="txtDate" destination="Tix-lu-W9e" id="sIN-wf-Mos"/>
+                <outlet property="txtTitle" destination="HZ7-0R-Byc" id="tI1-qk-IR5"/>
+                <outlet property="vwCircleText" destination="Jw7-zu-Hh9" id="pBx-Uk-exg"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="96"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_in" width="20" height="20"/>
+        <namedColor name="pageBgColor">
+            <color red="0.96899998188018799" green="0.97299998998641968" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

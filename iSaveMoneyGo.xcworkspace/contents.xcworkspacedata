@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ToolsBoxModule/ToolsBoxModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CheckoutModule/CheckoutModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ISMLBase/ISMLBase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ISMLDataService/ISMLDataService.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HelpCenter/HelpCenter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CSVImporter/CSVImporter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iSaveMoney/iSaveMoney.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

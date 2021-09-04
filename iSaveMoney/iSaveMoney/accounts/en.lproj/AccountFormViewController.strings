@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "3Qs-9r-aFx"; */
+"3Qs-9r-aFx.text" = "Address";
+
+/* Class = "UITextField"; placeholder = "MM/DD/YYYY"; ObjectID = "3Qy-Na-X6j"; */
+"3Qy-Na-X6j.placeholder" = "MM/DD/YYYY";
+
+/* Class = "UITextField"; placeholder = "Select type (required)"; ObjectID = "48G-17-Cbk"; */
+"48G-17-Cbk.placeholder" = "Select type (required)";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "4Vj-lM-VWc"; */
+"4Vj-lM-VWc.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "8V6-gc-fwt"; */
+"8V6-gc-fwt.text" = "Required";
+
+/* Class = "UILabel"; text = "As of"; ObjectID = "ERa-vn-hDw"; */
+"ERa-vn-hDw.text" = "As of";
+
+/* Class = "UITextField"; placeholder = "Address"; ObjectID = "GNG-sM-5xR"; */
+"GNG-sM-5xR.placeholder" = "Address";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "IHr-Sd-ych"; */
+"IHr-Sd-ych.text" = "Required";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "Lti-7V-BjW"; */
+"Lti-7V-BjW.text" = "Required";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "M7U-41-Nkn"; */
+"M7U-41-Nkn.text" = "Required";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "PFd-1R-dxF"; */
+"PFd-1R-dxF.placeholder" = "Phone Number";
+
+/* Class = "UITextField"; placeholder = "0.0"; ObjectID = "SCp-04-oU6"; */
+"SCp-04-oU6.placeholder" = "0.0";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "SGb-zp-3eN"; */
+"SGb-zp-3eN.text" = "Description";
+
+/* Class = "UITextField"; placeholder = "Account nomination (required) "; ObjectID = "Uwx-FI-dFZ"; */
+"Uwx-FI-dFZ.placeholder" = "Account nomination (required) ";
+
+/* Class = "UILabel"; text = "Type of account"; ObjectID = "Z76-1n-Pd3"; */
+"Z76-1n-Pd3.text" = "Type of account";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "t8Y-nA-xFZ"; */
+"t8Y-nA-xFZ.text" = "Required";
+
+/* Class = "UILabel"; text = "Other Notes"; ObjectID = "u6K-Br-PrS"; */
+"u6K-Br-PrS.text" = "Other Notes";
+
+/* Class = "UILabel"; text = "Initial balance"; ObjectID = "yn5-ZC-lko"; */
+"yn5-ZC-lko.text" = "Initial balance";

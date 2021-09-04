@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OtoViewController" customModule="CheckoutModule" customModuleProvider="target">
+            <connections>
+                <outlet property="cardView" destination="RSc-DX-NoX" id="bCg-Hk-SvI"/>
+                <outlet property="strikedPrice" destination="5ja-2c-EQa" id="86e-my-NQ7"/>
+                <outlet property="txtNewPrice" destination="1hZ-lq-V3N" id="gN8-uD-9v6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSX-iu-6dB">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3vc-GD-bod">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="850"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSc-DX-NoX">
+                                    <rect key="frame" x="30" y="64" width="354" height="550"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucf-cT-WsK">
+                                            <rect key="frame" x="316" y="10" width="28" height="28"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="28" id="pgz-y4-PrI"/>
+                                                <constraint firstAttribute="width" constant="28" id="sUp-zV-Lfx"/>
+                                            </constraints>
+                                            <state key="normal" image="checkoutCloseIcon"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                    <color key="value" name="checkout_close_btnbg"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="4"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="close" destination="-1" eventType="touchUpInside" id="5EC-gx-YgF"/>
+                                            </connections>
+                                        </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clound_shopper_bg" translatesAutoresizingMaskIntoConstraints="NO" id="KRx-Tb-PsI">
+                                            <rect key="frame" x="59.5" y="20" width="235.5" height="236"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy_shopper_woman" translatesAutoresizingMaskIntoConstraints="NO" id="gUz-D7-7N6">
+                                            <rect key="frame" x="116" y="73.5" width="122" height="129"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20% OFF TODAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Q2-j9-X4i" customClass="CoHeaderOne" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="212.5" width="354" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a One Time Offer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r84-MF-Gv0" customClass="CoNormalCenterText" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="10" y="253.5" width="334" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k2Q-N0-aj5">
+                                            <rect key="frame" x="0.0" y="299.5" width="354" height="1"/>
+                                            <color key="backgroundColor" name="co_separator_color"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="1" id="VHq-Dh-eFI"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hZ-lq-V3N" customClass="CoHeaderOne" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="154.5" y="325.5" width="45" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$4.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ja-2c-EQa" customClass="CoNormalCenterText" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="94.5" y="335.5" width="60" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="60" id="wi7-lt-iW8"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Cy-2r-JTd" customClass="CoButtonOne" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="380.5" width="314" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="R3q-nE-dxF"/>
+                                            </constraints>
+                                            <state key="normal" title="Interestred"/>
+                                            <connections>
+                                                <action selector="buyThis" destination="-1" eventType="touchUpInside" id="7Uu-QE-AAh"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ge-mQ-OcP" customClass="CoButtonTwo" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="448.5" width="314" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="eRF-nV-bLu"/>
+                                            </constraints>
+                                            <state key="normal" title="I'm not in"/>
+                                            <connections>
+                                                <action selector="noCancel" destination="-1" eventType="touchUpInside" id="ZFk-C4-J3u"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" name="co_card_bg"/>
+                                    <constraints>
+                                        <constraint firstItem="k2Q-N0-aj5" firstAttribute="top" secondItem="r84-MF-Gv0" secondAttribute="bottom" constant="25" id="3hG-oQ-A5D"/>
+                                        <constraint firstItem="1hZ-lq-V3N" firstAttribute="top" secondItem="k2Q-N0-aj5" secondAttribute="bottom" constant="25" id="5rb-Jg-0t3"/>
+                                        <constraint firstAttribute="height" constant="550" id="BF8-rT-uBE"/>
+                                        <constraint firstItem="r84-MF-Gv0" firstAttribute="top" secondItem="3Q2-j9-X4i" secondAttribute="bottom" constant="20" id="BJp-GA-sN3"/>
+                                        <constraint firstItem="r84-MF-Gv0" firstAttribute="leading" secondItem="RSc-DX-NoX" secondAttribute="leading" constant="10" id="CKE-N6-Ve2"/>
+                                        <constraint firstAttribute="trailing" secondItem="9ge-mQ-OcP" secondAttribute="trailing" constant="20" id="DSV-qI-MIZ"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ucf-cT-WsK" secondAttribute="trailing" constant="10" id="JJx-7t-QAn"/>
+                                        <constraint firstAttribute="trailing" secondItem="k2Q-N0-aj5" secondAttribute="trailing" id="KIj-1E-0xN"/>
+                                        <constraint firstItem="3Q2-j9-X4i" firstAttribute="leading" secondItem="RSc-DX-NoX" secondAttribute="leading" id="Lg2-6m-qzb"/>
+                                        <constraint firstAttribute="trailing" secondItem="3Q2-j9-X4i" secondAttribute="trailing" id="NXn-jN-B94"/>
+                                        <constraint firstItem="KRx-Tb-PsI" firstAttribute="top" secondItem="RSc-DX-NoX" secondAttribute="top" constant="20" id="T9K-Ih-UGN"/>
+                                        <constraint firstItem="5ja-2c-EQa" firstAttribute="trailing" secondItem="1hZ-lq-V3N" secondAttribute="leading" id="Unx-gB-18m"/>
+                                        <constraint firstItem="9ge-mQ-OcP" firstAttribute="top" secondItem="7Cy-2r-JTd" secondAttribute="bottom" constant="20" id="WCc-va-xPl"/>
+                                        <constraint firstItem="KRx-Tb-PsI" firstAttribute="centerX" secondItem="RSc-DX-NoX" secondAttribute="centerX" id="Wk5-Ez-PYy"/>
+                                        <constraint firstItem="gUz-D7-7N6" firstAttribute="centerY" secondItem="KRx-Tb-PsI" secondAttribute="centerY" id="YPE-Qw-uyv"/>
+                                        <constraint firstItem="7Cy-2r-JTd" firstAttribute="leading" secondItem="RSc-DX-NoX" secondAttribute="leading" constant="20" id="Z7y-sE-wq7"/>
+                                        <constraint firstItem="k2Q-N0-aj5" firstAttribute="leading" secondItem="RSc-DX-NoX" secondAttribute="leading" id="Zfh-8O-zOu"/>
+                                        <constraint firstItem="5ja-2c-EQa" firstAttribute="top" secondItem="k2Q-N0-aj5" secondAttribute="bottom" constant="35" id="a5c-ie-k1u"/>
+                                        <constraint firstItem="1hZ-lq-V3N" firstAttribute="centerX" secondItem="RSc-DX-NoX" secondAttribute="centerX" id="anU-Az-um0"/>
+                                        <constraint firstAttribute="trailing" secondItem="7Cy-2r-JTd" secondAttribute="trailing" constant="20" id="cYQ-L1-IOc"/>
+                                        <constraint firstItem="gUz-D7-7N6" firstAttribute="centerX" secondItem="KRx-Tb-PsI" secondAttribute="centerX" id="giJ-4H-Pxw"/>
+                                        <constraint firstItem="7Cy-2r-JTd" firstAttribute="top" secondItem="k2Q-N0-aj5" secondAttribute="bottom" constant="80" id="iXR-fc-fFz"/>
+                                        <constraint firstItem="3Q2-j9-X4i" firstAttribute="top" secondItem="gUz-D7-7N6" secondAttribute="bottom" constant="10" id="rbA-Og-BxT"/>
+                                        <constraint firstItem="9ge-mQ-OcP" firstAttribute="leading" secondItem="RSc-DX-NoX" secondAttribute="leading" constant="20" id="tWO-Fd-894"/>
+                                        <constraint firstItem="Ucf-cT-WsK" firstAttribute="top" secondItem="RSc-DX-NoX" secondAttribute="top" constant="10" id="wTC-Xk-Fg1"/>
+                                        <constraint firstAttribute="trailing" secondItem="r84-MF-Gv0" secondAttribute="trailing" constant="10" id="wvY-zR-jtx"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" name="co_page_bg"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="RSc-DX-NoX" secondAttribute="trailing" constant="30" id="1ip-qz-zea"/>
+                                <constraint firstItem="RSc-DX-NoX" firstAttribute="top" secondItem="3vc-GD-bod" secondAttribute="top" constant="64" id="3wq-gv-hgB"/>
+                                <constraint firstItem="RSc-DX-NoX" firstAttribute="leading" secondItem="3vc-GD-bod" secondAttribute="leading" constant="30" id="UrW-zv-OUR"/>
+                                <constraint firstAttribute="height" constant="850" id="i4I-vV-Ak2"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="3vc-GD-bod" firstAttribute="leading" secondItem="1NM-YY-Myh" secondAttribute="leading" id="0ow-ew-hV2"/>
+                        <constraint firstItem="3vc-GD-bod" firstAttribute="width" secondItem="WtE-DJ-vKF" secondAttribute="width" id="WJ7-TT-07d"/>
+                        <constraint firstItem="3vc-GD-bod" firstAttribute="top" secondItem="1NM-YY-Myh" secondAttribute="top" id="aaO-pI-t3R"/>
+                        <constraint firstItem="3vc-GD-bod" firstAttribute="trailing" secondItem="1NM-YY-Myh" secondAttribute="trailing" id="rW6-xL-w8L"/>
+                        <constraint firstItem="3vc-GD-bod" firstAttribute="bottom" secondItem="1NM-YY-Myh" secondAttribute="bottom" id="wWA-Ka-yle"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="1NM-YY-Myh"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="WtE-DJ-vKF"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="co_page_bg"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eSX-iu-6dB" secondAttribute="bottom" id="8m3-yg-H9V"/>
+                <constraint firstItem="eSX-iu-6dB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="lhK-D0-7KK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eSX-iu-6dB" secondAttribute="trailing" id="mPs-SL-79A"/>
+                <constraint firstItem="eSX-iu-6dB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="nYQ-jA-5mt"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="checkoutCloseIcon" width="22.5" height="22.5"/>
+        <image name="clound_shopper_bg" width="235.5" height="236"/>
+        <image name="happy_shopper_woman" width="122" height="129"/>
+        <namedColor name="checkout_close_btnbg">
+            <color red="0.92500001192092896" green="0.92500001192092896" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="co_card_bg">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="co_page_bg">
+            <color red="0.94900000095367432" green="0.9570000171661377" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="co_separator_color">
+            <color red="0.77600002288818359" green="0.77600002288818359" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

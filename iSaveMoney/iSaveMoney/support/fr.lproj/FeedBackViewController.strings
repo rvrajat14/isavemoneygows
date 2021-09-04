@@ -1,0 +1,17 @@
+/* Classe = "UIButton"; normalTitle = "Comment ça marche"; ObjectID = "9cs-JI-fMl"; */
+"9cs-JI-fMl.normalTitle" = "Comment ça marche";
+
+/* Classe = "UIButton"; normalTitle = "FAQ et documentation"; ObjectID = "Qbc-e8-nLq"; */
+"Qbc-e8-nLq.normalTitle" = "FAQ et documentation";
+
+/* Classe = "UILabel"; text = "Merci d'avoir choisi iSaveMoney Go pour votre budget. Nous serons ravis de savoir comment nous pouvons améliorer encore iSaveMoney Go et rendre votre expérience avec iSaveMoney Go un utilisateur heureux. Parlons-en. Vous utilisez actuellement iSaveMoney Go version 1.01"; ObjectID = "TWb-Zw-VCE"; */
+"TWb-Zw-VCE.text" = "Merci d'avoir choisi iSaveMoney Go pour votre budget. Nous serons ravis de savoir comment nous pouvons améliorer encore iSaveMoney Go et rendre votre expérience avec iSaveMoney Go un utilisateur heureux. Parlons-en. utilise actuellement iSaveMoney Go version 1.01 ";
+
+/* Classe = "UIButton"; normalTitle = "Comment ça marche"; ObjectID = "Y1s-yZ-gGT"; */
+"Y1s-yZ-gGT.normalTitle" = "Comment ça marche";
+
+/* Classe = "UILabel"; text = "iSaveMoney Go v. 1.01"; ObjectID = "dmH-z2-8CX"; */
+"dmH-z2-8CX.text" = "iSaveMoney Go v. 1.01";
+
+/* Classe = "UIButton"; normalTitle = "Contactez-nous"; ObjectID = "qzm-up-2jV"; */
+"qzm-up-2jV.normalTitle" = "Contactez-nous";

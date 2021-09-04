@@ -1,0 +1,604 @@
+{"data":[
+  {
+    "name":"Afghan Afghani (AFN)",
+    "codes":"ps_AF,fa_AF,uz_AF"
+  },
+  {
+    "name":"Albanian Lek (ALL)",
+    "codes":"sq_AL"
+  },
+  {
+    "name":"Algerian Dinar (DZD)",
+    "codes":"ar_DZ,fr_DZ,kab_DZ"
+  },
+  {
+    "name":"Angolan Kwanza (AOA)",
+    "codes":"pt_AO,ln_AO"
+  },
+  {
+    "name":"Argentine Peso (ARS)",
+    "codes":"es_AR"
+  },
+  {
+    "name":"Armenian Dram (AMD)",
+    "codes":"hy_AM"
+  },
+  {
+    "name":"Aruban Florin (AWG)",
+    "codes":"nl_AW"
+  },
+  {
+    "name":"Australian Dollar (A$)",
+    "codes":"en_TV,en_CC,en_NR,en_AU,en_NF,en_KI,en_CX"
+  },
+  {
+    "name":"Azerbaijani Manat (AZN)",
+    "codes":"az_AZ,az_AZ"
+  },
+  {
+    "name":"Bahamian Dollar (BSD)",
+    "codes":"en_BS"
+  },
+  {
+    "name":"Bahraini Dinar (BHD)",
+    "codes":"ar_BH"
+  },
+  {
+    "name":"Bangladeshi Taka (BDT)",
+    "codes":"bn_BD"
+  },
+  {
+    "name":"Barbadian Dollar (BBD)",
+    "codes":"en_BB"
+  },
+  {
+    "name":"Belarusian Ruble (BYR)",
+    "codes":"ru_BY,be_BY"
+  },
+  {
+    "name":"Belize Dollar (BZD)",
+    "codes":"en_BZ"
+  },
+  {
+    "name":"Bermudan Dollar (BMD)",
+    "codes":"en_BM"
+  },
+  {
+    "name":"Bhutanese Ngultrum (BTN)",
+    "codes":"dz_BT"
+  },
+  {
+    "name":"Bolivian Boliviano (BOB)",
+    "codes":"es_BO,qu_BO"
+  },
+  {
+    "name":"Bosnia-Herzegovina Convertible Mark (BAM)",
+    "codes":"bs_BA,bs_BA,sr_BA,hr_BA,sr_BA"
+  },
+  {
+    "name":"Botswanan Pula (BWP)",
+    "codes":"en_BW"
+  },
+  {
+    "name":"Brazilian Real (R$)",
+    "codes":"pt_BR"
+  },
+  {
+    "name":"British Pound (£)",
+    "codes":"en_JE,en_GG,gv_IM,kw_GB,gd_GB,en_GB,cy_GB,en_IM"
+  },
+  {
+    "name":"Brunei Dollar (BND)",
+    "codes":"ms_BN"
+  },
+  {
+    "name":"Bulgarian Lev (BGN)",
+    "codes":"bg_BG"
+  },
+  {
+    "name":"Burundian Franc (BIF)",
+    "codes":"rn_BI,en_BI,fr_BI"
+  },
+  {
+    "name":"CFP Franc (CFPF)",
+    "codes":"fr_PF,fr_WF,fr_NC"
+  },
+  {
+    "name":"Cambodian Riel (KHR)",
+    "codes":"km_KH"
+  },
+  {
+    "name":"Canadian Dollar (CA$)",
+    "codes":"fr_CA,en_CA"
+  },
+  {
+    "name":"Cape Verdean Escudo (CVE)",
+    "codes":"pt_CV,kea_CV"
+  },
+  {
+    "name":"Cayman Islands Dollar (KYD)",
+    "codes":"en_KY"
+  },
+  {
+    "name":"Central African CFA Franc (FCFA)",
+    "codes":"ksf_CM,ewo_CM,fr_GA,en_CM,mgo_CM,fr_CF,nnh_CM,dua_CM,fr_GQ,fr_CG,bas_CM,ln_CF,fr_CM,nmg_CM,jgo_CM,ff_CM,es_GQ,mua_CM,fr_TD,ar_TD,agq_CM,sg_CF,ln_CG,yav_CM,kkj_CM"
+  },
+  {
+    "name":"Chilean Peso (CLP)",
+    "codes":"es_CL"
+  },
+  {
+    "name":"Chinese Yuan (CN¥)",
+    "codes":"zh_CN,bo_CN,ii_CN,ug_CN"
+  },
+  {
+    "name":"Colombian Peso (COP)",
+    "codes":"es_CO"
+  },
+  {
+    "name":"Comorian Franc (KMF)",
+    "codes":"fr_KM,ar_KM"
+  },
+  {
+    "name":"Congolese Franc (CDF)",
+    "codes":"ln_CD,lu_CD,sw_CD,fr_CD"
+  },
+  {
+    "name":"Costa Rican Colón (CRC)",
+    "codes":"es_CR"
+  },
+  {
+    "name":"Croatian Kuna (HRK)",
+    "codes":"hr_HR"
+  },
+  {
+    "name":"Cuban Peso (CUP)",
+    "codes":"es_CU"
+  },
+  {
+    "name":"Czech Republic Koruna (CZK)",
+    "codes":"cs_CZ"
+  },
+  {
+    "name":"Danish Krone (DKK)",
+    "codes":"fo_DK,kl_GL,da_GL,fo_FO,da_DK,en_DK"
+  },
+  {
+    "name":"Djiboutian Franc (DJF)",
+    "codes":"fr_DJ,ar_DJ,so_DJ"
+  },
+  {
+    "name":"Dominican Peso (DOP)",
+    "codes":"es_DO"
+  },
+  {
+    "name":"East Caribbean Dollar (EC$)",
+    "codes":"en_MS,en_LC,en_GD,en_DM,en_KN,en_AI,en_AG,en_VC"
+  },
+  {
+    "name":"Egyptian Pound (EGP)",
+    "codes":"ar_EG"
+  },
+  {
+    "name":"Eritrean Nakfa (ERN)",
+    "codes":"ti_ER,ar_ER,en_ER"
+  },
+  {
+    "name":"Ethiopian Birr (ETB)",
+    "codes":"so_ET,om_ET,ti_ET,am_ET"
+  },
+  {
+    "name":"Euro (€)",
+    "codes":"fr_MC,sv_FI,ksh_DE,fr_BL,sr_ME,sl_SI,fr_MF,el_CY,ca_FR,es_IC,it_IT,pt_PT,es_ES,smn_FI,ca_AD,gsw_FR,fr_LU,et_EE,br_FR,tr_CY,sk_SK,en_CY,lt_LT,sq_XK,en_SI,el_GR,de_LU,fr_GF,fy_NL,en_DE,es_EA,fr_RE,lv_LV,ga_IE,sr_XK,it_SM,de_DE,gl_ES,nl_BE,fr_PM,en_FI,fr_BE,mt_MT,en_BE,sv_AX,de_AT,fr_MQ,en_NL,dsb_DE,ca_ES,sr_XK,fr_GP,ca_IT,hsb_DE,fur_IT,eu_ES,en_IE,lb_LU,en_AT,fr_YT,nl_NL,se_FI,en_MT,fi_FI,de_BE,sr_ME,fr_FR"
+  },
+  {
+    "name":"Falkland Islands Pound (FKP)",
+    "codes":"en_FK"
+  },
+  {
+    "name":"Fijian Dollar (FJD)",
+    "codes":"en_FJ"
+  },
+  {
+    "name":"Gambian Dalasi (GMD)",
+    "codes":"en_GM"
+  },
+  {
+    "name":"Georgian Lari (GEL)",
+    "codes":"ka_GE,os_GE"
+  },
+  {
+    "name":"Ghanaian Cedi (GHS)",
+    "codes":"ha_GH,ak_GH,ee_GH,en_GH"
+  },
+  {
+    "name":"Gibraltar Pound (GIP)",
+    "codes":"en_GI"
+  },
+  {
+    "name":"Guatemalan Quetzal (GTQ)",
+    "codes":"es_GT"
+  },
+  {
+    "name":"Guinean Franc (GNF)",
+    "codes":"fr_GN,ff_GN"
+  },
+  {
+    "name":"Guyanaese Dollar (GYD)",
+    "codes":"en_GY"
+  },
+  {
+    "name":"Haitian Gourde (HTG)",
+    "codes":"fr_HT"
+  },
+  {
+    "name":"Honduran Lempira (HNL)",
+    "codes":"es_HN"
+  },
+  {
+    "name":"Hong Kong Dollar (HK$)",
+    "codes":"en_HK,zh_HK,zh_HK"
+  },
+  {
+    "name":"Hungarian Forint (HUF)",
+    "codes":"hu_HU"
+  },
+  {
+    "name":"Icelandic Króna (ISK)",
+    "codes":"is_IS"
+  },
+
+  {
+    "name":"Indian Rupee (₹)",
+    "codes":"en_IN,as_IN,or_IN,bo_IN,kok_IN,ta_IN,brx_IN,gu_IN,bn_IN,mr_IN,te_IN,ml_IN,ks_IN,kn_IN,ur_IN,pa_IN,ne_IN,hi_IN"
+  },
+
+  {
+    "name":"Indonesian Rupiah (IDR)",
+    "codes":"in_ID"
+  },
+  {
+    "name":"Iranian Rial (IRR)",
+    "codes":"fa_IR,lrc_IR,mzn_IR"
+  },
+  {
+    "name":"Iraqi Dinar (IQD)",
+    "codes":"lrc_IQ,ar_IQ"
+  },
+  {
+    "name":"Israeli New Sheqel (₪)",
+    "codes":"ar_PS,iw_IL,en_IL,ar_IL"
+  },
+  {
+    "name":"Jamaican Dollar (JMD)",
+    "codes":"en_JM"
+  },
+  {
+    "name":"Japanese Yen (¥)",
+    "codes":"ja_JP"
+  },
+  {
+    "name":"Jordanian Dinar (JOD)",
+    "codes":"ar_JO"
+  },
+  {
+    "name":"Kazakhstani Tenge (KZT)",
+    "codes":"ru_KZ,kk_KZ"
+  },
+  {
+    "name":"Kenyan Shilling (KES)",
+    "codes":"en_KE,luy_KE,luo_KE,dav_KE,mas_KE,sw_KE,teo_KE,ebu_KE,ki_KE,kam_KE,om_KE,mer_KE,saq_KE,so_KE,kln_KE,guz_KE"
+  },
+  {
+    "name":"Kuwaiti Dinar (KWD)",
+    "codes":"ar_KW"
+  },
+  {
+    "name":"Kyrgystani Som (KGS)",
+    "codes":"ru_KG,ky_KG"
+  },
+  {
+    "name":"Laotian Kip (LAK)",
+    "codes":"lo_LA"
+  },
+  {
+    "name":"Lebanese Pound (LBP)",
+    "codes":"ar_LB"
+  },
+  {
+    "name":"Liberian Dollar (LRD)",
+    "codes":"en_LR,vai_LR,vai_LR"
+  },
+  {
+    "name":"Libyan Dinar (LYD)",
+    "codes":"ar_LY"
+  },
+  {
+    "name":"Macanese Pataca (MOP)",
+    "codes":"zh_MO,pt_MO,zh_MO,en_MO"
+  },
+  {
+    "name":"Macedonian Denar (MKD)",
+    "codes":"sq_MK,mk_MK"
+  },
+  {
+    "name":"Malagasy Ariary (MGA)",
+    "codes":"fr_MG,mg_MG,en_MG"
+  },
+  {
+    "name":"Malawian Kwacha (MWK)",
+    "codes":"en_MW"
+  },
+  {
+    "name":"Malaysian Ringgit (MYR)",
+    "codes":"ta_MY,ms_MY,en_MY"
+  },
+  {
+    "name":"Mauritanian Ouguiya (MRO)",
+    "codes":"ff_MR,fr_MR,ar_MR"
+  },
+  {
+    "name":"Mauritian Rupee (MUR)",
+    "codes":"en_MU,mfe_MU,fr_MU"
+  },
+  {
+    "name":"Mexican Peso (MX$)",
+    "codes":"es_MX"
+  },
+  {
+    "name":"Moldovan Leu (MDL)",
+    "codes":"ro_MD,ru_MD"
+  },
+  {
+    "name":"Mongolian Tugrik (MNT)",
+    "codes":"mn_MN"
+  },
+  {
+    "name":"Moroccan Dirham (MAD)",
+    "codes":"tzm_MA,shi_MA,shi_MA,zgh_MA,ar_EH,ar_MA,fr_MA"
+  },
+  {
+    "name":"Mozambican Metical (MZN)",
+    "codes":"mgh_MZ,pt_MZ,seh_MZ"
+  },
+  {
+    "name":"Myanmar Kyat (MMK)",
+    "codes":"my_MM"
+  },
+  {
+    "name":"Namibian Dollar (NAD)",
+    "codes":"af_NA,en_NA,naq_NA"
+  },
+  {
+    "name":"Nepalese Rupee (NPR)",
+    "codes":"ne_NP"
+  },
+  {
+    "name":"Netherlands Antillean Guilder (ANG)",
+    "codes":"en_SX,nl_SX,nl_CW"
+  },
+  {
+    "name":"New Taiwan Dollar (NT$)",
+    "codes":"zh_TW"
+  },
+  {
+    "name":"New Zealand Dollar (NZ$)",
+    "codes":"en_NU,en_PN,en_CK,en_TK,en_NZ"
+  },
+  {
+    "name":"Nicaraguan Córdoba (NIO)",
+    "codes":"es_NI"
+  },
+  {
+    "name":"Nigerian Naira (NGN)",
+    "codes":"ig_NG,yo_NG,en_NG,ha_NG"
+  },
+  {
+    "name":"North Korean Won (KPW)",
+    "codes":"ko_KP"
+  },
+  {
+    "name":"Norwegian Krone (NOK)",
+    "codes":"nb_SJ,nb_NO,se_NO,nn_NO"
+  },
+  {
+    "name":"Omani Rial (OMR)",
+    "codes":"ar_OM"
+  },
+  {
+    "name":"Pakistani Rupee (PKR)",
+    "codes":"en_PK,ur_PK,pa_PK"
+  },
+  {
+    "name":"Panamanian Balboa (PAB)",
+    "codes":"es_PA"
+  },
+  {
+    "name":"Papua New Guinean Kina (PGK)",
+    "codes":"en_PG"
+  },
+  {
+    "name":"Paraguayan Guarani (PYG)",
+    "codes":"es_PY"
+  },
+  {
+    "name":"Peruvian Nuevo Sol (PEN)",
+    "codes":"es_PE,qu_PE"
+  },
+  {
+    "name":"Philippine Peso (PHP)",
+    "codes":"es_PH,fil_PH,en_PH"
+  },
+  {
+    "name":"Polish Zloty (PLN)",
+    "codes":"pl_PL"
+  },
+  {
+    "name":"Qatari Rial (QAR)",
+    "codes":"ar_QA"
+  },
+  {
+    "name":"Romanian Leu (RON)",
+    "codes":"ro_RO"
+  },
+  {
+    "name":"Russian Ruble (RUB)",
+    "codes":"ru_RU,sah_RU,ce_RU,os_RU"
+  },
+  {
+    "name":"Rwandan Franc (RWF)",
+    "codes":"fr_RW,rw_RW,en_RW"
+  },
+  {
+    "name":"Samoan Tala (WST)",
+    "codes":"en_WS"
+  },
+  {
+    "name":"Saudi Riyal (SAR)",
+    "codes":"ar_SA"
+  },
+  {
+    "name":"Serbian Dinar (RSD)",
+    "codes":"sr_RS,sr_RS"
+  },
+  {
+    "name":"Seychellois Rupee (SCR)",
+    "codes":"fr_SC,en_SC"
+  },
+  {
+    "name":"Sierra Leonean Leone (SLL)",
+    "codes":"en_SL"
+  },
+  {
+    "name":"Singapore Dollar (SGD)",
+    "codes":"ms_SG,zh_SG,ta_SG,en_SG"
+  },
+  {
+    "name":"Solomon Islands Dollar (SBD)",
+    "codes":"en_SB"
+  },
+  {
+    "name":"Somali Shilling (SOS)",
+    "codes":"so_SO,ar_SO"
+  },
+  {
+    "name":"South African Rand (ZAR)",
+    "codes":"zu_ZA,en_ZA,en_LS,af_ZA"
+  },
+  {
+    "name":"South Korean Won (₩)",
+    "codes":"ko_KR"
+  },
+  {
+    "name":"South Sudanese Pound (SSP)",
+    "codes":"nus_SS,en_SS,ar_SS"
+  },
+  {
+    "name":"Sri Lankan Rupee (LKR)",
+    "codes":"ta_LK,si_LK"
+  },
+  {
+    "name":"St. Helena Pound (SHP)",
+    "codes":"en_SH"
+  },
+  {
+    "name":"Sudanese Pound (SDG)",
+    "codes":"ar_SD,en_SD"
+  },
+  {
+    "name":"Surinamese Dollar (SRD)",
+    "codes":"nl_SR"
+  },
+  {
+    "name":"Swazi Lilangeni (SZL)",
+    "codes":"en_SZ"
+  },
+  {
+    "name":"Swedish Krona (SEK)",
+    "codes":"en_SE,sv_SE,se_SE"
+  },
+  {
+    "name":"Swiss Franc (CHF)",
+    "codes":"de_CH,de_LI,wae_CH,it_CH,gsw_LI,fr_CH,gsw_CH,en_CH,rm_CH"
+  },
+  {
+    "name":"Syrian Pound (SYP)",
+    "codes":"fr_SY,ar_SY"
+  },
+  {
+    "name":"São Tomé & Príncipe Dobra (STD)",
+    "codes":"pt_ST"
+  },
+  {
+    "name":"Tanzanian Shilling (TZS)",
+    "codes":"jmc_TZ,ksb_TZ,vun_TZ,lag_TZ,asa_TZ,mas_TZ,rwk_TZ,sw_TZ,sbp_TZ,rof_TZ,en_TZ,bez_TZ,kde_TZ"
+  },
+  {
+    "name":"Thai Baht (THB)",
+    "codes":"th_TH"
+  },
+  {
+    "name":"Tongan Paʻanga (TOP)",
+    "codes":"to_TO,en_TO"
+  },
+  {
+    "name":"Trinidad & Tobago Dollar (TTD)",
+    "codes":"en_TT"
+  },
+  {
+    "name":"Tunisian Dinar (TND)",
+    "codes":"ar_TN,fr_TN"
+  },
+  {
+    "name":"Turkish Lira (TRY)",
+    "codes":"tr_TR"
+  },
+  {
+    "name":"US Dollar ($)",
+    "codes":"en_US,sn_ZW,es_SV,chr_US,es_PR,en_ZW,haw_US,en_MH,en_US,en_UM,en_FM,nl_BQ,en_PW,en_DG,qu_EC,en_TC,en_MP,en_VG,en_GU,en_IO,en_AS,lkt_US,es_EC,en_PR,en_VI,pt_TL,nd_ZW,es_US"
+  },
+  {
+    "name":"Ugandan Shilling (UGX)",
+    "codes":"sw_UG,en_UG,teo_UG,cgg_UG,nyn_UG,xog_UG,lg_UG"
+  },
+  {
+    "name":"Ukrainian Hryvnia (UAH)",
+    "codes":"ru_UA,uk_UA"
+  },
+  {
+    "name":"United Arab Emirates Dirham (AED)",
+    "codes":"ar_AE"
+  },
+  {
+    "name":"Uruguayan Peso (UYU)",
+    "codes":"es_UY"
+  },
+  {
+    "name":"Uzbekistani Som (UZS)",
+    "codes":"uz_UZ,uz_UZ"
+  },
+  {
+    "name":"Vanuatu Vatu (VUV)",
+    "codes":"en_VU,fr_VU"
+  },
+  {
+    "name":"Venezuelan Bolívar (VEF)",
+    "codes":"es_VE"
+  },
+  {
+    "name":"Vietnamese Dong (₫)",
+    "codes":"vi_VN"
+  },
+  {
+    "name":"West African CFA Franc (CFA)",
+    "codes":"pt_GW,fr_ML,ha_NE,ses_ML,ee_TG,fr_TG,fr_NE,bm_ML,yo_BJ,fr_BF,twq_NE,fr_SN,fr_CI,dje_NE,fr_BJ,dyo_SN,ff_SN,khq_ML"
+  },
+  {
+    "name":"Yemeni Rial (YER)",
+    "codes":"ar_YE"
+  },
+  {
+    "name":"Zambian Kwacha (ZMW)",
+    "codes":"en_ZM,bem_ZM"
+  }
+         ]}

@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2eA-TH-7PZ"; */
+"2eA-TH-7PZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "You subscription will Automatically renew, you can cancel at anytime."; ObjectID = "9BT-6l-a4K"; */
+"9BT-6l-a4K.text" = "Votre abonnement se renouvellera automatiquement, vous pouvez l'annuler à tout moment.";
+
+/* Class = "UILabel"; text = "Order: ERNY46566566565656"; ObjectID = "Doz-HY-S2S"; */
+"Doz-HY-S2S.text" = "Order: ERNY46566566565656";
+
+/* Class = "UILabel"; text = "Welcome To iSaveMoneyGo Premium"; ObjectID = "KQw-CC-geQ"; */
+"KQw-CC-geQ.text" = "Bienvenue sur iSaveMoneyGo Premium";
+
+/* Class = "UIButton"; normalTitle = "Continue to the app"; ObjectID = "Vsh-hu-NCe"; */
+"Vsh-hu-NCe.normalTitle" = "Continuez vers l'application";
+
+/* Class = "UILabel"; text = "Thank You For Becoming a Premium Member!"; ObjectID = "tJA-aq-BbN"; */
+"tJA-aq-BbN.text" = "Merci d'être devenu membre Premium!";
+
+/* Class = "UILabel"; text = "Date: 05.10.2020"; ObjectID = "xav-su-ylW"; */
+"xav-su-ylW.text" = "Date: 05.10.2020";
+
+/* Class = "UILabel"; text = "Thank you for your payment, we appreciate your support. You can now take full advantage of the Premium features and special services. We will be adding additional features over the time. We will keep you posted!"; ObjectID = "xvh-ef-Sdi"; */
+"xvh-ef-Sdi.text" = "Merci pour votre paiement, nous apprécions votre soutien. Vous pouvez désormais profiter pleinement des fonctionnalités Premium et des services spéciaux. Nous ajouterons des fonctionnalités supplémentaires au fil du temps. Nous vous tiendrons au courant!";

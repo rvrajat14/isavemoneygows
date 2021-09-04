@@ -1,0 +1,804 @@
+/*
+ Localizable.strings
+ iSaveMoney
+ 
+ Created by Armel Koudoum on 10/13/17.
+ Copyright Â© 2017 UlmatCorpit. All rights reserved.
+ */
+//ViewController.swift
+
+//generic textes
+"text_error" = "Erreur";
+"text_done" = "Terminé";
+"text_clear" = "Retirer";
+"text_apply" = "Appliquer";
+"text_ok" = "D'accord";
+"text_today" = "Aujourd'hui";
+"text_now" = "Maintenant";
+"text_cancel" = "Annuler";
+"text_continue" = "Continuer";
+"text_skip" = "PASSER";
+"text_start" = "DÉBUTER";
+"text_next" = "SUIVANT";
+"text_unlock" = "Débloquer";
+"text_save" = "SAUVER";
+"text_edit" = "EDITER";
+"app_name" = "iSaveMoney Go";
+"app_name_mm" = "Money Maximiser";
+"text_wait" = "S'il vous plaît, attendez...";
+"format_date_time" = "dd MMM, yyyy hh a";
+"format_chart_date" = "dd MMMM, yyyy";
+"format_date" = "dd/mm/yyyy";
+"format_time" = "hh:mm a";
+"invalid_email" = "Email invalide";
+"text_required" = "Obligatoires";
+"text_min_required" = "Minimum 6 caractères";
+"text_new" = "Nouveau";
+"text_advance" = "Avancée";
+"text_simple" = "Simple";
+"text_notes" = "Notes";
+"hint_type_here" = "Écrivez ici...";
+
+"userLang" = "fr";
+"loadingText" = "iSaveMoneyGo";
+"noDataCurrentlyAvailableText" = "Chargement des données...";
+"actionSheeetWantTo" = "Je veux...";
+"actionSheeetViewContributors" = "Voir les contributeurs";
+"actionSheetDuplicate" = "Dupliquer / Cloner";
+"actionSheetConfigure" = "Configurer & renommer";
+"actionSheetViewDayBook" = "Voir le livre du jour";
+"actionSheetExportCSV" = "Export CSV, MS Excel, PDF";
+"actionSheetVisualizeOnCharts" = "Visualiser sur les graphiques";
+"actionSheetDelete" = "Supprimer";
+"alertConfirmDelete" = "Confirmation de la suppression...";
+"alertConfirmDeleteBody" = "Cette action supprimera définitivement ce budget actuel";
+"alertConfirmDeleteContinue" = "Continuer";
+"alertConfirmDeleteCancel" = "Annuler";
+"actionSheetCancel" = "Annuler";
+"shareDenied" = "Action refusée";
+"shareDeniedText" =  "Seul le propriétaire peut faire cette action.";
+
+"tabExpense" = "Ajout dépense";
+"tabIncome" = "Ajout revenu";
+"tabCategory" = "Ajout categorie";
+"tabWanto" = "Je veux...";
+"percentSpent"= "du revenu dépensé";
+//budget object
+"netDisposeIncomes" = "Revenu total disponible (Net)";
+"totalExpenditure" = "Total des dépenses réelles";
+
+//stat circle
+
+"statSaving" = "Épargne";
+"statDebt" = "Limite dépassé";
+
+
+//drawer
+"drawerAppName" = "iSaveMoney Go";
+"drawerAppSlogan" = "Budget personnel & familial";
+"drawerMyAccount" = "Mon compte";
+"drawerCreateBudget" = "Créer un budget";
+"drawerOtherMonths" = "Tous mes budgets";
+"myTransactions" = "Mes transactions";
+"drawerAccounts" = "Comptes financiers";
+"drawerPayees" = "Bénéficiaires";
+"drawerPayers" = "Émetteurs";
+"drawerToolsSettings" = "Outils et paramètres";
+"drawerHelpFeedback" = "Aide et commentaires";
+"drawerYourAccount" = "Mon compte";
+"drawerLogout" = "Déconnexion";
+"drawerTitleAccounts" = "Comptes";
+"drawerTitleSettings" = "Paramètres";
+"drawerRecurringTransactions" = "Transactions récurrentes";
+"drawerUpgrade" = "Passer à Pro";
+"groupMangement" = "Gérer les groupes";
+
+//FeedBackViewController
+"feedbackContactUs" = " Contactez nous";
+"feedbackHowItWorks" = " Comment ça marche";
+"feedbackEmailSubject" = "iOS - Commentaires puis iSaveMoney";
+"feedbackEmailBody" = "Veuillez décrire votre commentaires ci-dessous:";
+"feedbackCantInitComposer" = "Impossible d'e lancer'ouvrir le composeur de courrier électronique...";
+"feedbackCantInitComposerBody" = "Le client de messagerie de votre appareil semble être désactivé. Accédez à Paramètres> Mots de passe et comptes, puis appuyez sur Ajouter un compte.";
+"feedbackCantInitComposerOkButton" = "D'accord";
+"feedbackEmailSent" = "Email envoyé.";
+"feedbackEmailSaved" = "Vous avez enregistré un brouillon de cet e-mail";
+"feedbackEmailCancelled" = "Vous avez annulé l'envoi de cet e-mail.";
+"feedbackEmailFailed" = "Échec du courrier: une erreur est survenue lors de la tentative de composition de cet e-mail";
+"feedbackErrorOccurred" = "Une erreur est survenue lors de la tentative de composition de cet e-mail";
+"feedbackCantInit" = "Impossible d'initié l'email ...";
+"feedbackCantInitOkButton" = "D'accord";
+
+
+//NewMonthlyBudgetViewController
+"January" = "Janvier";
+"February" = "Février";
+"March" = "Mars";
+"April" = "Avril";
+"May" = "Mai";
+"June" = "Juin";
+"July" = "Juillet";
+"August" = "Août";
+"September" = "Septembre";
+"October" = "Octobre";
+"November" = "Novembre";
+"December" = "Décembre";
+
+"txt_Jan" = "Janv";
+"txt_Feb" = "Févr";
+"txt_Mar" = "Mars";
+"txt_Apr" = "Avri";
+"txt_May" = "Mai";
+"txt_Jun" = "Juin";
+"txt_Jul" = "Juil";
+"txt_Aug" = "Août";
+"txt_Sep" = "Sept";
+"txt_Oct" = "Octo";
+"txt_Nov" = "Nove";
+"txt_Dec" = "Déc";
+
+"newBudgetOptionBasic" = " Budget basic (catégories prédéfinies)";
+"newBudgetOptionPersonnel" = " Budget personnel";
+"newBudgetOptionFamily" = " Budget familial";
+"newBudgetOptionHouseHold" = " Budget du ménage";
+"newBudgetSelectMonth" = "Sélectionnez un mois";
+"newBudgetSelectDate" = "Sélectionnez une date";
+"newBudgetEndDateShouldBeGreater" = "La date de fin devrait être plus grande";
+"newBudgetChooseCategory" = "Sélectionnez catégories";
+"newBudgetNumberIncomes" = " revenus ajoutés";
+"newBudgetNumberExpenses" = " catégories ajoutées";
+
+//AddCategoriesViewController
+"addCategoryItem1" = "Dépenses non classées";
+"addCategoryItem2" = "Mon revenu";
+"addCategoryIncome" = "Revenu:";
+"addCategoryBudget" = "Budget:";
+
+//NewExpenseViewController
+"newExpenseEdit" = "Modifier dépense";
+"newExpenseRequired" = "Obligatoires";
+"newExpenseDescription" = "Entrez une description";
+
+//NewCategoryViewController
+"newCategoryDescription" = "Entrez une description";
+
+//NewIncomeViewController
+"newIncomeEdit" = "Modifier le revenu";
+"newIncomeZero" = "0,0";
+"newIncomeDescription" = "Entrez une description";
+
+//CreateViewController
+"createBudgetExample" = "Créez un budget (ex.";
+
+//BudgetsTableViewController
+"budgetsAdmin" = "Admin";
+"budgetsGuest" = "Invité";
+"budgetsActive" = "Actif";
+"budgetsArchived" = "Archivé";
+"budgetsOwnerMe" = "Propriétaire: moi";
+"budgetsOwner" = "Propriétaire: autre";
+"budgetDeleteDeny" = "Action refusée";
+"budgetDeleteDenyBody" = "Seul le propriétaire peut effectuer cette action.";
+"budgetsArchive" = "Archiver";
+"budgetsUnarchive" = "Désarchiver";
+"budgetsDelete" = "Effacer";
+"budgetsNoBudgetFound" = "Aucun budget trouvé.";
+"budgetsNoBudgetArchive" = "Aucun budget dans les archives";
+"budgetsNoActiveBudget" = "Aucun budget actif n'a été trouvé ...";
+"budgetsNoArchivedBudget" = "Aucun budget n'a été trouvé dans vos archives ...";
+
+//PayeeViewController
+"PayeeTitle" = "Bénéficiaires";
+"PayeeNoPayee" = "Pas encore de bénéficiaire.";
+"PayeeDescription" = "Un bénéficiaire est une entité à laquelle votre argent est payé ou doit l'être, en particulier l'entité à qui un chèque est payable. par exemple: magasins, société de services publics ...";
+"PayeeAddFirst" = "Ajoutez votre premier bénéficiaire";
+"created_date"="Date de création: %@";
+
+//PayeeFormViewController
+"PayeeFromAdd" = "Ajouter bénéficiaire";
+"PayeeFromEdit" = "Modifier bénéficiaire";
+"PayeeFromDescription" = "Enter a description";
+
+//PayerViewController
+"PayerTitle" = "Émetteurs";
+"PayerNoPayer" = "Pas encore d'Émetteur.";
+"PayerNoPayerDescription"= "Un émetteur est une personne ou une organisation qui vous donne de l'argent qui est dû pour le travail effectué, les biens reçus ou une dette contractée. par exemple: employeur ...";
+"PayerAddFirst" = "Ajoutez votre premier émetteur";
+
+//PayerFormViewController
+"PayerFormAdd" = "Ajouter Émetteur";
+"PayerFormEdit" = "Modifier Émetteur";
+"PayerFormDescription"="Entrez une description";
+
+//AccountViewController
+"AccountNoAccount" = "Pas encore de compte.";
+"AccountNoAccountDescription" = "Un compte peut être un compte d'épargne, un compte de crédit, ou représente une certaine quantité d'argent liquide que vous mettez de côté.";
+"AccountNoAddFirt" = "Ajoutez votre premier compte";
+
+//AccountFormViewController
+"Checking" = "Chèque";
+"Savings" = "Épargne";
+"Credit" = "Crédit";
+"Debit" = "Débit";
+"Cash" = "Liquidité";
+"Other" = "Other";
+"AccountFromEdit" = "Modifier compte";
+"ZeroDot" = "0,0";
+"AccountFormDescription" = "Entrez une description";
+"AccountFormType" = "Sélectionnez un type";
+
+//AccountDetailsViewController
+"AccountDetailsNoData" = "Aucune donnée n'est actuellement disponible. Veuillez dérouler pour vous rafraîchir.";
+
+
+//TransferViewController
+"accountTransferSelectAccount" = "Sélectionnez un compte";
+"accountTransferSelectAccountTo" = "Sélectionnez un compte";
+"accountTransferWrongAmount" = "Obligatoire, devrait être supérieure à 0,0";
+
+//CategoryDetailsViewController
+"CategoryDetailsNoData" = "Aucune donnée n'est actuellement disponible. Veuillez dérouler pour vous rafraîchir.";
+"CategoryDetailsTitle" = "Détails";
+
+//CloneBudgetViewController
+"CloneBudgetSelectMonth" = "Sélectionnez un mois";
+"CloneBudgetSelectDate" = "Choisissez une date";
+"CloneBudgetSelectEndDate" = "Choisissez une date";
+"CloneBudgetEndDateShouldBeGreater" = "La date de fin devrait être plus grande";
+"CloneBudgetRollOver" = " restant";
+"CloneBudgetDateFormat" = "dd/MM/aaaa";
+
+
+//ConfigBudgetViewController
+"ConfigBudgetMinStart" = "Date de début maximum:";
+"ConfigBudgetMaxStart" = "Date de fin minimale:";
+
+//ChartsViewController
+"chartsLoadingData" = "S'il vous plaît, attendez. Chargement des données ...";
+"chartsNoData" = "Aucune donnée disponible pour le graphique.";
+"chartsBarTab" = "Diagramme à bandes";
+
+//DayBookViewController
+"dayBookNoDataAvailable" = "Aucune donnée n'est actuellement disponible.";
+// Veuillez dérouler pour vous rafraîchir.
+
+
+//LineChartViewController
+"chartLineNoData" = "";//"Aucune donnée disponible pour afficher le graphique.";
+"chartLineTab" = "Graphique en ligne";
+
+//PieChartViewController
+"chartPieTab" = "Camembert";
+"chartPieNoData" = "Pas de données disponibles";
+
+//SettingsViewController
+"12-hour clock (e.g [time])" = "horloge 12-heure (ex. [time])";
+"24-hour clock (e.g [time])" = "horloge 24-heure (ex. [time])";
+
+"hh:mm a" = "hh:mm a";
+"kk:mm" = "kk:mm";
+
+"dd/mm/yyyy (e.g [date])" = "dd/mm/aaaa (ex. [date])";
+"dd.mm.yyyy (e.g [date])" = "dd.mm.aaaa (ex. [date])";
+"dd-mm-yyyy (e.g [date])" = "dd-mm-aaaa (ex. [date])";
+"yyyy/mm/dd (e.g [date])" = "aaaa/mm/dd (ex. [date])";
+"yyyy.mm.dd (e.g [date])" = "aaaa.mm.dd (ex. [date])";
+"yyyy-mm-dd (e.g [date])" = "aaaa-mm-dd (ex. [date])";
+"mm/dd/yyyy (e.g [date])" = "mm/dd/aaaa (ex. [date])";
+"mm.dd.yyyy (e.g [date])" = "mm.dd.aaaa (ex. [date])";
+"mm-dd-yyyy (e.g [date])" = "mm-dd-aaaa (ex. [date])";
+
+"dd/mm/yyyy" = "dd/mm/yyyy";
+"dd.mm.yyyy" = "dd.mm.yyyy";
+"dd-mm-yyyy" = "dd-mm-yyyy";
+"yyyy/mm/dd" = "yyyy/mm/dd";
+"yyyy.mm.dd" = "yyyy.mm.dd";
+"yyyy-mm-dd" = "yyyy-mm-dd";
+"mm/dd/yyyy" = "mm/dd/yyyy";
+"mm.dd.yyyy" = "mm.dd.yyyy";
+"mm-dd-yyyy" = "mm-dd-yyyy";
+
+"SettingsnoCurrencyCode" = "pas de code de devise";
+"SettingsPreviewCode" = "Aperçu:";
+
+//InviteShareViewController
+"InviteUserNotFound" = "Utilisateur non trouvé";
+"InviteUserNotFoundDesc" = "Nous n'avons pas trouvé l'utilisateur avec l'email";
+"InviteUserNotFoundOk" = "D'accord";
+"InviteUserFound" = "Utilisateur trouvé";
+"InviteUserFoundButton"= "Inviter";
+"InviteUserFoundCancel" = "Annuler";
+"InviteMessage" = "a partagé un budget avec vous via l'application iSaveMoney Go.";
+"InviteSubject" = "Salut! Je voudrais partager mon budget";
+"InviteCallToAction" = "Installer!";
+"InviteFailed" = "L'invitation a échoué!";
+"InviteFailedMessage" = "Impossible de terminer le processus d'invitation.";
+"InviteFailedButton" = "D'accord";
+"InviteSent" = "Invitation envoyée!";
+"InviteSentMessage" = "L'utilisateur a été ajouté à votre budget.";
+"InviteSentButton" = "D'accord";
+"InviteInform" = "Le budget [budget] avec vous.";
+"InviteInformSharing" = "partage maintenant...";
+"InviteSentConfirm" = "Invitation envoyée!";
+"InviteSentConfirmMessage" = "L'utilisateur [email] a été ajouté à votre budget.";
+"InviteSentConfirmButtom" = "D'accord";
+
+//New invite
+"invite_share_title" = "Membres";
+"invite_share_add" = "Ajouter des membres";
+"invite_share_add_title" = "Ajouter un membre";
+"invite_share_add_user_to_budget" = "Ajouter des utilisateurs au budget: [budgetName]";
+"invite_not_found" = "Impossible de trouver l'utilisateur. Partagez le lien d'invitation ci-dessous";
+"invite_share_button_share" = "INVITER";
+"invite_share_link" = "PARTAGER LE LIEN D'INVITATION";
+"invite_share_email" = "Email";
+"invite_share_add_message" = "Ajouter un message (facultatif)";
+"invite_share_message" = "Je travaille sur ce budget [budget] dans l'application iSaveMoneyGo et je voulais le partager avec toi! Voici le lien: ";
+"invite_share_subject" = "Lien d'invitation du budget";
+"invite_share_via" = "Partager le budget";
+
+//ContributorsListViewController
+"ContributorNotYet" = "Aucun contributeur pour le moment.";
+"ContributorInviteText" = "Appuyez sur le bouton ci-dessous pour inviter un contributeur";
+"ContributorInviteButton" = "Invitez un partenaire ou une famille";
+"ContributorActionDenied" = "Action refusée";
+"ContributorActionDeniedDescription" = "Seul le propriétaire peut effectuer cette action.";
+"ContributorActionDeniedOk" = "D'accord";
+
+//Type schedule
+"TypeDay"="Jour";
+"TypeWeek"="Semaine";
+"TypeMonth"="Mois";
+"TypeYear"="An";
+
+"verboseSchedule" = "Tous les [number] [type] ";
+"verboseScheduleEver" = "pour toujours";
+"verboseScheduleLimit" = "pour [number] fois";
+
+//recurring transactions
+"NoRecurringTransaction" = "Aucune transaction récurrente pour le moment.";
+"NoRecurringTransactionDescription" = "Lorsque vous activez la transaction récurrente lors de l'enregistrement d'une dépense, d'un revenu ou d'un transfert, votre transaction est exécutée automatiquement à la date d'échéance.";
+
+
+//export MS Excel, CSV
+"csvTitle" = "iSaveMoney: Budget mensuel";
+"sheet_name" = "Mon budget";
+"sheet_budget" = "Budget";
+"sheet_actual" = "Dépenses actuel";
+"sheet_variance" = "Variance";
+"sheet_incomes" = "Vos revenus";
+"sheet_expenses" = "Vos dépenses";
+"sheet_saving" = "Économie nette";
+
+//export screen
+"export_csv_headline" = "Exporter vers un fichier...";
+"export_csv_description" = "Exportez votre budget dans un fichier CSV, Excel ou PDF par courrier électronique. Vous serez alors en mesure de l'ouvrir avec MS Excel, les feuilles de Google, Open Office, Adobe Reader et autres.";
+"export_in_excel" = "MS Excel";
+"export_in_csv" = "CSV";
+"export_in_pdf" = "PDF";
+"export_email" = "Votre adresse email";
+"cancel_text" = "ANNULER";
+"share_your_list_send" = "ENVOYER MAINTENAN";
+"export_email_placeholder" = "Entrez votre email";
+"email_subject" = "Votre rapport [type] depuis iSaveMoney!";
+"email_body" = "Trouvez ci-joint votre fichier de rapport s'il vous plaît. J'espère que vous apprécierez notre service.";
+
+"export_sent_title" = "Fichier envoyé à l'email ...";
+"export_sent_body" = "Vérifiez votre boîte de réception [email] dans 5 minutes.";
+
+"export_failed_title" = "Échec d'envoi...";
+"export_failed_body" = "Échec d'envoyer du votre fichier. Veuillez réessayer plus tard.";
+
+//summary
+"netDisposableIncome" = "Revenu net disponible";
+"provisionalBudget" = "Total budgété";
+"provisionalBalance" = "Solde provisoire";
+"actualSpentDate" = "Dépenses réelles à ce jour";
+"spentRemaining" = "Dépensé restant";
+"budgetedSpent" = "Budget dépensé";
+"initialBalance" = "Balance initiale";
+
+"actualIncome" = "Revenu réel";
+
+"Budgetspend" = "Dépenses budgétaires";
+"ActualSpend" = "Dépenses réelles";
+"txtRemaining" = "Restant";
+
+//Export Budget
+"txtExport" = "Exporter";
+
+//App Upgrade
+"btnUpgradeNow" = "Upgrade maintenant";
+"btnVerifyNow" = "Restaurer l'achat";
+"titleUnlimitedNumberBudgets" = "Un nombre illimité de budgets";
+"descriptionUnlimitedNumberBudgets" = "Avec la version gratuite, vous ne pouvez avoir que deux budgets à la fois";
+"titleRecurringTransaction" = "Transaction récurrente";
+"descriptionRecurringTransaction" = "Les fonctionnalités de transactions récurrentes sont activées";
+"titleExcelPdfCsv" = "Exporter au format CSV, MS Excel, PDF";
+"descriptionExcelPdfCsv" = "Exportez votre budget vers un fichier CSV, MS Excel ou PDF et imprimez, partagez ou visualisez depuis votre ordinateur";
+"titleKeepSameLicence" = "Utilisez le même accès depuis plusieurs mobile";
+"descriptionKeepSameLicence" = "Vous pourrez utiliser le même accès en accédant à votre compte à partir de plusieurs mobiles";
+"txtBuyNow" = "Acheter maintenant";
+"txtCouldNotRetreiveProd" = "Impossible de récupérer les informations sur le produit";
+"txtInvalidProductId" = "ID de produit non valide:";
+"txtUnknownError" = "Erreur inconnue. S'il vous plaît contacter le support";
+"txtCouldNotReteiveProdInfo" = "Impossible de récupérer les informations sur le produit";
+"txtThankYou" = "Je vous remercie";
+"txtPurchaseCompleted" = "Achat terminé Redémarrez l'application s'il vous plaît.";
+"txtPurchaseFailed" = "Achat échoué";
+"txtDescriptionPurchaseFailed" = "Vérifiez votre connexion Internet ou réessayez plus tard.";
+
+"txtError1" = "Achat raté";
+"txtBodyError1" = "Erreur inconnue. S'il vous plaît contacter le support";
+"txtError2" = "Paiement non autorisé";
+"txtBodyError2" = "L'appareil n'est pas autorisé à effectuer le paiement";
+
+"txtError3" = "Paiement invalide";
+"txtBodyError3" = "L'identifiant d'achat était invalide";
+
+"txtError4" = "Client invalide";
+"txtBodyError4" = "Pas autorisé à effectuer le paiement";
+
+"txtError5" = "Paiement annulé";
+"txtBodyError5" = "Paiement annulé. Veuillez réessayer";
+
+"txtError6" = "Store Produit non disponible";
+"txtBodyError6" = "Le produit n'est pas disponible dans la vitrine actuelle";
+
+"txtError7" = "Autorisation de service cloud refusée";
+"txtBodyError7" = "L'accès aux informations de service cloud n'est pas autorisé";
+
+"txtError8" = "La connexion Cloud ServiceNetwork a échoué";
+"txtBodyError8" = "Impossible de se connecter au réseau";
+
+"txtError9" = "Service Cloud révoqué";
+"txtBodyError9" = "L'utilisateur a révoqué l'autorisation d'utiliser ce service de cloud";
+
+"txtRestore1" = "La restauration a échoué";
+"txtBodyRestore1" = "Erreur inconnue. S'il vous plaît contacter le support";
+
+"txtRestore2" = "Achats restaurés";
+"txtBodyRestore2" = "Tous les achats ont été restaurés. Veuillez redémarrer l'application pour appliquer la restauration";
+
+"txtRestore3" = "Rien à restaurer";
+"txtBodyRestore3" = "Aucun achat précédent n'a été effectué";
+
+"txtVerify1" = "Reçu vérifié";
+"txtBodyVerify1" = "Reçu vérifié à distance";
+
+"txtVerify2" = "Vérification du reçu";
+"txtBodyVerify2" = "Aucune donnée de reçu trouvée, l'application essayera d'en obtenir une nouvelle. Réessayer.";
+
+"txtVerify3" = "Vérification du reçu";
+"txtBodyVerify3" = "La vérification du reçu a échoué";
+
+"txtVerifySub1" = "Le produit est acheté";
+"txtVerifySubBody1" = "Le produit est valable jusqu'au ";
+
+"txtVerifySub2" = "Non acheté";
+"txtVerifySubBody2" = "Ce produit n'a jamais été acheté";
+
+"txtVerifySub3" = "Le produit a expiré";
+"txtVerifySubBody3" = "Le produit a expiré depuis ";
+
+"txtVerifyPurchase1" = "Le produit est acheté";
+"txtVerifyPurchaseBody1" = "Le produit n'expire pas";
+
+"txtVerifyPurchase2" = "Produit non acheté";
+"txtVerifyPurchaseBody2" = "Le produit n'a jamais été acheté";
+
+"txtReceiptRefreshed1" = "Reçu actualisé";
+"txtReceiptRefreshedBody1" = "Reçu actualisé avec succès";
+
+"txtReceiptRefreshed2" = "L'actualisation du reçu a échoué";
+"txtReceiptRefreshedBody2" = "L'actualisation du reçu a échoué ...";
+
+"txtRecurringTransactions" = "Transactions récurrentes";
+"txtFirstGoesOffOn" = "Première exécution le: ";
+"txtTo" = " vers ";
+
+"alterLanguageChanged" = "Langue changée ...";
+"alterLanguageChangedBody" = "Veuillez redémarrer l'application pour actualiser votre nouveau changement de langue.";
+"txtSelectTheLanguage" = "Sélectionnez la langue:";
+"txtSelectEn" = "Anglais";
+"txtSelectFr" = "Français";
+
+"txtProfeature" = "Fonction PRO...";
+"txtProfeatureBody" = "Cette fonctionnalité est uniquement disponible pour les utilisateurs Premium";
+
+"txtProfeature1" = "Limit reached...";
+"txtProfeatureBody1" = "Mettre à jour maintenant. Vous avez déjà atteint le maximum de [number] budgets par utilisateur libre";
+
+"txtSupportScreen" = "Nous aimerions savoir comment nous pouvons rendre votre expérience avec [app_name] encore meilleure! Parlons!.\nVous utilisez la version [version]";
+
+
+"txtWorkItsWorksTitle1" = "Commencez par créer un budget mensuel";
+"txtWorkItsWorksTitle2" = "Ajouter des catégories à votre budget";
+"txtWorkItsWorksTitle3" = "Ajouter des revenus à votre budget";
+"txtWorkItsWorksTitle4" = "Ajoutez vos dépenses quotidiennes";
+"txtWorkItsWorksTitle5" = "Contactez-nous si vous avez besoin de plus d'aide";
+
+"txtWorkItsWorksBody1" = "Exemple: créez un budget mensuel avec: \n Une date de début [start_date] \n et une date de fin [end_date] \n Ou créez un budget pour le mois de [month_year]";
+"txtWorkItsWorksBody2" = "Les catégories vous aident à regrouper vos dépenses. \n Exemple: \n Logement/Location, épicerie, obligations financières ...";
+"txtWorkItsWorksBody3" = "Vous pourriez avoir une ou plusieurs sources de revenus par mois. \nExemple: salaire, affaires ...";
+"txtWorkItsWorksBody4" = "Pour obtenir les meilleurs résultats, nous vous suggérons de saisir vos dépenses immédiatement après l\'achat.\n\nUtilisez des transactions récurrentes sur vos factures les plus fréquentes, comme le loyer, l\'assurance automobile, et plus encore!";
+"txtWorkItsWorksBody5" = "Prenez le contrôle de vos finances aujourd\'hui!";
+
+//ModalScheduler
+"MSTitle" = "Planifier";
+"MSThenFollosAs" = "Suivre ensuite comme ceci:";
+"MSFirstGoesOffOn" = "Première fois:";
+"MSDate" = "Date:";
+"MSTime" = "Temps:";
+"spRepeatEvery" = "Répéter tous les";
+"spScheduleTo" = "Planifier à...";
+"spDay" = "Jour";
+"spWeek" = "Semaine";
+"spMonth" = "Mois";
+"spYear" = "An";
+"spForever" = "Pour toujours";
+"spForNumberTime" = "Nombre de fois";
+
+//TransferViewController
+
+"TVCAddTransfer" = "Ajout Transfert";
+"TVCAddTransferEdit" = "Editer Transfer";
+"TVCTransferFrom" = "Transfert depuis";
+"TVCSelectAccount" = "Sélectionnez un compte";
+"TVCRequired" = "Champs obligatoires";
+"TVCTo" = "Vers";
+"TVCAmount" = "Montant";
+"TVCTypeValue" = "Montant";
+"TVCTransactionDate" = "Date transaction";
+"TVCTransactionRecurring" = "Cette transaction est récurrente";
+"TVCFirstGoesOff" = "Première fois: ";
+"TVCThenRepeat" = "Et répète: ";
+
+//NewIncomeViewController
+"NIVCAddIncome" = "Ajout Revenu";
+"NIVCTypeDescription" = "Tapez une description";
+"NIVCRequired" = "Champs obligatoires";
+"NIVCAmount" = "Montant";
+"NIVCTransactionDate" = "Date transaction";
+"NIVCAccount" = "Compte (optionnel)";
+"NIVCSelect" = "Sélectionner";
+"NIVCPayer" = "Payeur (facultatif)";
+"NIVCTransactionRecurring" = "Cette transaction est récurrente";
+"NIVCFirstGoesOff" = "Première fois: ";
+"NIVCThenRepeat" = "Et répète: ";
+
+//NewExpenseViewController
+"NEVCAddExpense" = "Ajout Dépense";
+"NEVCPickCategory" = "Choisissez une catégorie";
+"NEVCSelectCategory" = "Sélectionnez";
+"NEVCRequired" = "Champs obligatoires";
+"NEVCDescription" = "Description";
+"NEVCTypeDescription" = "Tapez une description";
+"NEVCAmount" = "Montant";
+"NEVCTransactionDate" = "Date transaction";
+"NEVCAccount" = "Compte (optionnel)";
+"NEVCSelect" = "Sélectionner";
+"NEVCPayee" = "Bénéficiaire (optionnel)";
+"NEVCTransactionRecurring" = "Cette transaction est récurrente";
+"NEVCFirstGoesOff" = "Première fois: ";
+"NEVCThenRepeat" = "Et répète: ";
+
+//Labels management
+"LabelTitle" = "Labels";
+"LabelNoLabel" = "No label yet.";
+"LabelDescription" = "A payee is an entity to whom your money is paid or is to be paid, especially the entity to whom a check is made payable. e.g: stores, utilities company...";
+"LabelAddFirst" = "Add your first payee";
+
+//Migration
+"migration_title1" = "Migration";
+"migration_close" = "Fermer";
+"migration_title" = "Mise à jour importante de la migration";
+"migration_body" = "Vos données sont en cours de migration. Cela peut prendre 1 à 3 minutes.S\'il vous plaît quitter l\'application et rouvrir dans les 5 minutes. Si vous découvrez un enregistrement manquant, veuillez nous contacter par courrier électronique à l\'adresse contact.isavemoneygo@gmail.com. Nous nous ferons un plaisir de vous aider.";
+
+"budget_shared" = "Vous partagez maintenant votre budget avec ";
+"budget_shared_tile" = "Partagé";
+"budget_shared_yes" = "Oui";
+
+"category_removed_title" = "Catégorie supprimée";
+"category_removed" = "Cette catégorie actuelle a été supprimée.";
+"category_removed_ok" = "Quitter";
+
+//Alert budget removed
+"budget_removed_title" = "Budget supprimé";
+"budget_removed" = "Le budget actuelle a été supprimé.";
+"budget_removed_ok" = "Quitter";
+
+"end_date_shouldbe_greater" = "La date de fin doit être supérieure à la date de début";
+
+//Category
+"text_amount_budget" = "Montant budgété";
+"text_add_category" = "Ajouter Catégorie";
+"text_edit_category" = "Editer Catégorie";
+
+
+//Sign up
+"text_signup_title" = "S'inscrire";
+"text_signup_fullname" = "Votre Nom";
+"text_signup_email" = "Email";
+"text_signup_password" = "Mot de passe";
+"text_signup_create" = "Créer Compte";
+"text_signup_signin" = "Se connecter";
+
+//Password forgot
+"text_password_title" = "Mot de passe";
+"text_password_desc" = "Pour obtenir votre mot de passe, fournissez la même adresse électronique que celle que vous avez indiquée lors de votre inscription.";
+"text_password_hit" = "Entrer email";
+"text_password_button" = "Envoyer";
+"text_password_button" = "Se connecter";
+"password_reset_request" = "Envoyer un mail";
+"back" = "arrière";
+
+//Sign In
+"text_signin_title" = "Se connecter";
+"text_signin_email" = "Email";
+"text_signin_password" = "Mot de passe";
+"text_signin_signin" = "Se connecter";
+"text_signin_create" = "Créer un compte";
+"text_signin_pwd_forgot" = "Mot de passe oublié";
+
+// New budget available
+"text_new_budget_there" = "Vous avez été invité à un budget";
+"text_new_open" = "Ouvrez maintenant!";
+
+//configure budget
+"text_new_budget_range" = "Votre budget actuel contient une transaction le [date]. Vous ne pourrez pas exclure cette date dans votre nouvelle plage de dates.";
+"text_new_budget_range2" = "Votre budget actuel contient une plage de transactions de [date1] à [date2]. Vous ne pourrez pas exclure ces dates de votre nouvelle plage de dates.";
+"text_end_date_isless" = "La date de fin doit être supérieure à la date de début.";
+
+
+// Onbording screen
+"how_it_works_titles_0" = "Gérez votre argent";
+"how_it_works_titles_1" = "Créer des budgets personnalisés";
+"how_it_works_titles_2" = "Suivez vos revenus et vos dépenses";
+"how_it_works_titles_3" = "Partagez votre budget";
+
+"how_it_works_bodies_0" = "Prenez le contrôle de vos finances personnelles (ou familiales) aujourd\'hui";
+"how_it_works_bodies_1" = "Créez un ou plusieurs budgets, avec des plages de dates et des catégories personnalisées selon vos besoins.";
+"how_it_works_bodies_2" = "Enregistrez tout cela dans votre budget pour vous aider à atteindre vos objectifs";
+"how_it_works_bodies_3" = "Que ce soit avec des colocataires, des partenaires ou votre famille, partagez et mettez à jour vos budgets à partir de plusieurs appareils en temps réel";
+
+// Import CSV file
+"impcsv_vc_title" = "Importer le CSV";
+"impcsv_select_file" = "Selectionez le fichier...";
+
+/*
+"conformDeleteTitle" = "Confirm delete";
+"conformDeleteDesc" = "Do you want to delete [title]. This action will be permanent";
+"backFileName" = "Backup [name]";
+"backup_file_notbackup" = "No backup yet.";
+"backup_file_des" = "Backup your data and you will be able to restore it later...";
+"backup_file_addbackup" = "Create a backup";
+"fullBackupTitle" = "Backup";
+"backFileInprogress" = "Backup in progress...";
+"backFileRestoreInprogress" = "Restore in progress...";
+"dgConfirm" = "Confirm";
+"dgConfirmRestorebackup" = "Would you like restore [title]? ";
+"getStartButton" = "CREATE A BUDGET";
+"getStartTitle" = "Let's get started!";
+"getStartDescription" = "Create your first budget, then start tracking your money and even invite partner or family.";
+"settingsPickCurrencylabel" = "Currency";
+"settingsPickCurrency" = "Pick a currency";
+"settingsDateFormatlabel" = "Date Format";
+"settingsPickDateFormat" = "Pick a date format";
+"settingsPreview" = "Preview";
+"settingsTimeFormatlabel" = "Time Format";
+"settingsPickTimeFormat" = "Pick a time format";
+"settingLngEng" = "English";
+"settingLngFr" = "French";
+"settingsSelectLang" = "Set Language";
+"settingsBackup" = "Backup and Restore";
+"toolsAndSettingTitle" = "Tools & Settings";
+"SettingsnoCurrencyCode" = "no currency code";
+"confirmRestoreBackup" = "Would you like to restore [bname]?";*/
+
+//Translate
+"conformDeleteTitle" = "Confirmer la suppression";
+"conformDeleteDesc" = "Souhaitez-vous supprimer [title]. Cette action sera permanente";
+"backFileName" = "Sauvegarder [name]";
+"backup_file_notbackup" = "Aucune sauvegarde pour le moment.";
+"backup_file_des" = "Sauvegardez vos données et vous pourrez les restaurer plus tard ...";
+"backup_file_addbackup" = "Créer une sauvegarde";
+"fullBackupTitle" = "Sauvegarde et restauration";
+"backFileInprogress" = "Sauvegarde en cours ...";
+"backFileRestoreInprogress" = "Restauration en cours ...";
+"dgConfirm" = "Confirmer";
+"dgConfirmRestorebackup" = "Souhaitez-vous restaurer [title]?";
+"getStartButton" = "CRÉER UN BUDGET";
+"getStartTitle" = "Commençons!";
+"getStartDescription" = "Créez votre premier budget, puis commencez à comptabiliser votre argent et même invitez un partenaire ou une famille.";
+"settingsPickCurrencylabel" = "Devise";
+"settingsPickCurrency" = "Choisissez une devise";
+"settingsDateFormatlabel" = "Format de date";
+"settingsPickDateFormat" = "Choisissez un format de date";
+"settingsPreview" = "Aperçu";
+"settingsTimeFormatlabel" = "Format d'heure";
+"settingsPickTimeFormat" = "Choisissez un format d'heure";
+"settingLngEng" = "Anglais";
+"settingLngFr" = "français";
+"settingsSelectLang" = "Définir la langue";
+"settingsBackup" = "Sauvegarder et restaurer";
+"toolsAndSettingTitle" = "Outils et paramètres";
+"SettingsnoCurrencyCode" = "Pas de code de devise";
+"confirmRestoreBackup" = "Souhaitez-vous restaurer [bname]?";
+"upgradeProDescription" = "Mettez à niveau pour accéder à [featureName], et à d'autres fonctionnalités premium.";
+"upgradeProTile" = "Mettre à niveau";
+"accountTitle" = "Mes comptes";
+"budgetListTitle" = "Mes budgets";
+"budgetsActive" = "Actif uniquement";
+"budgetsArchived" = "Archivé";
+"budgetListActive" = "Actif uniquement";
+"budgetListArchive" = "Archivé";
+//Tab Names for PayeeTabs And PayerDetailsTabs - START
+
+"transactions"="Transactions";
+"charts" = "Graphiques";
+"edit-payee" = "Modifier";
+//FIN
+
+// Titre de PayerDetailTabs
+"payer_details_title" = "Détails du payeur";
+
+// Titre de PayeDetailTabs
+"payee_details_title" = "Détails du bénéficiaire";
+
+// Titre AccountDetailTabs
+"account_details_title" = "Détails du compte";
+
+// MyProfileViewCOntroller
+"my_profile" = "Mon profil";
+"change_password" = "Modifier le mot de passe";
+"delete_account" = "Supprimer le compte";
+"member_since" = "Est membre depuis %@";
+"confirm_delete_account_title" = "Confirmez la suppression de votre compte";
+"confirm_delete_message" = "Si elle est confirmée, cette action NE PEUT PAS être Réversible. Votre compte sera supprimé et vous perdrez toutes vos données";
+"button_confirm" = "Continuer";
+"button_cancel" = "Annuler";
+
+// Repport
+
+"LineChart" = "Graphique en courbes";
+"PieChart" = "Graphique en courbes";
+"BarChart" = "Graphique en courbes";
+
+"calculator" = "Calculatrice";
+"appleSignIn" = "Connexion avec Apple";
+
+"pinSettings" = "Réglage du PIN";
+"enablePassCode" = "Activer le verrouillage d'écran par PIN";
+"EnterPasscode" = "Entrez le code d'accès";
+"confirmpasscode" = "Confirmation du code d'accès";
+
+"confirm_delete" = "Confirmation";
+"confirm_delete_msg" = "Supprimer \"%@\"?";
+"confirm_delete_cancel" = "Annuler";
+"confirm_delete_continue" = "Continuer";
+
+
+// Account form
+"AddAccount" = "Nouveau compte";
+"EditAccount" = "Modifier le compte";
+"textGoPro" = "Passez au premium pour débloquer un nombre illimité de budgets";
+
+"pickCategoryIdea" = "Choisissez parmi les idées ci-dessous";
+
+"buttonChooseBudget" = "Choisissez et continuez";
+"titleChooseBudget" = "Sélectionnez un budget";
+"bodyChooseBudget" = "Ouvrez le menu de gauche et utilisez \"Tous mes budgets\" pour choisir l'un de vos budgets";
+
+"youArePro" = "Premium. Je vous remercie!";
+"userGree" = "Contrat de licence";
+
+"userGree" = "Conditions d'utilisation";
+"privacyPolicy" = "Politique de confidentialité";
+
+"typeEmail" = "Saisissez l'adresse e-mail...";
+
+//MyTransaction
+"mytransactionsTitle" = "Mes transactions";
+"myActivities" = "Mes activités";
+"dataAnalytics" = "Analitics";

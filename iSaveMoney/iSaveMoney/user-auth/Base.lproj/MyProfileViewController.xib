@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserProfileViewController" customModule="develop" customModuleProvider="target">
+            <connections>
+                <outlet property="changePasswordButton" destination="hZu-BD-45y" id="6Jw-cL-tgm"/>
+                <outlet property="closeAccountButton" destination="DBt-TR-JDT" id="ow6-0B-dTi"/>
+                <outlet property="countryTextField" destination="D3q-Az-hdy" id="sFh-YZ-71k"/>
+                <outlet property="emailAddressTextField" destination="mJ5-2S-To3" id="hPy-od-cBB"/>
+                <outlet property="firstNameTextField" destination="4ig-G2-IW3" id="x5F-BV-PMZ"/>
+                <outlet property="lastNameTextField" destination="TXO-q6-0As" id="ITv-hD-b3u"/>
+                <outlet property="memberSinceLabel" destination="7CF-ef-Jsc" id="PrM-w0-a4F"/>
+                <outlet property="phoneTextField" destination="B1V-Ir-gMN" id="D56-za-Elu"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Kob-Ms-F2A"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hV5-ML-90l">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X0C-sc-dpv">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="txO-9t-7p7">
+                                    <rect key="frame" x="16" y="24" width="382" height="328"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="cmr-z2-LKM">
+                                            <rect key="frame" x="0.0" y="0.0" width="382" height="56"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2I-Af-pg8" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4ig-G2-IW3" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="22" width="382" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="SWZ-E1-pG7">
+                                            <rect key="frame" x="0.0" y="68" width="382" height="56"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZB-7I-kkK" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXO-q6-0As" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="22" width="382" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="vUr-so-nzj">
+                                            <rect key="frame" x="0.0" y="136" width="382" height="56"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRi-kX-h29" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mJ5-2S-To3" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="22" width="382" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="email"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Cwa-me-zCh">
+                                            <rect key="frame" x="0.0" y="204" width="382" height="56"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHR-tW-mcP" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B1V-Ir-gMN" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="22" width="382" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="tel"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="rqy-wr-mGp">
+                                            <rect key="frame" x="0.0" y="272" width="382" height="56"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDT-Ue-Lc9" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D3q-Az-hdy" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="22" width="382" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7CF-ef-Jsc">
+                                    <rect key="frame" x="16" y="376" width="382" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I want to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rk3-QT-nmm" customClass="NormalTextLabel" customModule="ISMLBase">
+                                    <rect key="frame" x="16" y="400" width="382" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZu-BD-45y">
+                                    <rect key="frame" x="28" y="432.5" width="370" height="34"/>
+                                    <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="30" maxY="0.0"/>
+                                    <state key="normal">
+                                        <color key="titleColor" systemColor="systemBlueColor"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onChangePasswordClicked:" destination="-1" eventType="touchUpInside" id="3cF-uw-TfW"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBt-TR-JDT">
+                                    <rect key="frame" x="28" y="482.5" width="370" height="34"/>
+                                    <inset key="titleEdgeInsets" minX="12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="30" maxY="0.0"/>
+                                    <state key="normal">
+                                        <color key="titleColor" red="0.86274509803921573" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onDeleteAccountClicked:" destination="-1" eventType="touchUpInside" id="Z8u-OU-oz7"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" name="pageBgColor"/>
+                            <constraints>
+                                <constraint firstItem="txO-9t-7p7" firstAttribute="leading" secondItem="X0C-sc-dpv" secondAttribute="leading" constant="16" id="2tB-ak-Q6n"/>
+                                <constraint firstItem="hZu-BD-45y" firstAttribute="leading" secondItem="Rk3-QT-nmm" secondAttribute="leading" constant="12" id="4yp-qe-d5n"/>
+                                <constraint firstItem="Rk3-QT-nmm" firstAttribute="trailing" secondItem="7CF-ef-Jsc" secondAttribute="trailing" id="5M7-KY-9gs"/>
+                                <constraint firstItem="hZu-BD-45y" firstAttribute="top" secondItem="Rk3-QT-nmm" secondAttribute="bottom" constant="12" id="6qm-hR-F7A"/>
+                                <constraint firstItem="7CF-ef-Jsc" firstAttribute="leading" secondItem="txO-9t-7p7" secondAttribute="leading" id="Ctv-jd-BHo"/>
+                                <constraint firstItem="Rk3-QT-nmm" firstAttribute="leading" secondItem="7CF-ef-Jsc" secondAttribute="leading" id="IfM-RM-hyc"/>
+                                <constraint firstItem="hZu-BD-45y" firstAttribute="trailing" secondItem="Rk3-QT-nmm" secondAttribute="trailing" id="JEn-cF-f9O"/>
+                                <constraint firstAttribute="trailing" secondItem="txO-9t-7p7" secondAttribute="trailing" constant="16" id="Jcu-sP-upm"/>
+                                <constraint firstItem="txO-9t-7p7" firstAttribute="top" secondItem="X0C-sc-dpv" secondAttribute="top" constant="24" id="Lbo-g9-UaQ"/>
+                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="DBt-TR-JDT" secondAttribute="bottom" constant="24" id="QJN-Gk-HiL"/>
+                                <constraint firstItem="DBt-TR-JDT" firstAttribute="leading" secondItem="hZu-BD-45y" secondAttribute="leading" id="U9j-BS-zxq"/>
+                                <constraint firstItem="DBt-TR-JDT" firstAttribute="trailing" secondItem="hZu-BD-45y" secondAttribute="trailing" id="Uv9-zp-fjg"/>
+                                <constraint firstItem="7CF-ef-Jsc" firstAttribute="top" secondItem="txO-9t-7p7" secondAttribute="bottom" constant="24" id="Va5-RZ-v1s"/>
+                                <constraint firstItem="Rk3-QT-nmm" firstAttribute="top" secondItem="7CF-ef-Jsc" secondAttribute="bottom" constant="24" id="dT4-6x-avC"/>
+                                <constraint firstItem="7CF-ef-Jsc" firstAttribute="trailing" secondItem="txO-9t-7p7" secondAttribute="trailing" id="fdt-1P-TSv"/>
+                                <constraint firstItem="DBt-TR-JDT" firstAttribute="top" secondItem="hZu-BD-45y" secondAttribute="bottom" constant="16" id="wEq-pf-DfO"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="X0C-sc-dpv" firstAttribute="leading" secondItem="DYL-30-2nc" secondAttribute="leading" id="GGP-Mj-8IW"/>
+                        <constraint firstItem="X0C-sc-dpv" firstAttribute="width" secondItem="a02-tn-SZ9" secondAttribute="width" id="HJV-Xv-V6o"/>
+                        <constraint firstItem="X0C-sc-dpv" firstAttribute="top" secondItem="DYL-30-2nc" secondAttribute="top" id="Oex-GC-hjh"/>
+                        <constraint firstItem="X0C-sc-dpv" firstAttribute="bottom" secondItem="DYL-30-2nc" secondAttribute="bottom" id="dEV-TN-4e7"/>
+                        <constraint firstItem="X0C-sc-dpv" firstAttribute="trailing" secondItem="DYL-30-2nc" secondAttribute="trailing" id="nbh-lZ-PHh"/>
+                        <constraint firstItem="X0C-sc-dpv" firstAttribute="height" secondItem="a02-tn-SZ9" secondAttribute="height" id="vE9-6B-jLF"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="DYL-30-2nc"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="a02-tn-SZ9"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hV5-ML-90l" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="4wj-Gv-tDT"/>
+                <constraint firstItem="hV5-ML-90l" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5dL-Mz-tL7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hV5-ML-90l" secondAttribute="trailing" id="cXM-ZB-dT0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="hV5-ML-90l" secondAttribute="bottom" id="np0-FD-sA3"/>
+            </constraints>
+            <point key="canvasLocation" x="345" y="-355"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="pageBgColor">
+            <color red="0.96899998188018799" green="0.97299998998641968" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

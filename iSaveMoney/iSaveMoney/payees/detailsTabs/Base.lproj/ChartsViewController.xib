@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChartsViewController" customModule="iSaveMoney" customModuleProvider="target">
+            <connections>
+                <outlet property="balanceValue" destination="u2W-97-gDf" id="2cy-2t-H83"/>
+                <outlet property="dailyBalancerChart" destination="2Hw-qU-f0S" id="bXm-uP-8Sm"/>
+                <outlet property="dailyTransactionsChart" destination="wc3-Bi-VJP" id="GU4-pt-WU7"/>
+                <outlet property="transactionValue" destination="bfX-ID-d59" id="E4j-UQ-8yb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GRy-u2-Ypf">
+                    <rect key="frame" x="0.0" y="52" width="414" height="810"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vli-3l-XnC">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="531"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="5tr-0N-PwJ">
+                                    <rect key="frame" x="10" y="48" width="394" height="452"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j56-lB-4ex" customClass="IsmCardView" customModule="ISMLBase">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="220"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Transactions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15Q-Ae-hbr" customClass="HeaderLevelFour" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="10" width="374" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfX-ID-d59" customClass="NormalTextLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="29.5" width="374" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" systemColor="systemBlueColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wc3-Bi-VJP" customClass="LineChartView" customModule="Charts">
+                                                    <rect key="frame" x="10" y="60" width="374" height="155"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="wc3-Bi-VJP" secondAttribute="bottom" constant="5" id="2O2-xt-drT"/>
+                                                <constraint firstAttribute="height" constant="220" id="41C-el-iGL"/>
+                                                <constraint firstItem="15Q-Ae-hbr" firstAttribute="leading" secondItem="j56-lB-4ex" secondAttribute="leading" constant="10" id="SLv-BL-bfl"/>
+                                                <constraint firstItem="bfX-ID-d59" firstAttribute="leading" secondItem="j56-lB-4ex" secondAttribute="leading" constant="10" id="XiZ-MN-j0w"/>
+                                                <constraint firstItem="wc3-Bi-VJP" firstAttribute="top" secondItem="j56-lB-4ex" secondAttribute="top" constant="60" id="Zd4-ua-U1r"/>
+                                                <constraint firstAttribute="trailing" secondItem="wc3-Bi-VJP" secondAttribute="trailing" constant="10" id="hty-xM-6Mk"/>
+                                                <constraint firstItem="wc3-Bi-VJP" firstAttribute="leading" secondItem="j56-lB-4ex" secondAttribute="leading" constant="10" id="mpU-LE-ilZ"/>
+                                                <constraint firstAttribute="trailing" secondItem="15Q-Ae-hbr" secondAttribute="trailing" constant="10" id="oeP-8I-TQE"/>
+                                                <constraint firstAttribute="trailing" secondItem="bfX-ID-d59" secondAttribute="trailing" constant="10" id="otb-ev-I5S"/>
+                                                <constraint firstItem="15Q-Ae-hbr" firstAttribute="top" secondItem="j56-lB-4ex" secondAttribute="top" constant="10" id="rd6-Gs-4Ez"/>
+                                                <constraint firstItem="bfX-ID-d59" firstAttribute="top" secondItem="15Q-Ae-hbr" secondAttribute="bottom" id="znn-AD-ZFQ"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gnc-2f-yQt" customClass="IsmCardView" customModule="ISMLBase">
+                                            <rect key="frame" x="0.0" y="232" width="394" height="220"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MvG-cW-hdL" customClass="HeaderLevelFour" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="10" width="374" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2W-97-gDf" customClass="NormalTextLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="29.5" width="374" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" systemColor="systemBlueColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Hw-qU-f0S" customClass="LineChartView" customModule="Charts">
+                                                    <rect key="frame" x="10" y="60" width="374" height="155"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="u2W-97-gDf" firstAttribute="leading" secondItem="gnc-2f-yQt" secondAttribute="leading" constant="10" id="4AV-Rq-bqf"/>
+                                                <constraint firstAttribute="height" constant="220" id="6eQ-Ah-xoQ"/>
+                                                <constraint firstItem="MvG-cW-hdL" firstAttribute="leading" secondItem="gnc-2f-yQt" secondAttribute="leading" constant="10" id="6mN-wI-UBn"/>
+                                                <constraint firstItem="MvG-cW-hdL" firstAttribute="top" secondItem="gnc-2f-yQt" secondAttribute="top" constant="10" id="726-eH-Euy"/>
+                                                <constraint firstAttribute="trailing" secondItem="MvG-cW-hdL" secondAttribute="trailing" constant="10" id="8JP-BC-vaR"/>
+                                                <constraint firstAttribute="trailing" secondItem="2Hw-qU-f0S" secondAttribute="trailing" constant="10" id="BqF-Dp-Tqg"/>
+                                                <constraint firstItem="u2W-97-gDf" firstAttribute="top" secondItem="MvG-cW-hdL" secondAttribute="bottom" id="Ccp-AG-Kfy"/>
+                                                <constraint firstAttribute="bottom" secondItem="2Hw-qU-f0S" secondAttribute="bottom" constant="5" id="Oio-9G-hCe"/>
+                                                <constraint firstAttribute="trailing" secondItem="u2W-97-gDf" secondAttribute="trailing" constant="10" id="P04-wd-B1s"/>
+                                                <constraint firstItem="2Hw-qU-f0S" firstAttribute="top" secondItem="gnc-2f-yQt" secondAttribute="top" constant="60" id="lLo-aB-Jhe"/>
+                                                <constraint firstItem="2Hw-qU-f0S" firstAttribute="leading" secondItem="gnc-2f-yQt" secondAttribute="leading" constant="10" id="nUL-Ef-fJQ"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" name="pageBgColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="5tr-0N-PwJ" secondAttribute="trailing" constant="10" id="5M9-iA-4ru"/>
+                                <constraint firstItem="5tr-0N-PwJ" firstAttribute="top" secondItem="Vli-3l-XnC" secondAttribute="top" constant="48" id="EO1-Xd-Shv"/>
+                                <constraint firstItem="5tr-0N-PwJ" firstAttribute="leading" secondItem="Vli-3l-XnC" secondAttribute="leading" constant="10" id="H89-z9-MFU"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="c8c-f8-CgR" firstAttribute="bottom" secondItem="Vli-3l-XnC" secondAttribute="bottom" constant="279" id="MAw-7F-4HE"/>
+                        <constraint firstItem="Vli-3l-XnC" firstAttribute="bottom" secondItem="aBz-sO-wYZ" secondAttribute="bottom" id="bvH-II-42r"/>
+                        <constraint firstItem="Vli-3l-XnC" firstAttribute="leading" secondItem="aBz-sO-wYZ" secondAttribute="leading" id="m32-Xk-SVX"/>
+                        <constraint firstItem="Vli-3l-XnC" firstAttribute="top" secondItem="aBz-sO-wYZ" secondAttribute="top" id="nRn-YR-G4j"/>
+                        <constraint firstItem="Vli-3l-XnC" firstAttribute="trailing" secondItem="aBz-sO-wYZ" secondAttribute="trailing" id="sg9-6y-6iT"/>
+                        <constraint firstItem="Vli-3l-XnC" firstAttribute="width" secondItem="c8c-f8-CgR" secondAttribute="width" id="yu9-qE-3Q6"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="aBz-sO-wYZ"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="c8c-f8-CgR"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="GRy-u2-Ypf" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="8M9-fY-Hax"/>
+                <constraint firstItem="GRy-u2-Ypf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="985-FW-kUt"/>
+                <constraint firstItem="GRy-u2-Ypf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="OYI-iM-YVe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="GRy-u2-Ypf" secondAttribute="bottom" id="TPQ-pN-JGQ"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="89.732142857142847"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="pageBgColor">
+            <color red="0.96899998188018799" green="0.97299998998641968" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

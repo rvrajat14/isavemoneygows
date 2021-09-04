@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Incomes: $1200.00"; ObjectID = "Cv2-bw-Ne4"; */
+"Cv2-bw-Ne4.text" = "Incomes: $1200.00";
+
+/* Class = "UISegmentedControl"; auG-65-Iv2.segmentTitles[0] = "Today"; ObjectID = "auG-65-Iv2"; */
+"auG-65-Iv2.segmentTitles[0]" = "Today";
+
+/* Class = "UISegmentedControl"; auG-65-Iv2.segmentTitles[1] = "Yesterday"; ObjectID = "auG-65-Iv2"; */
+"auG-65-Iv2.segmentTitles[1]" = "Yesterday";
+
+/* Class = "UISegmentedControl"; auG-65-Iv2.segmentTitles[2] = "Custom"; ObjectID = "auG-65-Iv2"; */
+"auG-65-Iv2.segmentTitles[2]" = "Custom";
+
+/* Class = "UILabel"; text = "Expenses: $450.00"; ObjectID = "zl1-ph-IUn"; */
+"zl1-ph-IUn.text" = "Expenses: $450.00";

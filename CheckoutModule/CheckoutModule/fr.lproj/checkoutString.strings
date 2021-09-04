@@ -1,0 +1,14 @@
+/* 
+  checkoutString.strings
+  CheckoutModule
+
+  Created by ARMEL KOUDOUM on 12/6/20.
+  
+*/
+"txtBuyFor" ="Acheter à %buyprice%";
+"orderDate" = "Date: ";
+"orderNum" = "Commande: ";
+"month" = "Mois";
+"months" = "Mois";
+"feature1" = "Nombre illimité pour les budgets";
+"feature2" = "Transactions récurrentes";

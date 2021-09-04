@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Daily Balance Value"; ObjectID = "Tdh-aj-Dbr"; */
+"Tdh-aj-Dbr.text" = "Daily Balance Value";
+
+/* Class = "UILabel"; text = "Daily Balance"; ObjectID = "guY-Qi-9da"; */
+"guY-Qi-9da.text" = "Daily Balance";
+
+/* Class = "UILabel"; text = "Daily Cash Out"; ObjectID = "hBI-ql-RpX"; */
+"hBI-ql-RpX.text" = "Daily Cash Out";
+
+/* Class = "UILabel"; text = "Cash In Value"; ObjectID = "sm3-tw-5IH"; */
+"sm3-tw-5IH.text" = "Cash In Value";
+
+/* Class = "UILabel"; text = "Daily Cash In"; ObjectID = "te1-88-o0h"; */
+"te1-88-o0h.text" = "Daily Cash In";
+
+/* Class = "UILabel"; text = "Chash Out Value"; ObjectID = "x76-gu-89i"; */
+"x76-gu-89i.text" = "Chash Out Value";

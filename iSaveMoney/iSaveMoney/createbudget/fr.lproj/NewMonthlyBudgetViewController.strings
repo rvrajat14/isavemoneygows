@@ -1,0 +1,20 @@
+/* Classe = "UITextField"; placeholder = "MM / jj / aaaa"; ObjectID = "BEL-SX-nld"; */
+"BEL-SX-nld.placeholder" = "MM/jj/aaaa";
+
+/* Classe = "UILabel"; text = "Date de début"; ObjectID = "IZH-a2-lO7"; */
+"IZH-a2-lO7.text" = "Date de début";
+
+/* Classe = "UILabel"; text = "Date de fin"; ObjectID = "Otq-dG-8iQ"; */
+"Otq-dG-8iQ.text" = "Date de fin";
+
+/* Classe = "UILabel"; text = "Sélectionnez une date"; ObjectID = "dKt-x1-bIU"; */
+"dKt-x1-bIU.text" = "Sélectionnez une date";
+
+/* Classe = "UIButton"; normalTitle = "SUIVANT"; ObjectID = "gb5-H4-Ms1"; */
+"gb5-H4-Ms1.normalTitle" = "SUIVANT";
+
+/* Classe = "UILabel"; text = "Sélectionnez une date"; ObjectID = "hrn-q1-R9Q"; */
+"hrn-q1-R9Q.text" = "Sélectionnez une date";
+
+/* Classe = "UITextField"; placeholder = "MM / jj / aaaa"; ObjectID = "s9d-Be-MJb"; */
+"s9d-Be-MJb.placeholder" = "MM/jj/aaaa";

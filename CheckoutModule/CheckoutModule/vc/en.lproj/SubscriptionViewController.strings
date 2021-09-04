@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "Subscribe"; ObjectID = "3NZ-4i-5AF"; */
+"3NZ-4i-5AF.normalTitle" = "Subscribe";
+
+/* Class = "UILabel"; text = "Monthly"; ObjectID = "6km-1N-NIg"; */
+"6km-1N-NIg.text" = "Monthly";
+
+/* Class = "UILabel"; text = "Best Value"; ObjectID = "8c6-LJ-Pnw"; */
+"8c6-LJ-Pnw.text" = "Best Value";
+
+/* Class = "UILabel"; text = "$1.50/Month"; ObjectID = "9k3-Fi-RKH"; */
+"9k3-Fi-RKH.text" = "$1.50/Month";
+
+/* Class = "UILabel"; text = "$0.75/Month"; ObjectID = "E53-vX-4gw"; */
+"E53-vX-4gw.text" = "$0.75/Month";
+
+/* Class = "UILabel"; text = "Most Popular"; ObjectID = "FjB-uZ-Je1"; */
+"FjB-uZ-Je1.text" = "Most Popular";
+
+/* Class = "UIButton"; normalTitle = "Subscribe"; ObjectID = "NaQ-fg-xkk"; */
+"NaQ-fg-xkk.normalTitle" = "Subscribe";
+
+/* Class = "UILabel"; text = "12 Months"; ObjectID = "OLQ-lu-jBS"; */
+"OLQ-lu-jBS.text" = "12 Months";
+
+/* Class = "UILabel"; text = "All subscription will auto-renew and you can cancel at anytime"; ObjectID = "PUr-Iu-PgA"; */
+"PUr-Iu-PgA.text" = "All subscription will auto-renew and you can cancel at anytime";
+
+/* Class = "UILabel"; text = "$0.5/Month"; ObjectID = "RdD-hq-8vi"; */
+"RdD-hq-8vi.text" = "$0.5/Month";
+
+/* Class = "UIButton"; normalTitle = "Subscribe"; ObjectID = "Vf8-GE-rcb"; */
+"Vf8-GE-rcb.normalTitle" = "Subscribe";
+
+/* Class = "UILabel"; text = "6 Months"; ObjectID = "YXP-HU-owl"; */
+"YXP-HU-owl.text" = "6 Months";
+
+/* Class = "UILabel"; text = "Unlock them with an once time for life purchase"; ObjectID = "qbC-6P-NOW"; */
+"qbC-6P-NOW.text" = "Unlock them with a one-time life purchase";
+
+/* Class = "UILabel"; text = "Family bundle"; ObjectID = "sbP-eb-C9c"; */
+"sbP-eb-C9c.text" = "Family bundle";
+
+/* Class = "UILabel"; text = "Premium Features"; ObjectID = "uVt-of-Gwl"; */
+"uVt-of-Gwl.text" = "Premium Features";

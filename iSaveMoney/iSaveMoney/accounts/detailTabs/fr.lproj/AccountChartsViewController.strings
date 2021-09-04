@@ -1,0 +1,17 @@
+/* Classe = "UILabel"; text = "Valeur du solde quotidien"; ObjectID = "Tdh-aj-Dbr"; */
+"Tdh-aj-Dbr.text" = "Valeur du solde quotidien";
+
+/* Classe = "UILabel"; text = "Solde quotidien"; ObjectID = "guY-Qi-9da"; */
+"guY-Qi-9da.text" = "Solde quotidien";
+
+/* Classe = "UILabel"; text = "Cash Out quotidien"; ObjectID = "hBI-ql-RpX"; */
+"hBI-ql-RpX.text" = "Paiement quotidien";
+
+/* Classe = "UILabel"; text = "Cash In Value"; ObjectID = "sm3-tw-5IH"; */
+"sm3-tw-5IH.text" = "Valeur de l'encaisse";
+
+/* Classe = "UILabel"; text = "Encaissement quotidien"; ObjectID = "te1-88-o0h"; */
+"te1-88-o0h.text" = "Encaissement quotidien";
+
+/* Classe = "UILabel"; text = "Valeur Chash Out"; ObjectID = "x76-gu-89i"; */
+"x76-gu-89i.text" = "Valeur Chash Out";

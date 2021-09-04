@@ -1,0 +1,32 @@
+/* Classe = "UITextField"; placeholder = "Prénom"; ObjectID = "4ig-G2-IW3"; */
+"4ig-G2-IW3.placeholder" = "Prénom";
+
+/* Classe = "UITextField"; placeholder = "Téléphone"; ObjectID = "B1V-Ir-gMN"; */
+"B1V-Ir-gMN.placeholder" = "Téléphone";
+
+/* Classe = "UITextField"; placeholder = "Pays"; ObjectID = "D3q-Az-hdy"; */
+"D3q-Az-hdy.placeholder" = "Pays";
+
+/* Classe = "UILabel"; text = "Téléphone"; ObjectID = "PHR-tW-mcP"; */
+"PHR-tW-mcP.text" = "Téléphone";
+
+/* Classe = "UILabel"; text = "Je veux"; ObjectID = "Rk3-QT-nmm"; */
+"Rk3-QT-nmm.text" = "Je veux";
+
+/* Classe = "UITextField"; placeholder = "Nom de famille"; ObjectID = "TXO-q6-0As"; */
+"TXO-q6-0As.placeholder" = "Nom de famille";
+
+/* Classe = "UILabel"; text = "Prénom"; ObjectID = "Z2I-Af-pg8"; */
+"Z2I-Af-pg8.text" = "Prénom";
+
+/* Classe = "UILabel"; text = "Pays"; ObjectID = "fDT-Ue-Lc9"; */
+"fDT-Ue-Lc9.text" = "Pays";
+
+/* Classe = "UITextField"; placeholder = "Adresse e-mail"; ObjectID = "mJ5-2S-To3"; */
+"mJ5-2S-To3.placeholder" = "Adresse e-mail";
+
+/* Classe = "UILabel"; text = "Adresse e-mail"; ObjectID = "oRi-kX-h29"; */
+"oRi-kX-h29.text" = "Adresse e-mail";
+
+/* Classe = "UILabel"; text = "Nom de famille"; ObjectID = "tZB-7I-kkK"; */
+"tZB-7I-kkK.text" = "Nom de famille";

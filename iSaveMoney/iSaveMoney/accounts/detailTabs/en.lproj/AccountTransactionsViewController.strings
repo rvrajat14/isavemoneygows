@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "All"; ObjectID = "4pY-5A-Ii1"; */
+"4pY-5A-Ii1.text" = "All";
+
+/* Class = "UILabel"; text = "Going Out"; ObjectID = "6VA-ra-eBh"; */
+"6VA-ra-eBh.text" = "Going Out";
+
+/* Class = "UILabel"; text = "Period: "; ObjectID = "Adf-hE-Dtl"; */
+"Adf-hE-Dtl.text" = "Period: ";
+
+/* Class = "UILabel"; text = "Available Balance: "; ObjectID = "FzD-2I-8lW"; */
+"FzD-2I-8lW.text" = "Available Balance: ";
+
+/* Class = "UILabel"; text = "$ 3212.33"; ObjectID = "Waz-Xo-CH7"; */
+"Waz-Xo-CH7.text" = "$ 3212.33";
+
+/* Class = "UILabel"; text = "Coming In"; ObjectID = "cB1-o2-ZDt"; */
+"cB1-o2-ZDt.text" = "Coming In";
+
+/* Class = "UILabel"; text = "Total Checked"; ObjectID = "geK-gb-bBf"; */
+"geK-gb-bBf.text" = "Total Checked";

@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Upgrade to full version with a small payment"; ObjectID = "6Zb-Uf-5Md"; */
+"6Zb-Uf-5Md.text" = "Passez à la version complète avec un petit paiement";
+
+/* Class = "UILabel"; text = "Attach or take receipt for your expenses"; ObjectID = "7JN-ju-PYV"; */
+"7JN-ju-PYV.text" = "Joindre ou prendre un reçu pour vos dépenses";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchase"; ObjectID = "IQX-Ty-fB2"; */
+"IQX-Ty-fB2.normalTitle" = "Restaurer l'achat";
+
+/* Class = "UILabel"; text = "Already  Purchased?"; ObjectID = "N8E-A6-tE5"; */
+"N8E-A6-tE5.text" = "Déjà acheté?";
+
+/* Class = "UIButton"; normalTitle = "Upgrade"; ObjectID = "ch0-4B-Pw2"; */
+"ch0-4B-Pw2.normalTitle" = "Upgrade";
+
+/* Class = "UILabel"; text = "Unlock others premium features"; ObjectID = "gGK-v9-aOe"; */
+"gGK-v9-aOe.text" = "Débloquez d'autres fonctionnalités premium";
+
+/* Class = "UILabel"; text = "GO PRO"; ObjectID = "xUF-7p-07Y"; */
+"xUF-7p-07Y.text" = "Allez Pro";
+
+/* Class = "UIButton"; normalTitle = "Maybe Later"; ObjectID = "yoH-ui-i4n"; */
+"yoH-ui-i4n.normalTitle" = "Peut-être plus tard";

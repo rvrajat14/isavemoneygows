@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "MM/dd/yyyy"; ObjectID = "BEL-SX-nld"; */
+"BEL-SX-nld.placeholder" = "MM/dd/yyyy";
+
+/* Class = "UILabel"; text = "Start date"; ObjectID = "IZH-a2-lO7"; */
+"IZH-a2-lO7.text" = "Start date";
+
+/* Class = "UILabel"; text = "End date"; ObjectID = "Otq-dG-8iQ"; */
+"Otq-dG-8iQ.text" = "End date";
+
+/* Class = "UILabel"; text = "Select a date"; ObjectID = "dKt-x1-bIU"; */
+"dKt-x1-bIU.text" = "Select a date";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "gb5-H4-Ms1"; */
+"gb5-H4-Ms1.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Select a date"; ObjectID = "hrn-q1-R9Q"; */
+"hrn-q1-R9Q.text" = "Select a date";
+
+/* Class = "UITextField"; placeholder = "MM/dd/yyyy"; ObjectID = "s9d-Be-MJb"; */
+"s9d-Be-MJb.placeholder" = "MM/dd/yyyy";

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CacheIncomes" representedClassName="CacheIncomes" syncable="YES">
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <attribute name="incomeName" optional="YES" attributeType="String"/>
+        <attribute name="insertDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CaheExpenses" representedClassName="CaheExpenses" syncable="YES">
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <attribute name="expenseName" optional="YES" attributeType="String"/>
+        <attribute name="insertDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="MyCircle" representedClassName="MyCircle" syncable="YES">
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userPhoto" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RecentBudgets" representedClassName="RecentBudgets" syncable="YES">
+        <attribute name="budgetId" optional="YES" attributeType="String"/>
+        <attribute name="budgetName" optional="YES" attributeType="String"/>
+        <attribute name="insertTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="CacheIncomes" positionX="-18" positionY="36" width="128" height="88"/>
+        <element name="MyCircle" positionX="-54" positionY="-9" width="128" height="88"/>
+        <element name="RecentBudgets" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="CaheExpenses" positionX="-27" positionY="18" width="128" height="88"/>
+    </elements>
+</model>

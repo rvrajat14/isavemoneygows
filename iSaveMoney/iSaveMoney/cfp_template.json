@@ -1,0 +1,25 @@
+{"data":[
+         {"name": "Your Net Monthly Salary", "amount":0, "type":1, "remaining":0},
+         {"name": "Interest/Dividends", "amount":0, "type":1, "remaining":0},
+         {"name": "Other Income", "amount":0, "type":1, "remaining":0},
+         
+         {"name": "Living/Housing Expenses", "amount":0, "type":2, "remaining":0,
+         "items": ["Rent/Mortgage","Other Housing Loan","Water","Gas","House Telephone","Internet","Household/Repairs","Electricity","Property Tax","Solid Fuel","Oil","Garden/Gardener/Plants etc","Property Management fees","TV Licence","Sky / Digital TV/ Modems","Bins/Refuse","Groceries for household (per month)","Laundry & Dry Cleaning","Pet Foods","Holiday Home Expenses","Purchase of Utilities for house","Other"]},
+         {"name": "Motoring Expenses", "amount": 0, "type":2, "remaining":0,
+         "items": ["Car Loan","Car Tax","Car Insurance","Petrol/Diesel","Servicing & Repairs","Tyres","Tolls","Fines/Parking Tickets etc","Other"]},
+         {"name": "Other Relevent Outgoings", "amount":0, "type":2, "remaining":0,
+         "items": ["Other"]},
+         {"name": "Children/Grandchildren expenses", "amount":0, "type":2, "remaining":0,
+         "items": ["Childcare / Baby Sitters","Clothing & Footwear","Education Expenses","Pocket Money","Other- e.g. summer camp/dance classes etc","Other"]},
+         {"name": "Home/Health/Life Insurance", "amount":0, "type":2, "remaining":0,
+         "items": ["Health Insurance","Home (including Contents) Insurance","Life Insurance /serious illness","Mortgage Protection","Travel Insurance","Income Protection","Other"]},
+         {"name": "Personal Expenses", "amount":0, "type":2, "remaining":0,
+         "items": ["Own Clothing & Footwear","Partner's clothing & footwear","Cigarettes & tobacco","Eating out (Day to Day)","Dating/Cinema/Restaurant Eating","Nights out (Alcohol etc)","Teas/Coffees/Newspapers etc","Travel Expenses Other than Motoring","Holidays","Sports / Hobbies","Gym/Golf Memberships etc","Mobile Phones","Hairdressors/Beauticians etc","Christmas & Birthday presents","College/Education Fees","Social Events (Weddings/Stags/Hens etc)","Other"]},
+         {"name": "Professional Fees", "amount":0, "type":2, "remaining":0,
+         "items": ["Accountants fees","Dentist's fees","Doctor's fees/Prescriptions","Financial Planners fees","Optician's fees","Osteopath/Chiropracter/Physio etc fees","Veterinary Surgeon's Fees"]},
+         {"name": "Up Coming Events throughout the year", "amount":0, "type":2, "remaining":0,
+         "items": ["Event 1 Cost","Event 2 Cost","Event 3","Event 4"]},
+         {"name": "Savings and Investments", "amount":0, "type":2, "remaining":0,
+         "items": ["Standing order into your Short term Savings a/c","Standing order into your Credit Union","Pension contribution"]}
+         
+         ]}

@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Incomes"; ObjectID = "7YZ-gE-p3c"; */
+"7YZ-gE-p3c.text" = "Revenus";
+
+/* Class = "UILabel"; text = "Income Value"; ObjectID = "Mpj-E8-Gbs"; */
+"Mpj-E8-Gbs.text" = "Valeur du revenu";
+
+/* Class = "UILabel"; text = "Spending per Categories"; ObjectID = "QC9-px-tOH"; */
+"QC9-px-tOH.text" = "Dépenses par catégories";
+
+/* Class = "UILabel"; text = "End Date"; ObjectID = "Sdj-p6-9zK"; */
+"Sdj-p6-9zK.text" = "Date de fin";
+
+/* Class = "UILabel"; text = "Selected Daily"; ObjectID = "VcY-VS-DwI"; */
+"VcY-VS-DwI.text" = "Sélectionné quotidiennement";
+
+/* Class = "UILabel"; text = "Start Date"; ObjectID = "cDd-KT-HtQ"; */
+"cDd-KT-HtQ.text" = "Date de début";
+
+/* Class = "UILabel"; text = "Category Value"; ObjectID = "wwZ-vG-DIU"; */
+"wwZ-vG-DIU.text" = "Valeur de la catégorie";
+
+/* Class = "UILabel"; text = "Daily Spending                                            "; ObjectID = "z9d-cl-euU"; */
+"z9d-cl-euU.text" = "Dépenses quotidiennes";

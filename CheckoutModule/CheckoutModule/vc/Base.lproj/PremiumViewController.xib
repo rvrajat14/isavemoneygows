@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PremiumViewController" customModule="CheckoutModule" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="2eA-TH-7PZ" id="QCM-9l-hhq"/>
+                <outlet property="goBackToUpp" destination="Vsh-hu-NCe" id="xGK-du-Dng"/>
+                <outlet property="subscriptionText" destination="9BT-6l-a4K" id="faj-eb-7yH"/>
+                <outlet property="txtOrderDate" destination="xav-su-ylW" id="VQ6-yt-7ZN"/>
+                <outlet property="txtOrderNumber" destination="Doz-HY-S2S" id="M6x-aG-Tah"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PzN-9i-w6I">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ds-tj-JAl">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="850"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSw-wO-inS">
+                                    <rect key="frame" x="0.0" y="50" width="414" height="800"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="farmGirl" translatesAutoresizingMaskIntoConstraints="NO" id="SSf-dU-dlF">
+                                            <rect key="frame" x="134.5" y="35" width="145" height="98"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To iSaveMoneyGo Premium" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQw-CC-geQ" customClass="CoHeaderOne" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="25" y="158" width="364" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="premiumBadge" translatesAutoresizingMaskIntoConstraints="NO" id="Tux-9I-X2T">
+                                            <rect key="frame" x="167.5" y="203.5" width="79" height="77"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="77" id="UsQ-3u-7Vg"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank You For Becoming a Premium Member!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJA-aq-BbN" customClass="CoHeaderThree" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="50" y="300.5" width="314" height="41"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvh-ef-Sdi" customClass="CoNormalCenterText" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="361.5" width="374" height="101.5"/>
+                                            <string key="text">Thank you for your payment, we appreciate your support. You can now take full advantage of the Premium features and special services. We will be adding additional features over the time. We will keep you posted!</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Yy-Cd-Liz">
+                                            <rect key="frame" x="0.0" y="488" width="414" height="1"/>
+                                            <color key="backgroundColor" name="co_separator_color"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="1" id="BlF-CX-QVg"/>
+                                            </constraints>
+                                        </view>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="order_number" translatesAutoresizingMaskIntoConstraints="NO" id="DAd-nC-xUm">
+                                            <rect key="frame" x="25" y="514" width="24" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="24" id="CFV-MF-DdO"/>
+                                                <constraint firstAttribute="height" constant="24" id="ie4-Rm-dqE"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Doz-HY-S2S" customClass="CoNormalBoldText" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="59" y="526" width="330" height="0.0"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="order_date_time" translatesAutoresizingMaskIntoConstraints="NO" id="vHE-dR-hrx">
+                                            <rect key="frame" x="25" y="553" width="24" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="24" id="0P6-9V-XBK"/>
+                                                <constraint firstAttribute="height" constant="24" id="TsW-8V-uPB"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xav-su-ylW" customClass="CoNormalBoldText" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="59" y="565" width="330" height="0.0"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You subscription will Automatically renew, you can cancel at anytime." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BT-6l-a4K" customClass="CoNormalBoldText" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="25" y="599" width="364" height="41"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                    <color key="value" name="checkout_accent_txt"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsh-hu-NCe" customClass="CoButtonThree" customModule="CheckoutModule" customModuleProvider="target">
+                                            <rect key="frame" x="25" y="650" width="364" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="ou6-Xd-WP1"/>
+                                            </constraints>
+                                            <state key="normal" title="Continue to the app"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" name="checkoutRoundCornerbg"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="KQw-CC-geQ" secondAttribute="trailing" constant="25" id="1gW-9k-D27"/>
+                                        <constraint firstItem="xvh-ef-Sdi" firstAttribute="top" secondItem="tJA-aq-BbN" secondAttribute="bottom" constant="20" id="6xU-ni-XZB"/>
+                                        <constraint firstItem="Tux-9I-X2T" firstAttribute="centerX" secondItem="uSw-wO-inS" secondAttribute="centerX" id="7K9-v7-ykw"/>
+                                        <constraint firstItem="DAd-nC-xUm" firstAttribute="leading" secondItem="uSw-wO-inS" secondAttribute="leading" constant="25" id="BhQ-2X-ghU"/>
+                                        <constraint firstItem="Doz-HY-S2S" firstAttribute="leading" secondItem="DAd-nC-xUm" secondAttribute="trailing" constant="10" id="DZb-vv-IQZ"/>
+                                        <constraint firstItem="vHE-dR-hrx" firstAttribute="top" secondItem="DAd-nC-xUm" secondAttribute="bottom" constant="15" id="Ep8-Qd-mV7"/>
+                                        <constraint firstItem="DAd-nC-xUm" firstAttribute="top" secondItem="9Yy-Cd-Liz" secondAttribute="bottom" constant="25" id="Fbs-Ja-tVn"/>
+                                        <constraint firstItem="9Yy-Cd-Liz" firstAttribute="leading" secondItem="uSw-wO-inS" secondAttribute="leading" id="HCN-mM-ySa"/>
+                                        <constraint firstAttribute="trailing" secondItem="9Yy-Cd-Liz" secondAttribute="trailing" id="JCu-Yg-kYK"/>
+                                        <constraint firstItem="Vsh-hu-NCe" firstAttribute="leading" secondItem="uSw-wO-inS" secondAttribute="leading" constant="25" id="JJ0-II-qLY"/>
+                                        <constraint firstItem="tJA-aq-BbN" firstAttribute="leading" secondItem="uSw-wO-inS" secondAttribute="leading" constant="50" id="KWp-cX-GCQ"/>
+                                        <constraint firstItem="Doz-HY-S2S" firstAttribute="centerY" secondItem="DAd-nC-xUm" secondAttribute="centerY" id="NNg-WV-dqq"/>
+                                        <constraint firstItem="SSf-dU-dlF" firstAttribute="top" secondItem="uSw-wO-inS" secondAttribute="top" constant="35" id="Pls-Md-8yb"/>
+                                        <constraint firstItem="9BT-6l-a4K" firstAttribute="top" secondItem="9Yy-Cd-Liz" secondAttribute="bottom" constant="110" id="Snr-Eq-4rE"/>
+                                        <constraint firstAttribute="trailing" secondItem="tJA-aq-BbN" secondAttribute="trailing" constant="50" id="aIB-cO-mo0"/>
+                                        <constraint firstAttribute="trailing" secondItem="xav-su-ylW" secondAttribute="trailing" constant="25" id="fRJ-jn-Tcx"/>
+                                        <constraint firstItem="xvh-ef-Sdi" firstAttribute="leading" secondItem="uSw-wO-inS" secondAttribute="leading" constant="20" id="ftd-91-6Fg"/>
+                                        <constraint firstItem="Tux-9I-X2T" firstAttribute="top" secondItem="KQw-CC-geQ" secondAttribute="bottom" constant="25" id="grX-aS-3Qf"/>
+                                        <constraint firstAttribute="trailing" secondItem="9BT-6l-a4K" secondAttribute="trailing" constant="25" id="hHA-9e-4bo"/>
+                                        <constraint firstItem="Vsh-hu-NCe" firstAttribute="top" secondItem="9BT-6l-a4K" secondAttribute="bottom" constant="10" id="kh9-Y2-5zq"/>
+                                        <constraint firstItem="9Yy-Cd-Liz" firstAttribute="top" secondItem="xvh-ef-Sdi" secondAttribute="bottom" constant="25" id="lYb-iw-VR7"/>
+                                        <constraint firstAttribute="trailing" secondItem="xvh-ef-Sdi" secondAttribute="trailing" constant="20" id="m0P-nk-LHI"/>
+                                        <constraint firstItem="KQw-CC-geQ" firstAttribute="top" secondItem="SSf-dU-dlF" secondAttribute="bottom" constant="25" id="mnw-8s-4jz"/>
+                                        <constraint firstItem="vHE-dR-hrx" firstAttribute="leading" secondItem="uSw-wO-inS" secondAttribute="leading" constant="25" id="obq-xn-nml"/>
+                                        <constraint firstItem="xav-su-ylW" firstAttribute="leading" secondItem="vHE-dR-hrx" secondAttribute="trailing" constant="10" id="pF2-L5-idH"/>
+                                        <constraint firstItem="tJA-aq-BbN" firstAttribute="top" secondItem="Tux-9I-X2T" secondAttribute="bottom" constant="20" id="rAk-jB-2NU"/>
+                                        <constraint firstItem="xav-su-ylW" firstAttribute="centerY" secondItem="vHE-dR-hrx" secondAttribute="centerY" id="tFb-OH-fUQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="Vsh-hu-NCe" secondAttribute="trailing" constant="25" id="wTF-y0-3Fd"/>
+                                        <constraint firstItem="SSf-dU-dlF" firstAttribute="centerX" secondItem="uSw-wO-inS" secondAttribute="centerX" id="x7S-Gj-6S1"/>
+                                        <constraint firstItem="KQw-CC-geQ" firstAttribute="leading" secondItem="uSw-wO-inS" secondAttribute="leading" constant="25" id="yMa-i2-RzP"/>
+                                        <constraint firstItem="9BT-6l-a4K" firstAttribute="leading" secondItem="uSw-wO-inS" secondAttribute="leading" constant="25" id="yNd-Dd-0l9"/>
+                                        <constraint firstAttribute="trailing" secondItem="Doz-HY-S2S" secondAttribute="trailing" constant="25" id="z6p-VF-QWS"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="25"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eA-TH-7PZ">
+                                    <rect key="frame" x="20" y="10" width="24" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="24" id="1V5-H7-J4T"/>
+                                        <constraint firstAttribute="height" constant="24" id="IuO-11-Mah"/>
+                                    </constraints>
+                                    <state key="normal" image="back_icon"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" name="checkout_purchase_background"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="850" id="Nr9-fX-IgD"/>
+                                <constraint firstItem="2eA-TH-7PZ" firstAttribute="leading" secondItem="2Ds-tj-JAl" secondAttribute="leading" constant="20" id="OkY-IS-gwp"/>
+                                <constraint firstItem="2eA-TH-7PZ" firstAttribute="top" secondItem="2Ds-tj-JAl" secondAttribute="top" constant="10" id="PTH-Mv-hMt"/>
+                                <constraint firstAttribute="trailing" secondItem="uSw-wO-inS" secondAttribute="trailing" id="aHf-sE-8qM"/>
+                                <constraint firstItem="uSw-wO-inS" firstAttribute="top" secondItem="2Ds-tj-JAl" secondAttribute="top" constant="50" id="dYe-Cw-k2b"/>
+                                <constraint firstAttribute="bottom" secondItem="uSw-wO-inS" secondAttribute="bottom" id="oaJ-JR-QAs"/>
+                                <constraint firstItem="uSw-wO-inS" firstAttribute="leading" secondItem="2Ds-tj-JAl" secondAttribute="leading" id="rAh-aM-tgf"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="2Ds-tj-JAl" firstAttribute="bottom" secondItem="ZLC-Bb-tNL" secondAttribute="bottom" id="KaA-cu-pTQ"/>
+                        <constraint firstItem="2Ds-tj-JAl" firstAttribute="width" secondItem="qia-57-cLH" secondAttribute="width" id="OP3-oj-d4S"/>
+                        <constraint firstItem="2Ds-tj-JAl" firstAttribute="top" secondItem="ZLC-Bb-tNL" secondAttribute="top" id="RzH-G2-gxH"/>
+                        <constraint firstItem="2Ds-tj-JAl" firstAttribute="trailing" secondItem="ZLC-Bb-tNL" secondAttribute="trailing" id="j8M-c2-Dpa"/>
+                        <constraint firstItem="2Ds-tj-JAl" firstAttribute="leading" secondItem="ZLC-Bb-tNL" secondAttribute="leading" id="rej-7g-7AX"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="ZLC-Bb-tNL"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="qia-57-cLH"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="checkout_purchase_background"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PzN-9i-w6I" secondAttribute="trailing" id="Igl-3k-5Ry"/>
+                <constraint firstItem="PzN-9i-w6I" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LSa-hw-DeG"/>
+                <constraint firstItem="PzN-9i-w6I" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="nGK-eK-6Gy"/>
+                <constraint firstItem="PzN-9i-w6I" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="nOn-X9-Bxz"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back_icon" width="69" height="69"/>
+        <image name="farmGirl" width="145" height="98"/>
+        <image name="order_date_time" width="68" height="68"/>
+        <image name="order_number" width="62" height="68"/>
+        <image name="premiumBadge" width="79" height="79"/>
+        <namedColor name="checkoutRoundCornerbg">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="checkout_accent_txt">
+            <color red="0.42399999499320984" green="0.3880000114440918" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="checkout_purchase_background">
+            <color red="0.33300000429153442" green="0.40799999237060547" blue="0.79199999570846558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="co_separator_color">
+            <color red="0.77600002288818359" green="0.77600002288818359" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,41 @@
+/* Classe = "UILabel"; text = "Source du compte"; ObjectID = "49D-cn-88d"; */
+"49D-cn-88d.text" = "Source du compte";
+
+/* Classe = "UILabel"; text = "Montant"; ObjectID = "4xi-KD-khW"; */
+"4xi-KD-khW.text" = "Montant";
+
+/* Classe = "UILabel"; text = "Destination du compte"; ObjectID = "AIC-91-bBj"; */
+"AIC-91-bBj.text" = "Destination du compte";
+
+/* Classe = "UILabel"; text = "Obligatoire"; ObjectID = "F13-d1-GUg"; */
+"F13-d1-GUg.text" = "Obligatoire";
+
+/* Classe = "UILabel"; text = "Date de transfert"; ObjectID = "HCm-eN-ZmI"; */
+"HCm-eN-ZmI.text" = "Date de transfert";
+
+/* Classe = "UILabel"; text = "Label"; ObjectID = "KYX-j5-8Rn"; */
+"KYX-j5-8Rn.text" = "Libellé";
+
+/* Classe = "UILabel"; text = "Obligatoire"; ObjectID = "XWs-t5-3sy"; */
+"XWs-t5-3sy.text" = "Obligatoire";
+
+/* Classe = "UILabel"; text = "Label"; ObjectID = "Zqp-Z5-TCh"; */
+"Zqp-Z5-TCh.text" = "Étiquette";
+
+/* Classe = "UITextField"; placeholder = "Sélectionner un compte (obligatoire)"; ObjectID = "eSR-i8-2AQ"; */
+"eSR-i8-2AQ.placeholder" = "Sélectionnez un compte (obligatoire)";
+
+/* Classe = "UILabel"; text = "Obligatoire"; ObjectID = "hon-o6-HCu"; */
+"hon-o6-HCu.text" = "Obligatoire";
+
+/* Classe = "UITextField"; placeholder = "MM / JJ / AAAA"; ObjectID = "kpj-F5-7u7"; */
+"kpj-F5-7u7.placeholder" = "MM / JJ / AAAA";
+
+/* Classe = "UILabel"; text = "Cette transaction est récurrente"; ObjectID = "mHG-44-ZBR"; */
+"mHG-44-ZBR.text" = "Cette transaction est récurrente";
+
+/* Classe = "UITextField"; placeholder = "Sélectionner un compte (obligatoire)"; ObjectID = "sgp-qa-7ap"; */
+"sgp-qa-7ap.placeholder" = "Sélectionnez un compte (obligatoire)";
+
+/* Classe = "UITextField"; placeholder = "0.0"; ObjectID = "yQD-Jt-0eH"; */
+"yQD-Jt-0eH.placeholder" = "0,0";

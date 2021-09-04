@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BudgetReportViewController" customModule="iSaveMoney" customModuleProvider="target">
+            <connections>
+                <outlet property="dailyBalanceLine" destination="L1m-Uk-IoZ" id="VFc-is-flc"/>
+                <outlet property="dailyCumulativeLine" destination="HAl-FG-qfB" id="P36-n9-xHG"/>
+                <outlet property="dailyIncomeLine" destination="0Pu-59-dQA" id="zR4-yO-xz0"/>
+                <outlet property="dailySpendingLine" destination="rEq-4U-Yzy" id="lr1-7f-T7g"/>
+                <outlet property="incomePerCategoryPie" destination="yiS-3j-aFp" id="bf6-4D-UK0"/>
+                <outlet property="incomePerCategoryValue" destination="AVU-g2-lgr" id="R3U-Xq-PeY"/>
+                <outlet property="selectedDailyCumulative" destination="wlW-IS-nQz" id="zM7-fI-078"/>
+                <outlet property="selectedDayBalance" destination="hHq-bn-Y2P" id="tD5-kZ-hpe"/>
+                <outlet property="selectedDayIncome" destination="vWb-7d-rf2" id="Gyp-ug-JKF"/>
+                <outlet property="selectedDaySpending" destination="caL-Ww-tR8" id="UW3-UC-bq3"/>
+                <outlet property="spendingPerCategoryPie" destination="faL-bb-8p7" id="ANK-5k-yVJ"/>
+                <outlet property="spendingPerCategoryValue" destination="OJd-TD-lGd" id="f2r-er-3wS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KNA-3L-0xS">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="evM-8N-yHe">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1736"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="bLq-Zk-bdR">
+                                    <rect key="frame" x="10" y="10" width="394" height="1740"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMz-Np-VAx" customClass="IsmCardView" customModule="ISMLBase">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="220"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Spending                                            " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7f5-lz-fXg" customClass="HeaderLevelFour" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="9.9999999999999982" width="374" height="19.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <color key="textColor" name="normalTextAccentColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Daily" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caL-Ww-tR8" customClass="NormalTextLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="34.333333333333329" width="374" height="15.666666666666664"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" systemColor="systemBlueColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rEq-4U-Yzy" customClass="LineChartView" customModule="Charts">
+                                                    <rect key="frame" x="10" y="70" width="374" height="145"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="220" id="8S8-aw-Bx4"/>
+                                                <constraint firstAttribute="bottom" secondItem="rEq-4U-Yzy" secondAttribute="bottom" constant="5" id="C7X-SF-RWf"/>
+                                                <constraint firstAttribute="trailing" secondItem="caL-Ww-tR8" secondAttribute="trailing" constant="10" id="FaS-9b-yHR"/>
+                                                <constraint firstItem="7f5-lz-fXg" firstAttribute="leading" secondItem="YMz-Np-VAx" secondAttribute="leading" constant="10" id="Gf9-25-Tu1"/>
+                                                <constraint firstAttribute="trailing" secondItem="rEq-4U-Yzy" secondAttribute="trailing" constant="10" id="KCX-0q-joq"/>
+                                                <constraint firstItem="caL-Ww-tR8" firstAttribute="top" secondItem="7f5-lz-fXg" secondAttribute="bottom" constant="5" id="Skd-7y-vry"/>
+                                                <constraint firstItem="rEq-4U-Yzy" firstAttribute="top" secondItem="YMz-Np-VAx" secondAttribute="top" constant="70" id="Uw4-jH-xg1"/>
+                                                <constraint firstItem="caL-Ww-tR8" firstAttribute="leading" secondItem="YMz-Np-VAx" secondAttribute="leading" constant="10" id="ZNJ-Iw-rcL"/>
+                                                <constraint firstItem="7f5-lz-fXg" firstAttribute="top" secondItem="YMz-Np-VAx" secondAttribute="top" constant="10" id="bfq-jZ-3Tv"/>
+                                                <constraint firstAttribute="trailing" secondItem="7f5-lz-fXg" secondAttribute="trailing" constant="10" id="kgp-F7-j4P"/>
+                                                <constraint firstItem="rEq-4U-Yzy" firstAttribute="leading" secondItem="YMz-Np-VAx" secondAttribute="leading" constant="10" id="sIL-4V-n1t"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vV8-dZ-Hge" customClass="IsmCardView" customModule="ISMLBase">
+                                            <rect key="frame" x="0.0" y="232" width="394" height="220"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Income" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1C-qy-moH" customClass="HeaderLevelFour" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="9.9999999999999982" width="374" height="19.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Income Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWb-7d-rf2" customClass="NormalTextLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="34.333333333333314" width="374" height="15.666666666666664"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" systemColor="systemBlueColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Pu-59-dQA" customClass="LineChartView" customModule="Charts">
+                                                    <rect key="frame" x="10" y="70" width="374" height="145"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="y1C-qy-moH" firstAttribute="leading" secondItem="vV8-dZ-Hge" secondAttribute="leading" constant="10" id="9QN-E8-e6h"/>
+                                                <constraint firstItem="y1C-qy-moH" firstAttribute="top" secondItem="vV8-dZ-Hge" secondAttribute="top" constant="10" id="DVC-wL-m63"/>
+                                                <constraint firstItem="vWb-7d-rf2" firstAttribute="leading" secondItem="vV8-dZ-Hge" secondAttribute="leading" constant="10" id="GxW-ju-ERq"/>
+                                                <constraint firstItem="0Pu-59-dQA" firstAttribute="top" secondItem="vV8-dZ-Hge" secondAttribute="top" constant="70" id="Ujk-Jv-eOP"/>
+                                                <constraint firstAttribute="trailing" secondItem="y1C-qy-moH" secondAttribute="trailing" constant="10" id="Y14-eS-EPW"/>
+                                                <constraint firstItem="0Pu-59-dQA" firstAttribute="leading" secondItem="vV8-dZ-Hge" secondAttribute="leading" constant="10" id="c4M-xN-haM"/>
+                                                <constraint firstAttribute="trailing" secondItem="vWb-7d-rf2" secondAttribute="trailing" constant="10" id="jFH-lG-wxS"/>
+                                                <constraint firstAttribute="height" constant="220" id="jY2-AZ-HuH"/>
+                                                <constraint firstItem="vWb-7d-rf2" firstAttribute="top" secondItem="y1C-qy-moH" secondAttribute="bottom" constant="5" id="ose-ES-yrc"/>
+                                                <constraint firstAttribute="trailing" secondItem="0Pu-59-dQA" secondAttribute="trailing" constant="10" id="p97-eI-FUD"/>
+                                                <constraint firstAttribute="bottom" secondItem="0Pu-59-dQA" secondAttribute="bottom" constant="5" id="wwc-xx-CQy"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJm-ss-pgG" customClass="IsmCardView" customModule="ISMLBase">
+                                            <rect key="frame" x="0.0" y="464" width="394" height="220"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2f-jc-scv" customClass="HeaderLevelFour" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="9.9999999999999982" width="374" height="19.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Balance Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHq-bn-Y2P" customClass="NormalTextLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="34.333333333333371" width="374" height="15.666666666666664"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" systemColor="systemBlueColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L1m-Uk-IoZ" customClass="LineChartView" customModule="Charts">
+                                                    <rect key="frame" x="10" y="70" width="374" height="140"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="Q2f-jc-scv" firstAttribute="top" secondItem="HJm-ss-pgG" secondAttribute="top" constant="10" id="169-Ov-WKF"/>
+                                                <constraint firstItem="L1m-Uk-IoZ" firstAttribute="top" secondItem="HJm-ss-pgG" secondAttribute="top" constant="70" id="1Zl-ef-Epc"/>
+                                                <constraint firstItem="hHq-bn-Y2P" firstAttribute="top" secondItem="Q2f-jc-scv" secondAttribute="bottom" constant="5" id="7FJ-hh-py5"/>
+                                                <constraint firstItem="hHq-bn-Y2P" firstAttribute="leading" secondItem="HJm-ss-pgG" secondAttribute="leading" constant="10" id="Kb3-9K-qv3"/>
+                                                <constraint firstAttribute="bottom" secondItem="L1m-Uk-IoZ" secondAttribute="bottom" constant="10" id="MWu-uo-SKm"/>
+                                                <constraint firstAttribute="trailing" secondItem="L1m-Uk-IoZ" secondAttribute="trailing" constant="10" id="O5l-gb-g2T"/>
+                                                <constraint firstAttribute="trailing" secondItem="hHq-bn-Y2P" secondAttribute="trailing" constant="10" id="ary-mC-Lzr"/>
+                                                <constraint firstItem="Q2f-jc-scv" firstAttribute="leading" secondItem="HJm-ss-pgG" secondAttribute="leading" constant="10" id="ex9-vh-YNA"/>
+                                                <constraint firstAttribute="height" constant="220" id="p0P-i0-5im"/>
+                                                <constraint firstItem="L1m-Uk-IoZ" firstAttribute="leading" secondItem="HJm-ss-pgG" secondAttribute="leading" constant="10" id="qXL-dg-2mc"/>
+                                                <constraint firstAttribute="trailing" secondItem="Q2f-jc-scv" secondAttribute="trailing" constant="10" id="vdo-u2-xJk"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQN-lz-hav" customClass="IsmCardView" customModule="ISMLBase">
+                                            <rect key="frame" x="0.0" y="696" width="394" height="220"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cumulative Spending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f12-Bv-oxo" customClass="HeaderLevelFour" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="9.9999999999999982" width="374" height="19.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Day Cumul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlW-IS-nQz" customClass="NormalTextLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="34.333333333333371" width="374" height="15.666666666666664"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" systemColor="linkColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HAl-FG-qfB" customClass="LineChartView" customModule="Charts">
+                                                    <rect key="frame" x="10" y="70" width="374" height="140"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="HAl-FG-qfB" firstAttribute="top" secondItem="OQN-lz-hav" secondAttribute="top" constant="70" id="21g-wb-93v"/>
+                                                <constraint firstItem="wlW-IS-nQz" firstAttribute="leading" secondItem="OQN-lz-hav" secondAttribute="leading" constant="10" id="Sdf-9e-aii"/>
+                                                <constraint firstItem="f12-Bv-oxo" firstAttribute="leading" secondItem="OQN-lz-hav" secondAttribute="leading" constant="10" id="VgW-8Y-9T8"/>
+                                                <constraint firstAttribute="bottom" secondItem="HAl-FG-qfB" secondAttribute="bottom" constant="10" id="XyG-C4-HsQ"/>
+                                                <constraint firstItem="HAl-FG-qfB" firstAttribute="leading" secondItem="OQN-lz-hav" secondAttribute="leading" constant="10" id="Yqw-so-QPH"/>
+                                                <constraint firstAttribute="height" constant="220" id="aCb-2s-Bjs"/>
+                                                <constraint firstAttribute="trailing" secondItem="wlW-IS-nQz" secondAttribute="trailing" constant="10" id="auE-jM-zYU"/>
+                                                <constraint firstAttribute="trailing" secondItem="f12-Bv-oxo" secondAttribute="trailing" constant="10" id="hBI-Pp-ti9"/>
+                                                <constraint firstItem="f12-Bv-oxo" firstAttribute="top" secondItem="OQN-lz-hav" secondAttribute="top" constant="10" id="imJ-Kl-1S9"/>
+                                                <constraint firstAttribute="trailing" secondItem="HAl-FG-qfB" secondAttribute="trailing" constant="10" id="tQl-EU-Xi2"/>
+                                                <constraint firstItem="wlW-IS-nQz" firstAttribute="top" secondItem="f12-Bv-oxo" secondAttribute="bottom" constant="5" id="wjO-RF-aWs"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Stk-IZ-ZEw" customClass="IsmCardView" customModule="ISMLBase">
+                                            <rect key="frame" x="0.0" y="928" width="394" height="400"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spending per Categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhK-3A-61K" customClass="HeaderLevelFour" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="9.9999999999999982" width="374" height="19.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJd-TD-lGd" customClass="NormalTextLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="34.333333333333371" width="374" height="15.666666666666664"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" systemColor="systemBlueColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="faL-bb-8p7" customClass="PieChartView" customModule="Charts">
+                                                    <rect key="frame" x="10" y="70" width="374" height="320"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="bhK-3A-61K" firstAttribute="top" secondItem="Stk-IZ-ZEw" secondAttribute="top" constant="10" id="MTI-fY-Fmj"/>
+                                                <constraint firstItem="OJd-TD-lGd" firstAttribute="leading" secondItem="Stk-IZ-ZEw" secondAttribute="leading" constant="10" id="Q30-uH-i5M"/>
+                                                <constraint firstAttribute="bottom" secondItem="faL-bb-8p7" secondAttribute="bottom" constant="10" id="QrV-PF-B6s"/>
+                                                <constraint firstItem="bhK-3A-61K" firstAttribute="leading" secondItem="Stk-IZ-ZEw" secondAttribute="leading" constant="10" id="XEg-v6-qUX"/>
+                                                <constraint firstAttribute="trailing" secondItem="OJd-TD-lGd" secondAttribute="trailing" constant="10" id="XMC-5Y-cId"/>
+                                                <constraint firstAttribute="trailing" secondItem="faL-bb-8p7" secondAttribute="trailing" constant="10" id="ctC-rN-Lc7"/>
+                                                <constraint firstAttribute="trailing" secondItem="bhK-3A-61K" secondAttribute="trailing" constant="10" id="jaj-90-M44"/>
+                                                <constraint firstItem="faL-bb-8p7" firstAttribute="top" secondItem="Stk-IZ-ZEw" secondAttribute="top" constant="70" id="lwG-SY-SQe"/>
+                                                <constraint firstItem="faL-bb-8p7" firstAttribute="leading" secondItem="Stk-IZ-ZEw" secondAttribute="leading" constant="10" id="rbh-wz-92j"/>
+                                                <constraint firstAttribute="height" constant="400" id="wzw-IE-rxf"/>
+                                                <constraint firstItem="OJd-TD-lGd" firstAttribute="top" secondItem="bhK-3A-61K" secondAttribute="bottom" constant="5" id="ze7-fG-G2G"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v80-ZT-3JP" customClass="IsmCardView" customModule="ISMLBase">
+                                            <rect key="frame" x="0.0" y="1340" width="394" height="400"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Income Proportion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qb-HQ-QJ5" customClass="HeaderLevelFour" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="9.9999999999999982" width="374" height="19.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Income Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVU-g2-lgr" customClass="NormalTextLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="10" y="34.333333333333258" width="374" height="15.666666666666664"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" systemColor="systemBlueColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yiS-3j-aFp" customClass="PieChartView" customModule="Charts">
+                                                    <rect key="frame" x="10" y="70" width="374" height="320"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="400" id="0jv-ph-kXb"/>
+                                                <constraint firstItem="AVU-g2-lgr" firstAttribute="top" secondItem="2Qb-HQ-QJ5" secondAttribute="bottom" constant="5" id="63C-f3-gAT"/>
+                                                <constraint firstItem="AVU-g2-lgr" firstAttribute="leading" secondItem="v80-ZT-3JP" secondAttribute="leading" constant="10" id="75T-9O-zCd"/>
+                                                <constraint firstItem="2Qb-HQ-QJ5" firstAttribute="top" secondItem="v80-ZT-3JP" secondAttribute="top" constant="10" id="7cz-Rc-Ur2"/>
+                                                <constraint firstAttribute="bottom" secondItem="yiS-3j-aFp" secondAttribute="bottom" constant="10" id="GuT-Ev-YQA"/>
+                                                <constraint firstItem="yiS-3j-aFp" firstAttribute="top" secondItem="v80-ZT-3JP" secondAttribute="top" constant="70" id="OAR-mu-FHN"/>
+                                                <constraint firstAttribute="trailing" secondItem="2Qb-HQ-QJ5" secondAttribute="trailing" constant="10" id="Ond-U3-En0"/>
+                                                <constraint firstAttribute="trailing" secondItem="AVU-g2-lgr" secondAttribute="trailing" constant="10" id="Q8y-j3-VML"/>
+                                                <constraint firstAttribute="trailing" secondItem="yiS-3j-aFp" secondAttribute="trailing" constant="10" id="VNT-kj-npi"/>
+                                                <constraint firstItem="2Qb-HQ-QJ5" firstAttribute="leading" secondItem="v80-ZT-3JP" secondAttribute="leading" constant="10" id="zJm-8Y-7jB"/>
+                                                <constraint firstItem="yiS-3j-aFp" firstAttribute="leading" secondItem="v80-ZT-3JP" secondAttribute="leading" constant="10" id="zw3-eP-ANo"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" name="pageBgColor"/>
+                            <constraints>
+                                <constraint firstItem="bLq-Zk-bdR" firstAttribute="leading" secondItem="evM-8N-yHe" secondAttribute="leading" constant="10" id="2Ek-cg-Vcq"/>
+                                <constraint firstAttribute="trailing" secondItem="bLq-Zk-bdR" secondAttribute="trailing" constant="10" id="hWM-fn-TnR"/>
+                                <constraint firstAttribute="height" constant="1736" id="lOz-fU-Sk3"/>
+                                <constraint firstItem="bLq-Zk-bdR" firstAttribute="top" secondItem="evM-8N-yHe" secondAttribute="top" constant="10" id="oMD-t6-vKF"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="evM-8N-yHe" firstAttribute="top" secondItem="VcO-RK-HMF" secondAttribute="top" id="JBk-uB-cWo"/>
+                        <constraint firstItem="evM-8N-yHe" firstAttribute="width" secondItem="AV0-Lk-AUW" secondAttribute="width" id="Otz-2F-9xx"/>
+                        <constraint firstItem="evM-8N-yHe" firstAttribute="bottom" secondItem="VcO-RK-HMF" secondAttribute="bottom" id="YzR-oi-MFj"/>
+                        <constraint firstItem="evM-8N-yHe" firstAttribute="leading" secondItem="VcO-RK-HMF" secondAttribute="leading" id="dp9-PY-vXX"/>
+                        <constraint firstItem="evM-8N-yHe" firstAttribute="trailing" secondItem="VcO-RK-HMF" secondAttribute="trailing" id="pLn-ss-9aa"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="VcO-RK-HMF"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="AV0-Lk-AUW"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KNA-3L-0xS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2yX-EI-b8b"/>
+                <constraint firstItem="KNA-3L-0xS" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="DHq-0p-eNm"/>
+                <constraint firstItem="KNA-3L-0xS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="IAz-kp-fgK"/>
+                <constraint firstItem="KNA-3L-0xS" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Qec-dQ-ssB"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="91.741071428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="normalTextAccentColor">
+            <color red="0.33300000429153442" green="0.40799999237060547" blue="0.79199999570846558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="pageBgColor">
+            <color red="0.96899998188018799" green="0.97299998998641968" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Daily Spending"; ObjectID = "79D-Bd-cPz"; */
+"79D-Bd-cPz.text" = "Daily Spending";
+
+/* Class = "UILabel"; text = "Cumulative Spending"; ObjectID = "BOH-Gx-Fsd"; */
+"BOH-Gx-Fsd.text" = "Cumulative Spending";
+
+/* Class = "UILabel"; text = "Daily Income"; ObjectID = "LOb-uJ-Zlb"; */
+"LOb-uJ-Zlb.text" = "Daily Income";
+
+/* Class = "UILabel"; text = "Income Proportion"; ObjectID = "OWQ-bb-ci1"; */
+"OWQ-bb-ci1.text" = "Income Proportion";
+
+/* Class = "UILabel"; text = "Daily Balance"; ObjectID = "PQy-z1-ylF"; */
+"PQy-z1-ylF.text" = "Daily Balance";
+
+/* Class = "UILabel"; text = "Selected Income Day"; ObjectID = "SNR-v5-d8h"; */
+"SNR-v5-d8h.text" = "Selected Income Day";
+
+/* Class = "UILabel"; text = "Spending per Categories"; ObjectID = "TFZ-dl-Mkz"; */
+"TFZ-dl-Mkz.text" = "Spending per Categories";
+
+/* Class = "UILabel"; text = "Selected Daily"; ObjectID = "Ys7-tu-DYi"; */
+"Ys7-tu-DYi.text" = "Selected Daily";
+
+/* Class = "UILabel"; text = "Selected Balance Value"; ObjectID = "cok-MT-IhP"; */
+"cok-MT-IhP.text" = "Selected Balance Value";
+
+/* Class = "UILabel"; text = "Category Value"; ObjectID = "org-JN-cLP"; */
+"org-JN-cLP.text" = "Category Value";
+
+/* Class = "UILabel"; text = "Income Value"; ObjectID = "tFI-9v-eWV"; */
+"tFI-9v-eWV.text" = "Income Value";
+
+/* Class = "UILabel"; text = "Selected Day Cumul"; ObjectID = "vXF-SZ-t40"; */
+"vXF-SZ-t40.text" = "Selected Day Cumul";

@@ -1,0 +1,32 @@
+{"data":[
+  {"name": "Salaire", "amount":0, "type":1, "remaining":0},
+  {"name": "Business", "amount":0, "type":1, "remaining":0},
+  {"name": "Pension", "amount":0, "type":1, "remaining":0},
+  {"name": "Intérêts/dividendes", "amount":0, "type":1, "remaining":0},
+  {"name": "Divers", "amount":0, "type":1, "remaining":0},
+  {"name": "Autre revenu", "amount":0, "type":1, "remaining":0},
+
+  {"name": "Maison/Habitat", "amount":0, "type":2, "remaining":0,
+    "items": ["Credit habitation", "Evacuation des déchets", "gaz", "Cable", "Téléphone", "Hypothèque ou le loyer", "Téléphone fix", "Internet", "Réparations à domicile", "Eau et égouts", "Electricité "," Fournitures ","Fournitures de jardin ","Entretien ou réparation","Autres"]},
+  {"name": "Activités Ordinaires", "amount": 0, "type":2, "remaining":0,
+    "items": ["Produits alimentaires", "Garde d'enfants", "Nettoyage à sec", "Souper", "service de netoyage domicile", "Balade de chien", "service de jardinage", "Autres"]},
+  {"name": "Transport", "amount":0, "type":2, "remaining":0,
+    "items": ["Carburant", "Réparations", "Lavage de voitures", "Parking", "Transport en commun", "Autres"]},
+  {"name": "Divertissement", "amount":0, "type":2, "remaining":0,
+    "items": ["Cable TV","Video/DVD rentals","Movies/plays","Concerts/clubs","Books","Music (CDs, etc.)","Other"]},
+  {"name": "Santé", "amount":0, "type":2, "remaining":0,
+    "items": ["Cotisations de club de santé", "urgence", "Docteur / Dentiste", "Prescriptions", "Médicaments generique", "Vétérinaire / médicaments pour animaux de domestique", "Assurance vie"," Autres "]},
+  {"name": "Vacances", "amount":0, "type":2, "remaining":0,
+    "items": ["Billet d'avion", "Hébergement", "Aliment", "Souvenirs", "embarquement pour animaux", "Location de voiture", "Autres"]},
+  {"name": "Récréation", "amount":0, "type":2, "remaining":0,
+    "items": ["Télévision par câble", "location de vidéo / DVD", "Films / jeux", "Concerts / clubs"]},
+  {"name": "Abonnements", "amount":0, "type":2, "remaining":0,
+    "items": ["Magazines", "Journaux", "connexion Internet", "La radio publique", "la télévision publique", "Les organisations religieuses", "Charité"]},
+  {"name": "Personnel", "amount":0, "type":2, "remaining":0,
+    "items": ["Vêtements", "cadeaux", "Salon / barbier", "Livres", "Musique (CD, etc.)"]},
+  {"name": "Obligations Financières", "amount":0, "type":2, "remaining":0,
+    "items": ["économies à long terme", "Cotisation retraite", "les paiements par carte de crédit", "Université", "Fonds d'urgence", "Impôt sur le revenu (supplémentaire)", "Autres obligations"," Etat / impôts locaux "," frais juridiques "," Autres "]},
+  {"name": "Paiements Diverse", "amount":0, "type":2, "remaining":0,
+    "items": ["Viol de circulation", "le remorquage de la voiture", "autre"]}
+
+]}

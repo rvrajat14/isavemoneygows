@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Account Source"; ObjectID = "49D-cn-88d"; */
+"49D-cn-88d.text" = "Account Source";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "4xi-KD-khW"; */
+"4xi-KD-khW.text" = "Amount";
+
+/* Class = "UILabel"; text = "Account Destination"; ObjectID = "AIC-91-bBj"; */
+"AIC-91-bBj.text" = "Account Destination";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "F13-d1-GUg"; */
+"F13-d1-GUg.text" = "Required";
+
+/* Class = "UILabel"; text = "Transfer Date"; ObjectID = "HCm-eN-ZmI"; */
+"HCm-eN-ZmI.text" = "Transfer Date";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KYX-j5-8Rn"; */
+"KYX-j5-8Rn.text" = "Label";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "XWs-t5-3sy"; */
+"XWs-t5-3sy.text" = "Required";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zqp-Z5-TCh"; */
+"Zqp-Z5-TCh.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Select Account (required)"; ObjectID = "eSR-i8-2AQ"; */
+"eSR-i8-2AQ.placeholder" = "Select Account (required)";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "hon-o6-HCu"; */
+"hon-o6-HCu.text" = "Required";
+
+/* Class = "UITextField"; placeholder = "MM/DD/YYYY"; ObjectID = "kpj-F5-7u7"; */
+"kpj-F5-7u7.placeholder" = "MM/DD/YYYY";
+
+/* Class = "UILabel"; text = "This transaction is recurring"; ObjectID = "mHG-44-ZBR"; */
+"mHG-44-ZBR.text" = "This transaction is recurring";
+
+/* Class = "UITextField"; placeholder = "Select Account (required)"; ObjectID = "sgp-qa-7ap"; */
+"sgp-qa-7ap.placeholder" = "Select Account (required)";
+
+/* Class = "UITextField"; placeholder = "0.0"; ObjectID = "yQD-Jt-0eH"; */
+"yQD-Jt-0eH.placeholder" = "0.0";

@@ -1,0 +1,604 @@
+[
+  {
+    "name":"Afghani afghan (AFN)",
+    "codes":"ps_AF,fa_AF,uz_AF"
+  },
+  {
+    "name":"Ariary malgache (MGA)",
+    "codes":"fr_MG,mg_MG,en_MG"
+  },
+  {
+    "name":"Baht thaïlandais (THB)",
+    "codes":"th_TH"
+  },
+  {
+    "name":"Balboa panaméen (PAB)",
+    "codes":"es_PA"
+  },
+  {
+    "name":"Birr éthiopien (ETB)",
+    "codes":"so_ET,om_ET,ti_ET,am_ET"
+  },
+  {
+    "name":"Bolivar vénézuélien (VEF)",
+    "codes":"es_VE"
+  },
+  {
+    "name":"Boliviano bolivien (BOB)",
+    "codes":"es_BO,qu_BO"
+  },
+  {
+    "name":"Colón costaricain (CRC)",
+    "codes":"es_CR"
+  },
+  {
+    "name":"Couronne danoise (DKK)",
+    "codes":"fo_DK,kl_GL,da_GL,fo_FO,da_DK,en_DK"
+  },
+  {
+    "name":"Couronne islandaise (ISK)",
+    "codes":"is_IS"
+  },
+  {
+    "name":"Couronne norvégienne (NOK)",
+    "codes":"nb_SJ,nb_NO,se_NO,nn_NO"
+  },
+  {
+    "name":"Couronne suédoise (SEK)",
+    "codes":"en_SE,sv_SE,se_SE"
+  },
+  {
+    "name":"Couronne tchèque (CZK)",
+    "codes":"cs_CZ"
+  },
+  {
+    "name":"Cédi ghanéen (GHS)",
+    "codes":"ha_GH,ak_GH,ee_GH,en_GH"
+  },
+  {
+    "name":"Córdoba oro nicaraguayen (NIO)",
+    "codes":"es_NI"
+  },
+  {
+    "name":"Dalasi gambien (GMD)",
+    "codes":"en_GM"
+  },
+  {
+    "name":"Denar macédonien (MKD)",
+    "codes":"sq_MK,mk_MK"
+  },
+  {
+    "name":"Dinar algérien (DZD)",
+    "codes":"ar_DZ,fr_DZ,kab_DZ"
+  },
+  {
+    "name":"Dinar bahreïni (BHD)",
+    "codes":"ar_BH"
+  },
+  {
+    "name":"Dinar irakien (IQD)",
+    "codes":"lrc_IQ,ar_IQ"
+  },
+  {
+    "name":"Dinar jordanien (JOD)",
+    "codes":"ar_JO"
+  },
+  {
+    "name":"Dinar koweïtien (KWD)",
+    "codes":"ar_KW"
+  },
+  {
+    "name":"Dinar libyen (LYD)",
+    "codes":"ar_LY"
+  },
+  {
+    "name":"Dinar serbe (RSD)",
+    "codes":"sr_RS,sr_RS"
+  },
+  {
+    "name":"Dinar tunisien (TND)",
+    "codes":"ar_TN,fr_TN"
+  },
+  {
+    "name":"Dirham des Émirats arabes unis (AED)",
+    "codes":"ar_AE"
+  },
+  {
+    "name":"Dirham marocain (MAD)",
+    "codes":"tzm_MA,shi_MA,shi_MA,zgh_MA,ar_EH,ar_MA,fr_MA"
+  },
+  {
+    "name":"Dobra santoméen (STD)",
+    "codes":"pt_ST"
+  },
+  {
+    "name":"Dollar australien ($AU)",
+    "codes":"en_TV,en_CC,en_NR,en_AU,en_NF,en_KI,en_CX"
+  },
+  {
+    "name":"Dollar bahaméen ($BS)",
+    "codes":"en_BS"
+  },
+  {
+    "name":"Dollar barbadien (BBD)",
+    "codes":"en_BB"
+  },
+  {
+    "name":"Dollar bermudien ($BM)",
+    "codes":"en_BM"
+  },
+  {
+    "name":"Dollar brunéien ($BN)",
+    "codes":"ms_BN"
+  },
+  {
+    "name":"Dollar bélizéen ($BZ)",
+    "codes":"en_BZ"
+  },
+  {
+    "name":"Dollar canadien ($CA)",
+    "codes":"fr_CA,en_CA"
+  },
+  {
+    "name":"Dollar de Hong Kong (HKD)",
+    "codes":"en_HK,zh_HK,zh_HK"
+  },
+  {
+    "name":"Dollar de Singapour ($SG)",
+    "codes":"ms_SG,zh_SG,ta_SG,en_SG"
+  },
+  {
+    "name":"Dollar des Caraïbes orientales (XCD)",
+    "codes":"en_MS,en_LC,en_GD,en_DM,en_KN,en_AI,en_AG,en_VC"
+  },
+  {
+    "name":"Dollar des États-Unis ($US)",
+    "codes":"en_US,sn_ZW,es_SV,chr_US,es_PR,en_ZW,haw_US,en_MH,en_UM,en_FM,nl_BQ,en_PW,en_DG,qu_EC,en_TC,en_MP,en_US,en_VG,en_GU,en_IO,en_AS,lkt_US,es_EC,en_PR,en_VI,pt_TL,nd_ZW,es_US"
+  },
+  {
+    "name":"Dollar des îles Caïmans (KYD)",
+    "codes":"en_KY"
+  },
+  {
+    "name":"Dollar des îles Salomon ($SB)",
+    "codes":"en_SB"
+  },
+  {
+    "name":"Dollar du Guyana (GYD)",
+    "codes":"en_GY"
+  },
+  {
+    "name":"Dollar fidjien ($FJ)",
+    "codes":"en_FJ"
+  },
+  {
+    "name":"Dollar jamaïcain (JMD)",
+    "codes":"en_JM"
+  },
+  {
+    "name":"Dollar libérien (LRD)",
+    "codes":"en_LR,vai_LR,vai_LR"
+  },
+  {
+    "name":"Dollar namibien ($NA)",
+    "codes":"af_NA,en_NA,naq_NA"
+  },
+  {
+    "name":"Dollar néo-zélandais ($NZ)",
+    "codes":"en_NU,en_PN,en_CK,en_TK,en_NZ"
+  },
+  {
+    "name":"Dollar surinamais ($SR)",
+    "codes":"nl_SR"
+  },
+  {
+    "name":"Dollar trinidadien ($TT)",
+    "codes":"en_TT"
+  },
+  {
+    "name":"Dram arménien (AMD)",
+    "codes":"hy_AM"
+  },
+  {
+    "name":"Dông vietnamien (₫)",
+    "codes":"vi_VN"
+  },
+  {
+    "name":"Escudo capverdien (CVE)",
+    "codes":"pt_CV,kea_CV"
+  },
+  {
+    "name":"Euro (€)",
+    "codes":"fr_MC,sv_FI,ksh_DE,fr_BL,sr_ME,sl_SI,fr_MF,el_CY,ca_FR,es_IC,it_IT,pt_PT,es_ES,smn_FI,ca_AD,gsw_FR,fr_LU,et_EE,br_FR,tr_CY,sk_SK,en_CY,lt_LT,sq_XK,en_SI,el_GR,de_LU,fr_GF,fy_NL,en_DE,es_EA,fr_RE,lv_LV,ga_IE,sr_XK,it_SM,de_DE,gl_ES,nl_BE,fr_PM,en_FI,fr_BE,mt_MT,en_BE,sv_AX,de_AT,fr_MQ,en_NL,dsb_DE,ca_ES,sr_XK,fr_GP,ca_IT,hsb_DE,fur_IT,eu_ES,en_IE,lb_LU,en_AT,fr_YT,nl_NL,se_FI,en_MT,fi_FI,de_BE,sr_ME,fr_FR"
+  },
+  {
+    "name":"Florin antillais (ANG)",
+    "codes":"en_SX,nl_SX,nl_CW"
+  },
+  {
+    "name":"Florin arubais (AWG)",
+    "codes":"nl_AW"
+  },
+  {
+    "name":"Forint hongrois (HUF)",
+    "codes":"hu_HU"
+  },
+  {
+    "name":"Franc CFA (BCEAO) (CFA)",
+    "codes":"pt_GW,fr_ML,ha_NE,ses_ML,ee_TG,fr_TG,fr_NE,bm_ML,yo_BJ,fr_BF,twq_NE,fr_SN,fr_CI,dje_NE,fr_BJ,dyo_SN,ff_SN,khq_ML"
+  },
+  {
+    "name":"Franc CFA (BEAC) (FCFA)",
+    "codes":"ksf_CM,ewo_CM,fr_GA,en_CM,mgo_CM,fr_CF,nnh_CM,dua_CM,fr_GQ,fr_CG,bas_CM,ln_CF,fr_CM,nmg_CM,jgo_CM,ff_CM,es_GQ,mua_CM,fr_TD,ar_TD,agq_CM,sg_CF,ln_CG,yav_CM,kkj_CM"
+  },
+  {
+    "name":"Franc CFP (FCFP)",
+    "codes":"fr_PF,fr_WF,fr_NC"
+  },
+  {
+    "name":"Franc burundais (BIF)",
+    "codes":"rn_BI,en_BI,fr_BI"
+  },
+  {
+    "name":"Franc comorien (KMF)",
+    "codes":"fr_KM,ar_KM"
+  },
+  {
+    "name":"Franc congolais (CDF)",
+    "codes":"ln_CD,lu_CD,sw_CD,fr_CD"
+  },
+  {
+    "name":"Franc djiboutien (DJF)",
+    "codes":"fr_DJ,ar_DJ,so_DJ"
+  },
+  {
+    "name":"Franc guinéen (GNF)",
+    "codes":"fr_GN,ff_GN"
+  },
+  {
+    "name":"Franc rwandais (RWF)",
+    "codes":"fr_RW,rw_RW,en_RW"
+  },
+  {
+    "name":"Franc suisse (CHF)",
+    "codes":"de_CH,de_LI,wae_CH,it_CH,gsw_LI,fr_CH,gsw_CH,en_CH,rm_CH"
+  },
+  {
+    "name":"Gourde haïtienne (HTG)",
+    "codes":"fr_HT"
+  },
+  {
+    "name":"Guaraní paraguayen (PYG)",
+    "codes":"es_PY"
+  },
+  {
+    "name":"Hryvnia ukrainienne (UAH)",
+    "codes":"ru_UA,uk_UA"
+  },
+  {
+    "name":"Kina papouan-néo-guinéen (PGK)",
+    "codes":"en_PG"
+  },
+  {
+    "name":"Kip loatien (LAK)",
+    "codes":"lo_LA"
+  },
+  {
+    "name":"Kuna croate (HRK)",
+    "codes":"hr_HR"
+  },
+  {
+    "name":"Kwacha malawite (MWK)",
+    "codes":"en_MW"
+  },
+  {
+    "name":"Kwacha zambien (ZMW)",
+    "codes":"en_ZM,bem_ZM"
+  },
+  {
+    "name":"Kwanza angolais (AOA)",
+    "codes":"pt_AO,ln_AO"
+  },
+  {
+    "name":"Kyat myanmarais (MMK)",
+    "codes":"my_MM"
+  },
+  {
+    "name":"Lari géorgien (GEL)",
+    "codes":"ka_GE,os_GE"
+  },
+  {
+    "name":"Lek albanais (ALL)",
+    "codes":"sq_AL"
+  },
+  {
+    "name":"Lempira hondurien (HNL)",
+    "codes":"es_HN"
+  },
+  {
+    "name":"Leone sierra-léonais (SLL)",
+    "codes":"en_SL"
+  },
+  {
+    "name":"Leu moldave (MDL)",
+    "codes":"ro_MD,ru_MD"
+  },
+  {
+    "name":"Leu roumain (RON)",
+    "codes":"ro_RO"
+  },
+  {
+    "name":"Lev bulgare (BGN)",
+    "codes":"bg_BG"
+  },
+  {
+    "name":"Lilangeni swazi (SZL)",
+    "codes":"en_SZ"
+  },
+  {
+    "name":"Livre de Gibraltar (£GI)",
+    "codes":"en_GI"
+  },
+  {
+    "name":"Livre de Sainte-Hélène (SHP)",
+    "codes":"en_SH"
+  },
+  {
+    "name":"Livre des îles Malouines (£FK)",
+    "codes":"en_FK"
+  },
+  {
+    "name":"Livre libanaise (£LB)",
+    "codes":"ar_LB"
+  },
+  {
+    "name":"Livre soudanaise (SDG)",
+    "codes":"ar_SD,en_SD"
+  },
+  {
+    "name":"Livre sterling (£GB)",
+    "codes":"en_JE,en_GG,gv_IM,kw_GB,gd_GB,en_GB,cy_GB,en_IM"
+  },
+  {
+    "name":"Livre sud-soudanaise (SSP)",
+    "codes":"nus_SS,en_SS,ar_SS"
+  },
+  {
+    "name":"Livre syrienne (SYP)",
+    "codes":"fr_SY,ar_SY"
+  },
+  {
+    "name":"Livre turque (TRY)",
+    "codes":"tr_TR"
+  },
+  {
+    "name":"Livre égyptienne (EGP)",
+    "codes":"ar_EG"
+  },
+  {
+    "name":"Manat azéri (AZN)",
+    "codes":"az_AZ,az_AZ"
+  },
+  {
+    "name":"Mark convertible bosniaque (BAM)",
+    "codes":"bs_BA,bs_BA,sr_BA,hr_BA,sr_BA"
+  },
+  {
+    "name":"Metical mozambicain (MZN)",
+    "codes":"mgh_MZ,pt_MZ,seh_MZ"
+  },
+  {
+    "name":"Nafka érythréen (ERN)",
+    "codes":"ti_ER,ar_ER,en_ER"
+  },
+  {
+    "name":"Naira nigérian (NGN)",
+    "codes":"ig_NG,yo_NG,en_NG,ha_NG"
+  },
+  {
+    "name":"Ngultrum bouthanais (BTN)",
+    "codes":"dz_BT"
+  },
+  {
+    "name":"Nouveau dollar taïwanais (TWD)",
+    "codes":"zh_TW"
+  },
+  {
+    "name":"Nouveau shekel israélien (₪)",
+    "codes":"ar_PS,iw_IL,en_IL,ar_IL"
+  },
+  {
+    "name":"Nouveau sol péruvien (PEN)",
+    "codes":"es_PE,qu_PE"
+  },
+  {
+    "name":"Ouguiya mauritanien (MRO)",
+    "codes":"ff_MR,fr_MR,ar_MR"
+  },
+  {
+    "name":"Pataca macanaise (MOP)",
+    "codes":"zh_MO,pt_MO,zh_MO,en_MO"
+  },
+  {
+    "name":"Pa’anga tongan (TOP)",
+    "codes":"to_TO,en_TO"
+  },
+  {
+    "name":"Peso argentin ($AR)",
+    "codes":"es_AR"
+  },
+  {
+    "name":"Peso chilien ($CL)",
+    "codes":"es_CL"
+  },
+  {
+    "name":"Peso colombien ($CO)",
+    "codes":"es_CO"
+  },
+  {
+    "name":"Peso cubain (CUP)",
+    "codes":"es_CU"
+  },
+  {
+    "name":"Peso dominicain (DOP)",
+    "codes":"es_DO"
+  },
+  {
+    "name":"Peso mexicain ($MX)",
+    "codes":"es_MX"
+  },
+  {
+    "name":"Peso philippin (PHP)",
+    "codes":"es_PH,fil_PH,en_PH"
+  },
+  {
+    "name":"Peso uruguayen ($UY)",
+    "codes":"es_UY"
+  },
+  {
+    "name":"Pula botswanais (BWP)",
+    "codes":"en_BW"
+  },
+  {
+    "name":"Quetzal guatémaltèque (GTQ)",
+    "codes":"es_GT"
+  },
+  {
+    "name":"Rand sud-africain (ZAR)",
+    "codes":"zu_ZA,en_ZA,en_LS,af_ZA"
+  },
+  {
+    "name":"Rial iranien (IRR)",
+    "codes":"fa_IR,lrc_IR,mzn_IR"
+  },
+  {
+    "name":"Rial omanais (OMR)",
+    "codes":"ar_OM"
+  },
+  {
+    "name":"Rial qatari (QAR)",
+    "codes":"ar_QA"
+  },
+  {
+    "name":"Rial saoudien (SAR)",
+    "codes":"ar_SA"
+  },
+  {
+    "name":"Rial yéménite (YER)",
+    "codes":"ar_YE"
+  },
+  {
+    "name":"Riel cambodgien (KHR)",
+    "codes":"km_KH"
+  },
+  {
+    "name":"Ringgit malais (MYR)",
+    "codes":"ta_MY,ms_MY,en_MY"
+  },
+  {
+    "name":"Rouble biélorusse (BYR)",
+    "codes":"ru_BY,be_BY"
+  },
+  {
+    "name":"Rouble russe (RUB)",
+    "codes":"ru_RU,sah_RU,ce_RU,os_RU"
+  },
+  {
+    "name":"Roupie des Seychelles (SCR)",
+    "codes":"fr_SC,en_SC"
+  },
+
+  {
+    "name":"Roupie indienne (₹)",
+    "codes":"en_IN,as_IN,or_IN,bo_IN,kok_IN,ta_IN,brx_IN,gu_IN,bn_IN,mr_IN,te_IN,ml_IN,ks_IN,kn_IN,ur_IN,pa_IN,ne_IN,hi_IN"
+  },
+
+  {
+    "name":"Roupie indonésienne (IDR)",
+    "codes":"in_ID"
+  },
+  {
+    "name":"Roupie mauricienne (MUR)",
+    "codes":"en_MU,mfe_MU,fr_MU"
+  },
+  {
+    "name":"Roupie népalaise (NPR)",
+    "codes":"ne_NP"
+  },
+  {
+    "name":"Roupie pakistanaise (PKR)",
+    "codes":"en_PK,ur_PK,pa_PK"
+  },
+  {
+    "name":"Roupie srilankaise (LKR)",
+    "codes":"ta_LK,si_LK"
+  },
+  {
+    "name":"Réal brésilien (R$)",
+    "codes":"pt_BR"
+  },
+  {
+    "name":"Shilling kényan (KES)",
+    "codes":"en_KE,luy_KE,luo_KE,dav_KE,mas_KE,sw_KE,teo_KE,ebu_KE,ki_KE,kam_KE,om_KE,mer_KE,saq_KE,so_KE,kln_KE,guz_KE"
+  },
+  {
+    "name":"Shilling ougandais (UGX)",
+    "codes":"sw_UG,en_UG,teo_UG,cgg_UG,nyn_UG,xog_UG,lg_UG"
+  },
+  {
+    "name":"Shilling somalien (SOS)",
+    "codes":"so_SO,ar_SO"
+  },
+  {
+    "name":"Shilling tanzanien (TZS)",
+    "codes":"jmc_TZ,ksb_TZ,vun_TZ,lag_TZ,asa_TZ,mas_TZ,rwk_TZ,sw_TZ,sbp_TZ,rof_TZ,en_TZ,bez_TZ,kde_TZ"
+  },
+  {
+    "name":"Som kirghize (KGS)",
+    "codes":"ru_KG,ky_KG"
+  },
+  {
+    "name":"Sum ouzbek (UZS)",
+    "codes":"uz_UZ,uz_UZ"
+  },
+  {
+    "name":"Taka bangladeshi (BDT)",
+    "codes":"bn_BD"
+  },
+  {
+    "name":"Tala samoan (WS$)",
+    "codes":"en_WS"
+  },
+  {
+    "name":"Tenge kazakh (KZT)",
+    "codes":"ru_KZ,kk_KZ"
+  },
+  {
+    "name":"Tugrik mongol (MNT)",
+    "codes":"mn_MN"
+  },
+  {
+    "name":"Vatu vanuatuan (VUV)",
+    "codes":"en_VU,fr_VU"
+  },
+  {
+    "name":"Won nord-coréen (KPW)",
+    "codes":"ko_KP"
+  },
+  {
+    "name":"Won sud-coréen (₩)",
+    "codes":"ko_KR"
+  },
+  {
+    "name":"Yen japonais (JPY)",
+    "codes":"ja_JP"
+  },
+  {
+    "name":"Yuan renminbi chinois (CNY)",
+    "codes":"zh_CN,bo_CN,ii_CN,ug_CN"
+  },
+  {
+    "name":"Zloty polonais (PLN)",
+    "codes":"pl_PL"
+  }
+]

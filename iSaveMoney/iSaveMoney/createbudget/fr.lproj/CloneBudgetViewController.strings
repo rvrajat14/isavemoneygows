@@ -1,0 +1,41 @@
+/* Classe = "UILabel"; text = "Inclure les transactions de dépenses"; ObjectID = "5Li-ee-eTy"; */
+"5Li-ee-eTy.text" = "Inclure les transactions de dépenses";
+
+/* Classe = "UILabel"; text = "Date de fin:"; ObjectID = "Hp3-zM-rVE"; */
+"Hp3-zM-rVE.text" = "Date de fin:";
+
+/* Classe = "UILabel"; text = "Rollover restant pour les catégories"; ObjectID = "Lc3-pO-5DY"; */
+"Lc3-pO-5DY.text" = "Rollover restant pour les catégories";
+
+/* Classe = "UILabel"; text = "Cloner ce mois-ci ..."; ObjectID = "N7m-fg-OAF"; */
+"N7m-fg-OAF.text" = "Clonez ce mois-ci ...";
+
+/* Classe = "UITextField"; placeholder = "Mois en cours"; ObjectID = "RwH-DL-EPR"; */
+"RwH-DL-EPR.placeholder" = "Mois en cours";
+
+/* Classe = "UILabel"; text = "Inclure les revenus"; ObjectID = "V90-kP-82W"; */
+"V90-kP-82W.text" = "Inclure les revenus";
+
+/* Classe = "UILabel"; text = "Toutes les catégories seront copiées à partir de ce mois."; ObjectID = "c9w-Mf-wW8"; */
+"c9w-Mf-wW8.text" = "Toutes les catégories seront copiées à partir de ce mois-ci.";
+
+/* Classe = "UITextField"; placeholder = "Choisissez un mois"; ObjectID = "eT3-4X-P10"; */
+"eT3-4X-P10.placeholder" = "Choisissez un mois";
+
+/* Classe = "UITextField"; placeholder = "Choisissez un mois"; ObjectID = "gTb-Xh-u2A"; */
+"gTb-Xh-u2A.placeholder" = "Choisissez un mois";
+
+/* Classe = "UILabel"; text = "Obligatoire"; ObjectID = "iJa-zY-vTB"; */
+"iJa-zY-vTB.text" = "Obligatoire";
+
+/* Classe = "UILabel"; text = "date de début:"; ObjectID = "lWI-GL-LzH"; */
+"lWI-GL-LzH.text" = "date de début:";
+
+/* Classe = "UILabel"; text = "Sauvegarde de survol"; ObjectID = "mRI-Um-bMt"; */
+"mRI-Um-bMt.text" = "Sauvegarde de survol";
+
+/* Classe = "UILabel"; text = "Obligatoire"; ObjectID = "mnQ-hk-zEd"; */
+"mnQ-hk-zEd.text" = "Obligatoire";
+
+/* Classe = "UILabel"; text = "Label"; ObjectID = "rIa-oJ-bqI"; */
+"rIa-oJ-bqI.text" = "Libellé";

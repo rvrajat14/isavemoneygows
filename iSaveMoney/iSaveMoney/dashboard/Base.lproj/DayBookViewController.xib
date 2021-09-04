@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DayBookViewController" customModule="iSaveMoney" customModuleProvider="target">
+            <connections>
+                <outlet property="bookTableView" destination="j3w-zi-1Ys" id="O5I-nN-AT2"/>
+                <outlet property="dateRangeStack" destination="9uw-Br-yiK" id="bCu-Gz-bMU"/>
+                <outlet property="detailsView" destination="y3h-Lg-LQ6" id="bya-r8-UdI"/>
+                <outlet property="filterSelected" destination="auG-65-Iv2" id="stE-T8-41K"/>
+                <outlet property="labelExpense" destination="zl1-ph-IUn" id="7uj-RL-59i"/>
+                <outlet property="labelIncome" destination="Cv2-bw-Ne4" id="mWy-Zr-jaF"/>
+                <outlet property="txtEndDate" destination="Eac-AB-7Mi" id="d3n-AW-CGp"/>
+                <outlet property="txtStartDate" destination="yj2-4c-I4X" id="v9C-ee-qBa"/>
+                <outlet property="view" destination="I9L-qm-Kov" id="yeI-D9-cGf"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="I9L-qm-Kov">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="61U-H6-z2J">
+                    <rect key="frame" x="16" y="54" width="382" height="135"/>
+                    <subviews>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="auG-65-Iv2">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="32"/>
+                            <segments>
+                                <segment title="Today"/>
+                                <segment title="Yesterday"/>
+                                <segment title="Custom"/>
+                            </segments>
+                            <connections>
+                                <action selector="selectFilter:" destination="-1" eventType="valueChanged" id="7zz-Co-KIE"/>
+                            </connections>
+                        </segmentedControl>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="9uw-Br-yiK">
+                            <rect key="frame" x="0.0" y="43" width="382" height="30"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yj2-4c-I4X" customClass="NiceTextField" customModule="ISMLBase">
+                                    <rect key="frame" x="0.0" y="0.0" width="185" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eac-AB-7Mi" customClass="NiceTextField" customModule="ISMLBase">
+                                    <rect key="frame" x="197" y="0.0" width="185" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Eac-AB-7Mi" firstAttribute="width" secondItem="yj2-4c-I4X" secondAttribute="width" id="FFs-0u-VTj"/>
+                                <constraint firstAttribute="height" constant="30" id="SmY-xA-MUX"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FCG-9U-A8c">
+                            <rect key="frame" x="0.0" y="85" width="382" height="50"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y3h-Lg-LQ6" customClass="IsmCardView" customModule="ISMLBase">
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="783-Br-KbQ">
+                                            <rect key="frame" x="8" y="0.0" width="366" height="50"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incomes: $1200.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cv2-bw-Ne4">
+                                                    <rect key="frame" x="0.0" y="0.0" width="183" height="50"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expenses: $450.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zl1-ph-IUn">
+                                                    <rect key="frame" x="183" y="0.0" width="183" height="50"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="zl1-ph-IUn" firstAttribute="width" secondItem="Cv2-bw-Ne4" secondAttribute="width" id="u8G-Ih-prv"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="783-Br-KbQ" secondAttribute="bottom" id="Att-BR-U9i"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="783-Br-KbQ" secondAttribute="trailing" id="Q8f-hJ-F9Z"/>
+                                        <constraint firstItem="783-Br-KbQ" firstAttribute="top" secondItem="y3h-Lg-LQ6" secondAttribute="top" id="dYa-Gb-sFi"/>
+                                        <constraint firstItem="783-Br-KbQ" firstAttribute="leading" secondItem="y3h-Lg-LQ6" secondAttribute="leadingMargin" id="haI-vA-bLO"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="cmR-Ya-Ary"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="FCG-9U-A8c" firstAttribute="top" secondItem="9uw-Br-yiK" secondAttribute="bottom" constant="12" id="5jt-b0-22X"/>
+                    </constraints>
+                </stackView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="j3w-zi-1Ys">
+                    <rect key="frame" x="5" y="205" width="404" height="657"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Hqu-st-32G"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="61U-H6-z2J" firstAttribute="leading" secondItem="I9L-qm-Kov" secondAttribute="leading" constant="16" id="2u9-6E-5Ty"/>
+                <constraint firstItem="61U-H6-z2J" firstAttribute="top" secondItem="Hqu-st-32G" secondAttribute="top" constant="10" id="5YB-Zn-pnW"/>
+                <constraint firstItem="j3w-zi-1Ys" firstAttribute="leading" secondItem="Hqu-st-32G" secondAttribute="leading" constant="5" id="5aD-ep-2Zc"/>
+                <constraint firstItem="j3w-zi-1Ys" firstAttribute="top" secondItem="61U-H6-z2J" secondAttribute="bottom" constant="16" id="6Hn-qR-Q6S"/>
+                <constraint firstItem="Hqu-st-32G" firstAttribute="trailing" secondItem="j3w-zi-1Ys" secondAttribute="trailing" constant="5" id="956-yd-qWY"/>
+                <constraint firstAttribute="trailing" secondItem="61U-H6-z2J" secondAttribute="trailing" constant="16" id="efr-DQ-YKj"/>
+                <constraint firstItem="j3w-zi-1Ys" firstAttribute="bottom" secondItem="Hqu-st-32G" secondAttribute="bottom" id="vc8-xd-Vfj"/>
+            </constraints>
+            <point key="canvasLocation" x="3011.594202898551" y="-3451.3392857142858"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+</document>

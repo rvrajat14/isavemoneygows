@@ -1,0 +1,35 @@
+/* Classe = "UILabel"; text = "Dépenses quotidiennes"; ObjectID = "79D-Bd-cPz"; */
+"79D-Bd-cPz.text" = "Dépenses quotidiennes";
+
+/* Classe = "UILabel"; text = "Dépenses cumulées"; ObjectID = "BOH-Gx-Fsd"; */
+"BOH-Gx-Fsd.text" = "Dépenses cumulées";
+
+/* Classe = "UILabel"; text = "Revenu quotidien"; ObjectID = "LOb-uJ-Zlb"; */
+"LOb-uJ-Zlb.text" = "Revenu quotidien";
+
+/* Classe = "UILabel"; text = "Proportion de revenu"; ObjectID = "OWQ-bb-ci1"; */
+"OWQ-bb-ci1.text" = "Proportion de revenu";
+
+/* Classe = "UILabel"; text = "Solde quotidien"; ObjectID = "PQy-z1-ylF"; */
+"PQy-z1-ylF.text" = "Solde quotidien";
+
+/* Classe = "UILabel"; text = "Jour de revenu sélectionné"; ObjectID = "SNR-v5-d8h"; */
+"SNR-v5-d8h.text" = "Jour de revenu sélectionné";
+
+/* Classe = "UILabel"; text = "Dépenses par catégories"; ObjectID = "TFZ-dl-Mkz"; */
+"TFZ-dl-Mkz.text" = "Dépenses par catégories";
+
+/* Classe = "UILabel"; text = "Sélectionné quotidiennement"; ObjectID = "Ys7-tu-DYi"; */
+"Ys7-tu-DYi.text" = "Sélectionné quotidiennement";
+
+/* Classe = "UILabel"; text = "Valeur de solde sélectionnée"; ObjectID = "cok-MT-IhP"; */
+"cok-MT-IhP.text" = "Valeur de solde sélectionnée";
+
+/* Classe = "UILabel"; text = "Valeur de la catégorie"; ObjectID = "org-JN-cLP"; */
+"org-JN-cLP.text" = "Valeur de la catégorie";
+
+/* Classe = "UILabel"; text = "Valeur du revenu"; ObjectID = "tFI-9v-eWV"; */
+"tFI-9v-eWV.text" = "Valeur du revenu";
+
+/* Classe = "UILabel"; text = "Cumul du jour sélectionné"; ObjectID = "vXF-SZ-t40"; */
+"vXF-SZ-t40.text" = "Cumul du jour sélectionné";

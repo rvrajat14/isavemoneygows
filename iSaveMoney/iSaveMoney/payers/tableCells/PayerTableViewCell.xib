@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PAYER_CELL" rowHeight="61" id="6Bm-at-3hN" customClass="PayerTableViewCell" customModule="iSaveMoney" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="61"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Bm-at-3hN" id="5g4-WX-kcW">
+                <rect key="frame" x="0.0" y="0.0" width="416" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ff7-Bu-xm2" customClass="CircleTextUIView" customModule="ISMLBase">
+                        <rect key="frame" x="8" y="8" width="40" height="40"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="sk4-Ja-Vj4"/>
+                            <constraint firstAttribute="width" constant="40" id="yAj-EE-8PT"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7J-MN-UhP" customClass="NormalTextLabel" customModule="ISMLBase">
+                        <rect key="frame" x="60" y="8" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbW-6c-67P" customClass="SmallTextLabel" customModule="ISMLBase">
+                        <rect key="frame" x="60" y="48" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmH-9a-a8c" customClass="HeaderLevelFour" customModule="ISMLBase">
+                        <rect key="frame" x="404" y="48" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.62352941179999999" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ff7-Bu-xm2" firstAttribute="leading" secondItem="5g4-WX-kcW" secondAttribute="leading" constant="8" id="5QB-OI-3qV"/>
+                    <constraint firstItem="R7J-MN-UhP" firstAttribute="top" secondItem="Ff7-Bu-xm2" secondAttribute="top" id="FNs-pc-mUO"/>
+                    <constraint firstItem="qbW-6c-67P" firstAttribute="leading" secondItem="R7J-MN-UhP" secondAttribute="leading" id="HOR-R5-l1E"/>
+                    <constraint firstAttribute="trailing" secondItem="fmH-9a-a8c" secondAttribute="trailing" constant="12" id="JZ3-ti-li6"/>
+                    <constraint firstItem="R7J-MN-UhP" firstAttribute="leading" secondItem="Ff7-Bu-xm2" secondAttribute="trailing" constant="12" id="KqC-jC-qTS"/>
+                    <constraint firstItem="qbW-6c-67P" firstAttribute="bottom" secondItem="Ff7-Bu-xm2" secondAttribute="bottom" id="RDD-UP-c9J"/>
+                    <constraint firstItem="Ff7-Bu-xm2" firstAttribute="top" secondItem="5g4-WX-kcW" secondAttribute="top" constant="8" id="bd3-2Q-7r9"/>
+                    <constraint firstAttribute="bottom" secondItem="Ff7-Bu-xm2" secondAttribute="bottom" constant="8" id="crM-hK-f8f"/>
+                    <constraint firstItem="fmH-9a-a8c" firstAttribute="centerY" secondItem="qbW-6c-67P" secondAttribute="centerY" id="jsh-Fh-zcY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="amount" destination="fmH-9a-a8c" id="dmb-T1-DUW"/>
+                <outlet property="circularTextView" destination="Ff7-Bu-xm2" id="rce-9R-XGJ"/>
+                <outlet property="date" destination="qbW-6c-67P" id="nc3-ZU-Zzh"/>
+                <outlet property="payerName" destination="R7J-MN-UhP" id="XNx-KL-d8P"/>
+            </connections>
+            <point key="canvasLocation" x="1.4492753623188408" y="85.379464285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

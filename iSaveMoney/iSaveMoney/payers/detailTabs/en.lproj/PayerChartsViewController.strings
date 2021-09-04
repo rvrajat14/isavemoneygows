@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Daily Balance"; ObjectID = "EKc-FY-5bl"; */
+"EKc-FY-5bl.text" = "Daily Balance";
+
+/* Class = "UILabel"; text = "Daily Transactions"; ObjectID = "IDI-Z7-Qit"; */
+"IDI-Z7-Qit.text" = "Daily Transactions";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "ZSg-CY-q7h"; */
+"ZSg-CY-q7h.text" = "Today";
+
+/* Class = "UILabel"; text = "Cumulative Val"; ObjectID = "pu1-75-Tdt"; */
+"pu1-75-Tdt.text" = "Cumulative Val";

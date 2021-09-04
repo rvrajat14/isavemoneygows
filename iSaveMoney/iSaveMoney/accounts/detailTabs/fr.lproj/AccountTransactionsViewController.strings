@@ -1,0 +1,20 @@
+/* Classe = "UILabel"; text = "Tous"; ObjectID = "4pY-5A-Ii1"; */
+"4pY-5A-Ii1.text" = "Tout";
+
+/* Classe = "UILabel"; text = "Sortir"; ObjectID = "6VA-ra-eBh"; */
+"6VA-ra-eBh.text" = "Sortie";
+
+/* Classe = "UILabel"; text = "Période:"; ObjectID = "Adf-hE-Dtl"; */
+"Adf-hE-Dtl.text" = "Point:";
+
+/* Classe = "UILabel"; text = "Solde disponible:"; ObjectID = "FzD-2I-8lW"; */
+"FzD-2I-8lW.text" = "Solde disponible:";
+
+/* Classe = "UILabel"; texte = "3212,33 $"; ObjectID = "Waz-Xo-CH7"; */
+"Waz-Xo-CH7.text" = "3212,33 $";
+
+/* Classe = "UILabel"; text = "Entrée"; ObjectID = "cB1-o2-ZDt"; */
+"cB1-o2-ZDt.text" = "Entrée";
+
+/* Classe = "UILabel"; text = "Total vérifié"; ObjectID = "geK-gb-bBf"; */
+"geK-gb-bBf.text" = "Total vérifié";

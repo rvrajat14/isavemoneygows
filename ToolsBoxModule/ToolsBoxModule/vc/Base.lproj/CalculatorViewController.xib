@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalculatorViewController" customModule="ToolsBoxModule" customModuleProvider="target">
+            <connections>
+                <outlet property="applyButton" destination="gKB-zm-PZO" id="ZLh-6Y-84v"/>
+                <outlet property="cleanAllBtn" destination="fMi-FY-MZj" id="qam-OH-02w"/>
+                <outlet property="cleanBtn" destination="Mlu-4x-QNx" id="4We-Ne-eJG"/>
+                <outlet property="closeButton" destination="eej-cc-9mw" id="owR-4j-Q3f"/>
+                <outlet property="number1Btn" destination="W9y-0K-B4v" id="v59-1K-PWB"/>
+                <outlet property="number2Btn" destination="JKr-A2-lZ3" id="W5e-kD-5OU"/>
+                <outlet property="number3Btn" destination="fSm-90-CVj" id="Zl8-Fs-Ac0"/>
+                <outlet property="number4Btn" destination="JRq-Ye-WKY" id="yvB-fv-8d2"/>
+                <outlet property="number5Btn" destination="QPn-rE-EXd" id="bK2-EO-rO4"/>
+                <outlet property="number6Btn" destination="9KP-T6-N33" id="Suf-Ob-QSG"/>
+                <outlet property="number7Btn" destination="tmj-oJ-H1i" id="2zp-Ao-BEq"/>
+                <outlet property="number8Btn" destination="bgj-P1-hsb" id="093-1c-PNk"/>
+                <outlet property="number9Btn" destination="RJr-je-arw" id="dEj-K0-y7M"/>
+                <outlet property="numberDivBtn" destination="D42-AZ-igj" id="VHa-ss-pk6"/>
+                <outlet property="numberDotBtn" destination="gky-vZ-0zp" id="M5C-gF-P7b"/>
+                <outlet property="numberEqualBtn" destination="96u-DI-jYc" id="XSl-WM-fhZ"/>
+                <outlet property="numberMinusBtn" destination="vkc-Xg-E1x" id="Pwz-A3-Anp"/>
+                <outlet property="numberMulBtn" destination="UO3-UM-qpf" id="sdo-fl-Si4"/>
+                <outlet property="numberPlusBtn" destination="Xl8-cj-ECL" id="5nV-uU-auU"/>
+                <outlet property="numberZeroBtn" destination="YEt-YX-MR5" id="th8-eC-Dye"/>
+                <outlet property="txtCalDisplay" destination="SRC-kk-R0f" id="ep7-eZ-IaU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4Q-Lu-hXz">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Py0-Dh-Eem">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="850"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qYG-dM-32c">
+                                    <rect key="frame" x="57" y="200" width="300" height="450"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="455554" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SRC-kk-R0f" customClass="CalInputTextField" customModule="ToolsBoxModule" customModuleProvider="target">
+                                            <rect key="frame" x="15" y="15" width="270" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="Usj-OV-2G3"/>
+                                            </constraints>
+                                            <color key="textColor" name="calDisplayTextColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad" smartQuotesType="no"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                    <color key="value" name="calDisplayBgColor"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5Mu-aL-12m">
+                                            <rect key="frame" x="15" y="73" width="270" height="361"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o3D-IG-0Ll">
+                                                    <rect key="frame" x="0.0" y="0.0" width="270" height="65"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlu-4x-QNx">
+                                                            <rect key="frame" x="222" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="48" id="BjW-Yn-O8w"/>
+                                                                <constraint firstAttribute="width" constant="48" id="mYb-mx-MYP"/>
+                                                            </constraints>
+                                                            <state key="normal" title="CE">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-FY-MZj">
+                                                            <rect key="frame" x="148" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="6VA-Tw-AW0"/>
+                                                                <constraint firstAttribute="height" constant="48" id="Bdy-kj-TFl"/>
+                                                            </constraints>
+                                                            <state key="normal" title="CA">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calDestructiveColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="Mlu-4x-QNx" secondAttribute="trailing" id="A51-lJ-c76"/>
+                                                        <constraint firstAttribute="height" constant="65" id="Jai-wj-tSH"/>
+                                                        <constraint firstItem="fMi-FY-MZj" firstAttribute="trailing" secondItem="Mlu-4x-QNx" secondAttribute="leading" constant="-26" id="Yqr-Uf-tWr"/>
+                                                        <constraint firstItem="fMi-FY-MZj" firstAttribute="centerY" secondItem="o3D-IG-0Ll" secondAttribute="centerY" id="afT-w6-n22"/>
+                                                        <constraint firstItem="Mlu-4x-QNx" firstAttribute="centerY" secondItem="o3D-IG-0Ll" secondAttribute="centerY" id="qd0-6E-h5k"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zwt-Zs-zD1">
+                                                    <rect key="frame" x="0.0" y="65" width="270" height="65"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmj-oJ-H1i">
+                                                            <rect key="frame" x="0.0" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="48" id="7Ox-3e-Sg2"/>
+                                                                <constraint firstAttribute="width" constant="48" id="FMV-IX-eHp"/>
+                                                            </constraints>
+                                                            <state key="normal" title="7">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgj-P1-hsb">
+                                                            <rect key="frame" x="74" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="48" id="gFK-5w-JVO"/>
+                                                                <constraint firstAttribute="width" constant="48" id="xo8-Yw-hKe"/>
+                                                            </constraints>
+                                                            <state key="normal" title="8">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJr-je-arw">
+                                                            <rect key="frame" x="148" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="48" id="3Dt-yv-FgS"/>
+                                                                <constraint firstAttribute="width" constant="48" id="yEi-eu-kBH"/>
+                                                            </constraints>
+                                                            <state key="normal" title="9">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xl8-cj-ECL">
+                                                            <rect key="frame" x="222" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="5Ip-4g-j0L"/>
+                                                                <constraint firstAttribute="height" constant="48" id="B68-mT-hVd"/>
+                                                            </constraints>
+                                                            <state key="normal" title="+">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="callAccentBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="Xl8-cj-ECL" firstAttribute="centerY" secondItem="Zwt-Zs-zD1" secondAttribute="centerY" id="Rfj-f3-Y0i"/>
+                                                        <constraint firstItem="bgj-P1-hsb" firstAttribute="centerY" secondItem="Zwt-Zs-zD1" secondAttribute="centerY" id="Wya-Gm-E7P"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Xl8-cj-ECL" secondAttribute="trailing" id="YZf-23-gC2"/>
+                                                        <constraint firstItem="RJr-je-arw" firstAttribute="centerY" secondItem="Zwt-Zs-zD1" secondAttribute="centerY" id="YyI-4l-JW6"/>
+                                                        <constraint firstItem="bgj-P1-hsb" firstAttribute="leading" secondItem="tmj-oJ-H1i" secondAttribute="trailing" constant="26" id="dV2-wo-AeD"/>
+                                                        <constraint firstItem="RJr-je-arw" firstAttribute="leading" secondItem="bgj-P1-hsb" secondAttribute="trailing" constant="26" id="g8X-Pu-kNL"/>
+                                                        <constraint firstItem="tmj-oJ-H1i" firstAttribute="centerY" secondItem="Zwt-Zs-zD1" secondAttribute="centerY" id="jns-fp-2Rp"/>
+                                                        <constraint firstItem="tmj-oJ-H1i" firstAttribute="leading" secondItem="Zwt-Zs-zD1" secondAttribute="leading" id="qYU-qh-zew"/>
+                                                        <constraint firstAttribute="height" constant="65" id="v0t-nI-5Jn"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbW-Oc-UHz">
+                                                    <rect key="frame" x="0.0" y="130" width="270" height="65"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRq-Ye-WKY">
+                                                            <rect key="frame" x="0.0" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="e7b-J6-Ace"/>
+                                                                <constraint firstAttribute="height" constant="48" id="vzT-nU-Zci"/>
+                                                            </constraints>
+                                                            <state key="normal" title="4">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPn-rE-EXd">
+                                                            <rect key="frame" x="74" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="Xpo-rV-IAs"/>
+                                                                <constraint firstAttribute="height" constant="48" id="wiT-1v-Ual"/>
+                                                            </constraints>
+                                                            <state key="normal" title="5">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KP-T6-N33">
+                                                            <rect key="frame" x="148" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="48" id="Wwr-4J-dBc"/>
+                                                                <constraint firstAttribute="width" constant="48" id="m2W-VL-Ndv"/>
+                                                            </constraints>
+                                                            <state key="normal" title="6">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkc-Xg-E1x">
+                                                            <rect key="frame" x="222" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="og6-yE-Uyb"/>
+                                                                <constraint firstAttribute="height" constant="48" id="sNE-bD-n2m"/>
+                                                            </constraints>
+                                                            <state key="normal" title="-">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="callAccentBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="JRq-Ye-WKY" firstAttribute="leading" secondItem="jbW-Oc-UHz" secondAttribute="leading" id="3rT-BP-LZh"/>
+                                                        <constraint firstAttribute="height" constant="65" id="4Mw-VL-mnF"/>
+                                                        <constraint firstItem="JRq-Ye-WKY" firstAttribute="centerY" secondItem="jbW-Oc-UHz" secondAttribute="centerY" id="7aJ-Kp-rd0"/>
+                                                        <constraint firstItem="QPn-rE-EXd" firstAttribute="centerY" secondItem="jbW-Oc-UHz" secondAttribute="centerY" id="IIr-Ss-uz6"/>
+                                                        <constraint firstItem="9KP-T6-N33" firstAttribute="leading" secondItem="QPn-rE-EXd" secondAttribute="trailing" constant="26" id="Lj5-q0-gzh"/>
+                                                        <constraint firstItem="9KP-T6-N33" firstAttribute="centerY" secondItem="jbW-Oc-UHz" secondAttribute="centerY" id="gcV-PG-LIf"/>
+                                                        <constraint firstItem="vkc-Xg-E1x" firstAttribute="centerY" secondItem="jbW-Oc-UHz" secondAttribute="centerY" id="kFU-6y-bYW"/>
+                                                        <constraint firstAttribute="trailing" secondItem="vkc-Xg-E1x" secondAttribute="trailing" id="qmt-my-VVc"/>
+                                                        <constraint firstItem="QPn-rE-EXd" firstAttribute="leading" secondItem="JRq-Ye-WKY" secondAttribute="trailing" constant="26" id="tMH-Tp-YaA"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Uf-Iu-4xm">
+                                                    <rect key="frame" x="0.0" y="195" width="270" height="65"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9y-0K-B4v">
+                                                            <rect key="frame" x="0.0" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="Ox7-NG-iib"/>
+                                                                <constraint firstAttribute="height" constant="48" id="SSb-3M-7ql"/>
+                                                            </constraints>
+                                                            <state key="normal" title="1">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKr-A2-lZ3">
+                                                            <rect key="frame" x="74" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="YPz-P5-5bO"/>
+                                                                <constraint firstAttribute="height" constant="48" id="xmQ-WP-hvs"/>
+                                                            </constraints>
+                                                            <state key="normal" title="2">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSm-90-CVj">
+                                                            <rect key="frame" x="148" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="48" id="jN3-48-x0k"/>
+                                                                <constraint firstAttribute="width" constant="48" id="kqu-M6-ydz"/>
+                                                            </constraints>
+                                                            <state key="normal" title="3">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UO3-UM-qpf">
+                                                            <rect key="frame" x="222" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="Bk8-rb-dWs"/>
+                                                                <constraint firstAttribute="height" constant="48" id="kBw-UB-pwX"/>
+                                                            </constraints>
+                                                            <state key="normal" title="*">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="callAccentBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="JKr-A2-lZ3" firstAttribute="leading" secondItem="W9y-0K-B4v" secondAttribute="trailing" constant="26" id="1lq-Yn-hRP"/>
+                                                        <constraint firstAttribute="trailing" secondItem="UO3-UM-qpf" secondAttribute="trailing" id="BnB-m5-GBs"/>
+                                                        <constraint firstItem="W9y-0K-B4v" firstAttribute="centerY" secondItem="6Uf-Iu-4xm" secondAttribute="centerY" id="RuL-ay-zyq"/>
+                                                        <constraint firstItem="fSm-90-CVj" firstAttribute="leading" secondItem="JKr-A2-lZ3" secondAttribute="trailing" constant="26" id="ceo-Og-B9O"/>
+                                                        <constraint firstItem="fSm-90-CVj" firstAttribute="centerY" secondItem="6Uf-Iu-4xm" secondAttribute="centerY" id="l8X-9i-NjG"/>
+                                                        <constraint firstItem="JKr-A2-lZ3" firstAttribute="centerY" secondItem="6Uf-Iu-4xm" secondAttribute="centerY" id="nTB-vJ-TRL"/>
+                                                        <constraint firstItem="W9y-0K-B4v" firstAttribute="leading" secondItem="6Uf-Iu-4xm" secondAttribute="leading" id="phO-wb-lir"/>
+                                                        <constraint firstItem="UO3-UM-qpf" firstAttribute="centerY" secondItem="6Uf-Iu-4xm" secondAttribute="centerY" id="tfs-5G-Fyo"/>
+                                                        <constraint firstAttribute="height" constant="65" id="w1S-EK-tzd"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tAS-pI-PRO">
+                                                    <rect key="frame" x="0.0" y="260" width="270" height="65"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gky-vZ-0zp">
+                                                            <rect key="frame" x="0.0" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="a8u-qB-aHK"/>
+                                                                <constraint firstAttribute="height" constant="48" id="iaR-DE-Wgx"/>
+                                                            </constraints>
+                                                            <state key="normal" title=".">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEt-YX-MR5">
+                                                            <rect key="frame" x="74" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="UzI-eY-NvQ"/>
+                                                                <constraint firstAttribute="height" constant="48" id="ivm-Hn-1Ye"/>
+                                                            </constraints>
+                                                            <state key="normal" title="0">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96u-DI-jYc">
+                                                            <rect key="frame" x="148" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="48" id="aAi-Mg-kGy"/>
+                                                                <constraint firstAttribute="height" constant="48" id="cCB-LP-XrV"/>
+                                                            </constraints>
+                                                            <state key="normal" title="=">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="calPadBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D42-AZ-igj">
+                                                            <rect key="frame" x="222" y="8.5" width="48" height="48"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="48" id="dVV-jH-gj3"/>
+                                                                <constraint firstAttribute="width" constant="48" id="wOC-z6-aRZ"/>
+                                                            </constraints>
+                                                            <state key="normal" title="÷">
+                                                                <color key="titleColor" name="calPadTextColor"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                                    <color key="value" name="callAccentBgColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="24"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="96u-DI-jYc" firstAttribute="leading" secondItem="YEt-YX-MR5" secondAttribute="trailing" constant="26" id="3Z4-zi-frU"/>
+                                                        <constraint firstItem="D42-AZ-igj" firstAttribute="centerY" secondItem="tAS-pI-PRO" secondAttribute="centerY" id="4ST-C4-eLC"/>
+                                                        <constraint firstAttribute="trailing" secondItem="D42-AZ-igj" secondAttribute="trailing" id="4pA-Bo-feL"/>
+                                                        <constraint firstItem="gky-vZ-0zp" firstAttribute="leading" secondItem="tAS-pI-PRO" secondAttribute="leading" id="BsG-lF-7ky"/>
+                                                        <constraint firstItem="96u-DI-jYc" firstAttribute="centerY" secondItem="tAS-pI-PRO" secondAttribute="centerY" id="CDi-9b-tcZ"/>
+                                                        <constraint firstAttribute="height" constant="65" id="MuS-K2-6KR"/>
+                                                        <constraint firstItem="gky-vZ-0zp" firstAttribute="centerY" secondItem="tAS-pI-PRO" secondAttribute="centerY" id="TyB-RA-zGD"/>
+                                                        <constraint firstItem="YEt-YX-MR5" firstAttribute="leading" secondItem="gky-vZ-0zp" secondAttribute="trailing" constant="26" id="n8p-Ex-hww"/>
+                                                        <constraint firstItem="YEt-YX-MR5" firstAttribute="centerY" secondItem="tAS-pI-PRO" secondAttribute="centerY" id="pMz-jK-mxD"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JGr-rb-9UN">
+                                                    <rect key="frame" x="0.0" y="325" width="270" height="36"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKB-zm-PZO">
+                                                            <rect key="frame" x="230" y="3" width="40" height="30"/>
+                                                            <state key="normal" title="Apply"/>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eej-cc-9mw">
+                                                            <rect key="frame" x="166" y="3" width="39" height="30"/>
+                                                            <state key="normal" title="Close">
+                                                                <color key="titleColor" name="calCloseColor"/>
+                                                            </state>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="eej-cc-9mw" firstAttribute="centerY" secondItem="JGr-rb-9UN" secondAttribute="centerY" id="0Rl-9B-4fO"/>
+                                                        <constraint firstAttribute="height" constant="36" id="B8c-Jp-y9x"/>
+                                                        <constraint firstAttribute="trailing" secondItem="gKB-zm-PZO" secondAttribute="trailing" id="LbM-Nh-d3d"/>
+                                                        <constraint firstItem="gKB-zm-PZO" firstAttribute="centerY" secondItem="JGr-rb-9UN" secondAttribute="centerY" id="dyw-tj-xM4"/>
+                                                        <constraint firstItem="gKB-zm-PZO" firstAttribute="leading" secondItem="eej-cc-9mw" secondAttribute="trailing" constant="25" id="qnB-2L-epy"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" name="calPageBg"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="300" id="Dnt-oj-l9G"/>
+                                        <constraint firstAttribute="height" constant="450" id="FXV-KZ-I4Z"/>
+                                        <constraint firstItem="5Mu-aL-12m" firstAttribute="leading" secondItem="qYG-dM-32c" secondAttribute="leading" constant="15" id="R4I-S7-DXM"/>
+                                        <constraint firstItem="5Mu-aL-12m" firstAttribute="top" secondItem="SRC-kk-R0f" secondAttribute="bottom" constant="10" id="Ux9-AS-x0n"/>
+                                        <constraint firstAttribute="trailing" secondItem="5Mu-aL-12m" secondAttribute="trailing" constant="15" id="ZTH-8B-VjI"/>
+                                        <constraint firstAttribute="trailing" secondItem="SRC-kk-R0f" secondAttribute="trailing" constant="15" id="jpF-xF-AGl"/>
+                                        <constraint firstItem="SRC-kk-R0f" firstAttribute="top" secondItem="qYG-dM-32c" secondAttribute="top" constant="15" id="oyb-c2-Dke"/>
+                                        <constraint firstItem="SRC-kk-R0f" firstAttribute="leading" secondItem="qYG-dM-32c" secondAttribute="leading" constant="15" id="zD2-mO-gCH"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="ayer.cornerRadius">
+                                            <integer key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" name="calOverlayColor"/>
+                            <constraints>
+                                <constraint firstItem="qYG-dM-32c" firstAttribute="centerX" secondItem="Py0-Dh-Eem" secondAttribute="centerX" id="AFq-PL-PpC"/>
+                                <constraint firstAttribute="height" constant="850" id="BmD-KZ-H1A"/>
+                                <constraint firstItem="qYG-dM-32c" firstAttribute="centerY" secondItem="Py0-Dh-Eem" secondAttribute="centerY" id="naZ-at-zed"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Py0-Dh-Eem" firstAttribute="bottom" secondItem="9Td-eg-x7a" secondAttribute="bottom" id="L6h-ee-ot9"/>
+                        <constraint firstItem="Py0-Dh-Eem" firstAttribute="trailing" secondItem="9Td-eg-x7a" secondAttribute="trailing" id="cAg-Ud-L7d"/>
+                        <constraint firstItem="Py0-Dh-Eem" firstAttribute="top" secondItem="9Td-eg-x7a" secondAttribute="top" id="tk3-OE-nhh"/>
+                        <constraint firstItem="Py0-Dh-Eem" firstAttribute="width" secondItem="oZx-ZM-YhD" secondAttribute="width" id="vfM-Yt-ZOv"/>
+                        <constraint firstItem="Py0-Dh-Eem" firstAttribute="leading" secondItem="9Td-eg-x7a" secondAttribute="leading" id="xlU-Eq-NmU"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="9Td-eg-x7a"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="oZx-ZM-YhD"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <constraints>
+                <constraint firstItem="i4Q-Lu-hXz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0p2-Wu-mll"/>
+                <constraint firstItem="i4Q-Lu-hXz" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="IpR-Ca-cJz"/>
+                <constraint firstItem="i4Q-Lu-hXz" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Utq-np-OKh"/>
+                <constraint firstAttribute="bottom" secondItem="i4Q-Lu-hXz" secondAttribute="bottom" id="oIR-v2-yeN"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="calCloseColor">
+            <color red="0.12999999523162842" green="0.12999999523162842" blue="0.12999999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="calDestructiveColor">
+            <color red="1" green="0.14900000393390656" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="calDisplayBgColor">
+            <color red="0.92100000381469727" green="0.92100000381469727" blue="0.92100000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="calDisplayTextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="calOverlayColor">
+            <color red="1" green="1" blue="1" alpha="0.20000000298023224" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="calPadBgColor">
+            <color red="0.92100000381469727" green="0.92100000381469727" blue="0.92100000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="calPadTextColor">
+            <color red="0.26100000739097595" green="0.26100000739097595" blue="0.26100000739097595" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="calPageBg">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="callAccentBgColor">
+            <color red="1" green="0.57800000905990601" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

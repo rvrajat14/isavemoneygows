@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccountFormViewController" customModule="iSaveMoney" customModuleProvider="target">
+            <connections>
+                <outlet property="textAccountBalance" destination="SCp-04-oU6" id="ivS-Qh-wzg"/>
+                <outlet property="textAccountBalanceError" destination="t8Y-nA-xFZ" id="Vmm-hD-YU5"/>
+                <outlet property="textAccountDescription" destination="Uwx-FI-dFZ" id="zwG-p0-Y1f"/>
+                <outlet property="textAccountDescriptionError" destination="Lti-7V-BjW" id="W0V-39-bXg"/>
+                <outlet property="textAccountType" destination="48G-17-Cbk" id="iDf-Cm-fqM"/>
+                <outlet property="textAccountTypeError" destination="IHr-Sd-ych" id="nZW-pX-Hrc"/>
+                <outlet property="textAddress" destination="GNG-sM-5xR" id="aHx-Vn-bou"/>
+                <outlet property="textAddressError" destination="M7U-41-Nkn" id="4RJ-al-5bk"/>
+                <outlet property="textOtherNotes" destination="C5C-63-Mee" id="te2-9a-asj"/>
+                <outlet property="textPhoneNumber" destination="PFd-1R-dxF" id="cEJ-kg-rWC"/>
+                <outlet property="textPhoneNumberError" destination="8V6-gc-fwt" id="6wB-ju-RVG"/>
+                <outlet property="textTransactionDate" destination="3Qy-Na-X6j" id="9Fz-no-Nxh"/>
+                <outlet property="view" destination="djc-yl-4ME" id="ucL-fg-UXE"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="djc-yl-4ME">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iTe-ig-GMU">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ekq-RF-GRg">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="XU2-nH-9nZ">
+                                    <rect key="frame" x="10" y="48" width="394" height="453.5"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="t8H-Il-Zny">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="63.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z76-1n-Pd3" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select type (required)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="48G-17-Cbk" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="16" width="394" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHr-Sd-ych">
+                                                    <rect key="frame" x="0.0" y="50" width="394" height="13.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9hH-CU-1Zz">
+                                            <rect key="frame" x="0.0" y="69.5" width="394" height="63.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGb-zp-3eN" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Account nomination (required) " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uwx-FI-dFZ" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="16" width="394" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lti-7V-BjW">
+                                                    <rect key="frame" x="0.0" y="50" width="394" height="13.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="N6h-D9-3Lm">
+                                            <rect key="frame" x="0.0" y="139" width="394" height="63.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yn5-ZC-lko" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SCp-04-oU6" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="16" width="394" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8Y-nA-xFZ">
+                                                    <rect key="frame" x="0.0" y="50" width="394" height="13.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DZJ-cf-pxa">
+                                            <rect key="frame" x="0.0" y="208.5" width="394" height="63.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Vj-lM-VWc" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PFd-1R-dxF" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="16" width="394" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="decimalPad" textContentType="tel"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8V6-gc-fwt">
+                                                    <rect key="frame" x="0.0" y="50" width="394" height="13.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xJh-AZ-eYq">
+                                            <rect key="frame" x="0.0" y="278" width="394" height="63.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Qs-9r-aFx" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GNG-sM-5xR" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="16" width="394" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7U-41-Nkn">
+                                                    <rect key="frame" x="0.0" y="50" width="394" height="13.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JxE-Wp-xZq">
+                                            <rect key="frame" x="0.0" y="347.5" width="394" height="50"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6K-Br-PrS" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C5C-63-Mee" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="16" width="394" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B4s-q4-xKi">
+                                            <rect key="frame" x="0.0" y="403.5" width="394" height="50"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="As of" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERa-vn-hDw" customClass="NiceLabel" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM/DD/YYYY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Qy-Na-X6j" customClass="NiceTextField" customModule="ISMLBase">
+                                                    <rect key="frame" x="0.0" y="16" width="394" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" name="pageBgColor"/>
+                            <constraints>
+                                <constraint firstItem="XU2-nH-9nZ" firstAttribute="top" secondItem="Ekq-RF-GRg" secondAttribute="top" constant="48" id="jks-2z-hHa"/>
+                                <constraint firstAttribute="trailing" secondItem="XU2-nH-9nZ" secondAttribute="trailing" constant="10" id="oeK-jk-BWs"/>
+                                <constraint firstAttribute="height" constant="1000" id="x79-pg-FQV"/>
+                                <constraint firstItem="XU2-nH-9nZ" firstAttribute="leading" secondItem="Ekq-RF-GRg" secondAttribute="leading" constant="10" id="zPZ-e1-KeW"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Ekq-RF-GRg" firstAttribute="trailing" secondItem="JLE-ME-rcd" secondAttribute="trailing" id="66Z-gL-65H"/>
+                        <constraint firstItem="Ekq-RF-GRg" firstAttribute="width" secondItem="RKw-ye-3mF" secondAttribute="width" id="OqR-x8-lye"/>
+                        <constraint firstItem="Ekq-RF-GRg" firstAttribute="top" secondItem="JLE-ME-rcd" secondAttribute="top" id="eXV-V0-hFp"/>
+                        <constraint firstItem="Ekq-RF-GRg" firstAttribute="leading" secondItem="JLE-ME-rcd" secondAttribute="leading" id="poQ-6k-sat"/>
+                        <constraint firstItem="Ekq-RF-GRg" firstAttribute="bottom" secondItem="JLE-ME-rcd" secondAttribute="bottom" id="rmv-0y-cnw"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="JLE-ME-rcd"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="RKw-ye-3mF"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="K5n-od-YFA"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iTe-ig-GMU" firstAttribute="top" secondItem="K5n-od-YFA" secondAttribute="top" id="owh-co-wUI"/>
+                <constraint firstItem="K5n-od-YFA" firstAttribute="trailing" secondItem="iTe-ig-GMU" secondAttribute="trailing" id="tgJ-af-W2C"/>
+                <constraint firstItem="iTe-ig-GMU" firstAttribute="bottom" secondItem="K5n-od-YFA" secondAttribute="bottom" id="xHG-P5-pvp"/>
+                <constraint firstItem="iTe-ig-GMU" firstAttribute="leading" secondItem="K5n-od-YFA" secondAttribute="leading" id="xyd-mC-kUa"/>
+            </constraints>
+            <point key="canvasLocation" x="1244.9275362318842" y="-2766.2946428571427"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+    <resources>
+        <namedColor name="pageBgColor">
+            <color red="0.96899998188018799" green="0.97299998998641968" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

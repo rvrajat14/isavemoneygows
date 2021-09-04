@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserAgreeViewController" customModule="iSaveMoney" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JXl-6o-PIa">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tdj-co-gzl">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1550"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzQ-FD-LMw">
+                                    <rect key="frame" x="10" y="25" width="394" height="1446.5"/>
+                                    <mutableString key="text">[End-User License Agreement (EULA) of iSaveMoneyGo]
+
+This End-User License Agreement ("EULA") is a legal agreement between you and Digit Leaf LLC. 
+
+This EULA agreement governs your acquisition and use of our iSaveMoneyGo software ("Software") directly from Digit Leaf LLC or indirectly through a Digit Leaf LLC authorized reseller or distributor (a "Reseller"). Our Privacy Policy was created by the Privacy Policy Generator.
+
+Please read this EULA agreement carefully before completing the installation process and using the iSaveMoneyGo software. It provides a license to use the iSaveMoneyGo software and contains warranty information and liability disclaimers.
+
+If you register for a free trial of the iSaveMoneyGo software, this EULA agreement will also govern that trial. By clicking "accept" or installing and/or using the iSaveMoneyGo software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
+
+If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software, and you must not accept this EULA agreement.
+
+This EULA agreement shall apply only to the Software supplied by Digit Leaf LLC herewith regardless of whether other software is referred to or described herein. The terms also apply to any Digit Leaf LLC updates, supplements, Internet-based services, and support services for the Software, unless other terms accompany those items on delivery. If so, those terms apply.
+
+LICENSE GRANT
+iSaveMoney can be download and use for free on the app store. The Free version has a limited number of features and therefore you can upgrade the full version as you want.
+Digit Leaf LLC hereby grants you a personal, non-transferable, non-exclusive license to use the iSaveMoneyGo software on your devices in accordance with the terms of this EULA agreement.
+
+You are permitted to load the iSaveMoneyGo app (mobile or tablet) under your control. You are responsible for ensuring your device meets the minimum requirements of the iSaveMoneyGo app.
+
+PREMIUM ACCESS
+All purchased to upgrade or downgrade is only available on Apple devices(phone and tablet) and is not transferable to any other platform. 
+All purchases can only be used to activate the premium account for one iSaveMoneyGo user account at the time and cannot be shared between multiple iSaveMoneyGo accounts.
+The monthly subscription can be shared by everyone in a family group to activate multiple iSaveMoneyGo accounts in a same family group with apple devices only.
+
+YOU ARE NOT PERMITTED TO:
+Edit, alter, modify, adapt, translate or otherwise change the whole or any part of the Software nor permit the whole or any part of the Software to be combined with or become incorporated in any other software, nor decompile, disassemble or reverse engineer the Software or attempt to do any such things
+Reproduce, copy, distribute, resell, or otherwise use the Software for any commercial purpose
+Allow any third party to use the Software on behalf of or for the benefit of any third party
+Use the Software in any way which breaches any applicable local, national or international law
+use the Software for any purpose that Digit Leaf LLC considers is a breach of this EULA agreement
+Intellectual Property and Ownership
+Digit Leaf LLC shall at all times retain ownership of the Software as originally downloaded by you and all subsequent downloads of the Software by you. The Software (and the copyright, and other intellectual property rights of whatever nature in the Software, including any modifications made thereto) are and shall remain the property of Digit Leaf LLC.
+
+Digit Leaf LLC reserves the right to grant licenses to use the Software to third parties.
+
+
+TERMINATION
+This EULA agreement is effective from the date you first use the Software and shall continue until terminated. You may terminate it at any time upon written notice to Digit Leaf LLC.
+
+It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Software. The provisions that by their nature continue and survive will survive any termination of this EULA agreement.
+
+GOVERNING LAW
+This EULA agreement, and any dispute arising out of or in connection with this EULA agreement, shall be governed by and construed in accordance with the laws of the US.</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1550" id="BZh-aV-G5X"/>
+                                <constraint firstAttribute="trailing" secondItem="JzQ-FD-LMw" secondAttribute="trailing" constant="10" id="WuJ-jb-XHc"/>
+                                <constraint firstItem="JzQ-FD-LMw" firstAttribute="leading" secondItem="Tdj-co-gzl" secondAttribute="leading" constant="10" id="b3n-tg-TAZ"/>
+                                <constraint firstItem="JzQ-FD-LMw" firstAttribute="top" secondItem="Tdj-co-gzl" secondAttribute="top" constant="25" id="ixr-Yz-hHE"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Tdj-co-gzl" firstAttribute="leading" secondItem="hKz-JQ-fFt" secondAttribute="leading" id="CCj-7n-DGh"/>
+                        <constraint firstItem="Tdj-co-gzl" firstAttribute="width" secondItem="44q-QU-yzP" secondAttribute="width" id="FUO-vR-PQn"/>
+                        <constraint firstItem="Tdj-co-gzl" firstAttribute="bottom" secondItem="hKz-JQ-fFt" secondAttribute="bottom" id="crd-sU-0iR"/>
+                        <constraint firstItem="Tdj-co-gzl" firstAttribute="top" secondItem="hKz-JQ-fFt" secondAttribute="top" id="oLF-Iw-xF4"/>
+                        <constraint firstItem="Tdj-co-gzl" firstAttribute="trailing" secondItem="hKz-JQ-fFt" secondAttribute="trailing" id="wbz-gc-I3F"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="hKz-JQ-fFt"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="44q-QU-yzP"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JXl-6o-PIa" secondAttribute="bottom" id="NZE-g4-hGU"/>
+                <constraint firstItem="JXl-6o-PIa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="PTz-JU-zK4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JXl-6o-PIa" secondAttribute="trailing" id="VYf-ce-hEH"/>
+                <constraint firstItem="JXl-6o-PIa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="a6w-K9-8Uu"/>
+            </constraints>
+            <point key="canvasLocation" x="138" y="81"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

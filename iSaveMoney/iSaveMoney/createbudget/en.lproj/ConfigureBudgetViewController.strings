@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "In this screen you can change you budget date range or give a name to your budget"; ObjectID = "8h7-po-zGg"; */
+"8h7-po-zGg.text" = "In this screen you can change you budget date range or give a name to your budget";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "Dq6-l2-ZgX"; */
+"Dq6-l2-ZgX.text" = "Required";
+
+/* Class = "UITextField"; placeholder = "select a date"; ObjectID = "Fgi-VX-eOB"; */
+"Fgi-VX-eOB.placeholder" = "select a date";
+
+/* Class = "UILabel"; text = "Name your budget:"; ObjectID = "KKw-1C-jhd"; */
+"KKw-1C-jhd.text" = "Name your budget:";
+
+/* Class = "UILabel"; text = "Change de start date:"; ObjectID = "Rbi-CP-m5M"; */
+"Rbi-CP-m5M.text" = "Change de start date:";
+
+/* Class = "UILabel"; text = "Date range available"; ObjectID = "W97-pC-Mh9"; */
+"W97-pC-Mh9.text" = "Date range available";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "WEb-hs-Sat"; */
+"WEb-hs-Sat.text" = "Required";
+
+/* Class = "UITextField"; placeholder = "Title (Optional)"; ObjectID = "fMU-SG-kOu"; */
+"fMU-SG-kOu.placeholder" = "Title (Optional)";
+
+/* Class = "UILabel"; text = "Change de end date:"; ObjectID = "jsl-Oa-bxn"; */
+"jsl-Oa-bxn.text" = "Change de end date:";
+
+/* Class = "UITextField"; placeholder = "Selecta date"; ObjectID = "nko-FC-JVd"; */
+"nko-FC-JVd.placeholder" = "Select a date";
